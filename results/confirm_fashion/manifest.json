@@ -1,0 +1,18 @@
+{
+ "stage": "main",
+ "started": "2026-11-04T05:21:48.099067+00:00",
+ "revision": "1bdcbb8434bb04ba345cdc59e8d2a5a0b9192eb1",
+ "config_sha256": "748a4f6786577c7a6898460a397e23a416dd874b7086bec56e2bab76991da1a4",
+ "seed": 20261104,
+ "models": {
+  "haiku": "claude-haiku-5-5",
+  "sonnet": "claude-sonnet-5-5",
+  "opus": "claude-opus-5-5"
+ },
+ "effort": "medium",
+ "max_tokens": 8000,
+ "anchors": 73,
+ "conditions": 17,
+ "anthropic_sdk": "0.84.0",
+ "compute": "Message Batches API, no GPU"
+}

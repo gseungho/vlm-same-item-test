@@ -1,0 +1,3205 @@
+{
+ "seed": 20261102,
+ "models": {
+  "haiku": "claude-haiku-5-5",
+  "sonnet": "claude-sonnet-5-5",
+  "opus": "claude-opus-5-5"
+ },
+ "effort": "medium",
+ "max_tokens": 8000,
+ "smoke_anchors": 6,
+ "batch_limit_mb": 200,
+ "excluded": [
+  "p001",
+  "p013"
+ ],
+ "anchors": [
+  {
+   "pair_id": "p080",
+   "sheet": "s316",
+   "kind": "SHOES",
+   "brand": "Sixth & Love",
+   "listing": "B014FFBEDW",
+   "other_listing": "B0142RY1QU",
+   "a1": "61tqZrrCdgL",
+   "a2": "61WjPGsc+hL",
+   "c": "71lbjPUxpGL",
+   "views": {
+    "a1": "three-quarter",
+    "a2": "side",
+    "c": "side"
+   },
+   "closeness": "medium",
+   "other_brand": "House & Shields",
+   "famous_brand": "Prada",
+   "anchor_first": true,
+   "name_line_first": true,
+   "option_order": [
+    "same",
+    "unknown",
+    "different"
+   ]
+  },
+  {
+   "pair_id": "p037",
+   "sheet": "s130",
+   "kind": "HANDBAG",
+   "brand": "Flavia",
+   "listing": "B07WVRFRR1",
+   "other_listing": "B07WRJFTSX",
+   "a1": "71rsl+ppKTL",
+   "a2": "61OzzTkWrXL",
+   "c": "61eKkoEUH4L",
+   "views": {
+    "a1": "back",
+    "a2": "side",
+    "c": "side"
+   },
+   "closeness": "close",
+   "other_brand": "Solefit",
+   "famous_brand": "Gucci",
+   "anchor_first": false,
+   "name_line_first": false,
+   "option_order": [
+    "same",
+    "unknown",
+    "different"
+   ]
+  },
+  {
+   "pair_id": "p033",
+   "sheet": "s109",
+   "kind": "SHOES",
+   "brand": "Centrino",
+   "listing": "B0869P3C2B",
+   "other_listing": "B0869NH946",
+   "a1": "71YvfHpp5DL",
+   "a2": "71VELxDOmIL",
+   "c": "71i24ojLPkL",
+   "views": {
+    "a1": "three-quarter",
+    "a2": "side",
+    "c": "side"
+   },
+   "closeness": "medium",
+   "other_brand": "Flavia",
+   "famous_brand": "Prada",
+   "anchor_first": false,
+   "name_line_first": true,
+   "option_order": [
+    "unknown",
+    "different",
+    "same"
+   ]
+  },
+  {
+   "pair_id": "p022",
+   "sheet": "s069",
+   "kind": "SHOES",
+   "brand": "Symbol",
+   "listing": "B07WN6KLSW",
+   "other_listing": "B07QKTDP6X",
+   "a1": "71AHb-8eflL",
+   "a2": "71LBAgb7fgL",
+   "c": "71N+mirPy8L",
+   "views": {
+    "a1": "three-quarter",
+    "a2": "side",
+    "c": "side"
+   },
+   "closeness": "close",
+   "other_brand": "Klepe",
+   "famous_brand": "Prada",
+   "anchor_first": false,
+   "name_line_first": false,
+   "option_order": [
+    "same",
+    "unknown",
+    "different"
+   ]
+  },
+  {
+   "pair_id": "p044",
+   "sheet": "s186",
+   "kind": "BOOT",
+   "brand": "206 Collective",
+   "listing": "B07N6SH72G",
+   "other_listing": "B07MBR6ZS3",
+   "a1": "71fPO3TuwZL",
+   "a2": "71aJuMKI0tL",
+   "c": "81Eda5djtNL",
+   "views": {
+    "a1": "three-quarter",
+    "a2": "side",
+    "c": "side"
+   },
+   "closeness": "medium",
+   "other_brand": "Inkast Denim Co.",
+   "famous_brand": "Gucci",
+   "anchor_first": false,
+   "name_line_first": true,
+   "option_order": [
+    "unknown",
+    "same",
+    "different"
+   ]
+  },
+  {
+   "pair_id": "p062",
+   "sheet": "s267",
+   "kind": "SHOES",
+   "brand": "Nubeno",
+   "listing": "B08436J2M7",
+   "other_listing": "B084369M8G",
+   "a1": "81WtpbfZigL",
+   "a2": "71TVow8vcYL",
+   "c": "71yJF4sV8PL",
+   "views": {
+    "a1": "three-quarter",
+    "a2": "side",
+    "c": "side"
+   },
+   "closeness": "close",
+   "other_brand": "Flavia",
+   "famous_brand": "Coach",
+   "anchor_first": false,
+   "name_line_first": false,
+   "option_order": [
+    "unknown",
+    "different",
+    "same"
+   ]
+  },
+  {
+   "pair_id": "p053",
+   "sheet": "s225",
+   "kind": "SHOES",
+   "brand": "House & Shields",
+   "listing": "B07VTCLNBH",
+   "other_listing": "B07VTCW82L",
+   "a1": "91aWRt5WjoL",
+   "a2": "81O4cToDpYL",
+   "c": "71lJqYATvTL",
+   "views": {
+    "a1": "three-quarter",
+    "a2": "side",
+    "c": "side"
+   },
+   "closeness": "close",
+   "other_brand": "Inkast Denim Co.",
+   "famous_brand": "Coach",
+   "anchor_first": true,
+   "name_line_first": true,
+   "option_order": [
+    "unknown",
+    "same",
+    "different"
+   ]
+  },
+  {
+   "pair_id": "p027",
+   "sheet": "s084",
+   "kind": "HANDBAG",
+   "brand": "Flavia",
+   "listing": "B07WSNPRS9",
+   "other_listing": "B07WTN8YS8",
+   "a1": "91fOvys4W6L",
+   "a2": "81MMRMam+FL",
+   "c": "71P3WUufY5L",
+   "views": {
+    "a1": "front",
+    "a2": "side",
+    "c": "side"
+   },
+   "closeness": "close",
+   "other_brand": "Fusefit",
+   "famous_brand": "Coach",
+   "anchor_first": false,
+   "name_line_first": false,
+   "option_order": [
+    "same",
+    "different",
+    "unknown"
+   ]
+  },
+  {
+   "pair_id": "p077",
+   "sheet": "s313",
+   "kind": "SHOES",
+   "brand": "Franklin & Freeman",
+   "listing": "B010E6ZUVS",
+   "other_listing": "B010E70K9O",
+   "a1": "61SbbcXj5uL",
+   "a2": "61Mo6cBponL",
+   "c": "61fz3LppTqL",
+   "views": {
+    "a1": "three-quarter",
+    "a2": "side",
+    "c": "side"
+   },
+   "closeness": "close",
+   "other_brand": "Arthur Harvey",
+   "famous_brand": "Prada",
+   "anchor_first": false,
+   "name_line_first": true,
+   "option_order": [
+    "different",
+    "unknown",
+    "same"
+   ]
+  },
+  {
+   "pair_id": "p012",
+   "sheet": "s039",
+   "kind": "SHOES",
+   "brand": "Symbol",
+   "listing": "B07VTBJTDC",
+   "other_listing": "B07XSC9J61",
+   "a1": "81SVjRzeXgL",
+   "a2": "81v1gPhR96L",
+   "c": "81nixBz6fgL",
+   "views": {
+    "a1": "three-quarter",
+    "a2": "pair",
+    "c": "side"
+   },
+   "closeness": "close",
+   "other_brand": "Eden & Ivy",
+   "famous_brand": "Coach",
+   "anchor_first": false,
+   "name_line_first": true,
+   "option_order": [
+    "different",
+    "same",
+    "unknown"
+   ]
+  },
+  {
+   "pair_id": "p021",
+   "sheet": "s064",
+   "kind": "SHOES",
+   "brand": "Centrino",
+   "listing": "B089MX842B",
+   "other_listing": "B089MX7MNZ",
+   "a1": "71+wktlHeQL",
+   "a2": "7114ochCkLL",
+   "c": "71owF6Zxw1L",
+   "views": {
+    "a1": "three-quarter",
+    "a2": "side",
+    "c": "side"
+   },
+   "closeness": "close",
+   "other_brand": "Burwood",
+   "famous_brand": "Coach",
+   "anchor_first": false,
+   "name_line_first": false,
+   "option_order": [
+    "unknown",
+    "same",
+    "different"
+   ]
+  },
+  {
+   "pair_id": "p042",
+   "sheet": "s180",
+   "kind": "BOOT",
+   "brand": "206 Collective",
+   "listing": "B07PQ7G2J9",
+   "other_listing": "B07N6YV5TG",
+   "a1": "61wYtvIqOvL",
+   "a2": "51rcvhDgUpL",
+   "c": "71qN7P-lFoL",
+   "views": {
+    "a1": "three-quarter",
+    "a2": "front",
+    "c": "front"
+   },
+   "closeness": "medium",
+   "other_brand": "Acteo",
+   "famous_brand": "Coach",
+   "anchor_first": true,
+   "name_line_first": true,
+   "option_order": [
+    "different",
+    "unknown",
+    "same"
+   ]
+  },
+  {
+   "pair_id": "p050",
+   "sheet": "s204",
+   "kind": "SHOES",
+   "brand": "Franklin & Freeman",
+   "listing": "B010S5LCT4",
+   "other_listing": "B010S5S9XG",
+   "a1": "61H9Xl21ToL",
+   "a2": "61va5YRIamL",
+   "c": "61MhSANK-sL",
+   "views": {
+    "a1": "three-quarter",
+    "a2": "side",
+    "c": "side"
+   },
+   "closeness": "medium",
+   "other_brand": "Eden & Ivy",
+   "famous_brand": "Prada",
+   "anchor_first": false,
+   "name_line_first": false,
+   "option_order": [
+    "different",
+    "same",
+    "unknown"
+   ]
+  },
+  {
+   "pair_id": "p070",
+   "sheet": "s293",
+   "kind": "HANDBAG",
+   "brand": "Eden & Ivy",
+   "listing": "B07XG345XR",
+   "other_listing": "B07YXBM9MS",
+   "a1": "81ogep-93wL",
+   "a2": "71DGt-0UaTL",
+   "c": "71hGmInaF-L",
+   "views": {
+    "a1": "back",
+    "a2": "side",
+    "c": "side"
+   },
+   "closeness": "medium",
+   "other_brand": "Klepe",
+   "famous_brand": "Gucci",
+   "anchor_first": true,
+   "name_line_first": false,
+   "option_order": [
+    "different",
+    "same",
+    "unknown"
+   ]
+  },
+  {
+   "pair_id": "p074",
+   "sheet": "s305",
+   "kind": "SHOES",
+   "brand": "Burwood",
+   "listing": "B084MYWLYH",
+   "other_listing": "B084MZ8YT8",
+   "a1": "81MPfE0B+EL",
+   "a2": "81AgPHTad8L",
+   "c": "71Hv5XmWtML",
+   "views": {
+    "a1": "three-quarter",
+    "a2": "side",
+    "c": "side"
+   },
+   "closeness": "close",
+   "other_brand": "Flavia",
+   "famous_brand": "Prada",
+   "anchor_first": true,
+   "name_line_first": false,
+   "option_order": [
+    "same",
+    "unknown",
+    "different"
+   ]
+  },
+  {
+   "pair_id": "p079",
+   "sheet": "s315",
+   "kind": "SHOES",
+   "brand": "Sixth & Love",
+   "listing": "B0142RWI24",
+   "other_listing": "B0142RXZUI",
+   "a1": "717YKcBjuhL",
+   "a2": "61o4xhnZ3cL",
+   "c": "71kUJBsBOcL",
+   "views": {
+    "a1": "three-quarter",
+    "a2": "front",
+    "c": "front"
+   },
+   "closeness": "medium",
+   "other_brand": "Flavia",
+   "famous_brand": "Prada",
+   "anchor_first": true,
+   "name_line_first": false,
+   "option_order": [
+    "same",
+    "unknown",
+    "different"
+   ]
+  },
+  {
+   "pair_id": "p015",
+   "sheet": "s047",
+   "kind": "SHOES",
+   "brand": "Symbol",
+   "listing": "B07XRGDQ9F",
+   "other_listing": "B0791XYDTH",
+   "a1": "616v3bFuV+L",
+   "a2": "61feKaiIGrL",
+   "c": "71q7z5Z+l+L",
+   "views": {
+    "a1": "three-quarter",
+    "a2": "side",
+    "c": "side"
+   },
+   "closeness": "close",
+   "other_brand": "THE LOVELY TOTE CO.",
+   "famous_brand": "Prada",
+   "anchor_first": false,
+   "name_line_first": false,
+   "option_order": [
+    "different",
+    "unknown",
+    "same"
+   ]
+  },
+  {
+   "pair_id": "p020",
+   "sheet": "s061",
+   "kind": "HANDBAG",
+   "brand": "Flavia",
+   "listing": "B07WR35SMC",
+   "other_listing": "B07WRJFP5J",
+   "a1": "81uDTMXQqPL",
+   "a2": "81MhVGxHTNL",
+   "c": "81nyAZb1XSL",
+   "views": {
+    "a1": "back",
+    "a2": "side",
+    "c": "side"
+   },
+   "closeness": "medium",
+   "other_brand": "Fusefit",
+   "famous_brand": "Prada",
+   "anchor_first": false,
+   "name_line_first": false,
+   "option_order": [
+    "different",
+    "unknown",
+    "same"
+   ]
+  },
+  {
+   "pair_id": "p081",
+   "sheet": "s317",
+   "kind": "SHOES",
+   "brand": "Acteo",
+   "listing": "B07T7K3SFY",
+   "other_listing": "B083ZS8YQ3",
+   "a1": "61-OmN-mvHL",
+   "a2": "61DtqijE6aL",
+   "c": "71q9bezuTEL",
+   "views": {
+    "a1": "three-quarter",
+    "a2": "side",
+    "c": "side"
+   },
+   "closeness": "medium",
+   "other_brand": "Klepe",
+   "famous_brand": "Gucci",
+   "anchor_first": true,
+   "name_line_first": true,
+   "option_order": [
+    "same",
+    "unknown",
+    "different"
+   ]
+  },
+  {
+   "pair_id": "p075",
+   "sheet": "s311",
+   "kind": "SHOES",
+   "brand": "Burwood",
+   "listing": "B084MZ8YTX",
+   "other_listing": "B084MYSY2F",
+   "a1": "81a4pZk0NML",
+   "a2": "71ZPjQ5fHxL",
+   "c": "813FP25LvHL",
+   "views": {
+    "a1": "three-quarter",
+    "a2": "side",
+    "c": "side"
+   },
+   "closeness": "medium",
+   "other_brand": "THE LOVELY TOTE CO.",
+   "famous_brand": "Prada",
+   "anchor_first": false,
+   "name_line_first": true,
+   "option_order": [
+    "different",
+    "unknown",
+    "same"
+   ]
+  },
+  {
+   "pair_id": "p048",
+   "sheet": "s200",
+   "kind": "BOOT",
+   "brand": "206 Collective",
+   "listing": "B07PQ7JTYT",
+   "other_listing": "B085G6H53C",
+   "a1": "71-hku1aHlL",
+   "a2": "81fHBYGCy2L",
+   "c": "71dihSPFwjL",
+   "views": {
+    "a1": "three-quarter",
+    "a2": "side",
+    "c": "side"
+   },
+   "closeness": "close",
+   "other_brand": "Symbol",
+   "famous_brand": "Prada",
+   "anchor_first": false,
+   "name_line_first": true,
+   "option_order": [
+    "different",
+    "same",
+    "unknown"
+   ]
+  },
+  {
+   "pair_id": "p071",
+   "sheet": "s300",
+   "kind": "SHOES",
+   "brand": "Franklin & Freeman",
+   "listing": "B010SEV0P6",
+   "other_listing": "B010E6X59W",
+   "a1": "71znFAJjWwL",
+   "a2": "71W06oDzhTL",
+   "c": "71LyM0RpvRL",
+   "views": {
+    "a1": "three-quarter",
+    "a2": "side",
+    "c": "side"
+   },
+   "closeness": "medium",
+   "other_brand": "Red Wagon",
+   "famous_brand": "Prada",
+   "anchor_first": true,
+   "name_line_first": true,
+   "option_order": [
+    "same",
+    "unknown",
+    "different"
+   ]
+  },
+  {
+   "pair_id": "p076",
+   "sheet": "s312",
+   "kind": "SHOES",
+   "brand": "Sixth & Love",
+   "listing": "B0142RXZUI",
+   "other_listing": "B0142RWI24",
+   "a1": "71dEPM+2MdL",
+   "a2": "71kUJBsBOcL",
+   "c": "61o4xhnZ3cL",
+   "views": {
+    "a1": "three-quarter",
+    "a2": "front",
+    "c": "front"
+   },
+   "closeness": "medium",
+   "other_brand": "206 Collective",
+   "famous_brand": "Gucci",
+   "anchor_first": false,
+   "name_line_first": true,
+   "option_order": [
+    "unknown",
+    "different",
+    "same"
+   ]
+  },
+  {
+   "pair_id": "p038",
+   "sheet": "s137",
+   "kind": "HANDBAG",
+   "brand": "Flavia",
+   "listing": "B07WNNYRZP",
+   "other_listing": "B07WSNPCBC",
+   "a1": "81SlojuXegL",
+   "a2": "81JLgOVbk1L",
+   "c": "712Y4RQQ4cL",
+   "views": {
+    "a1": "three-quarter",
+    "a2": "side",
+    "c": "side"
+   },
+   "closeness": "close",
+   "other_brand": "Burwood",
+   "famous_brand": "Coach",
+   "anchor_first": false,
+   "name_line_first": true,
+   "option_order": [
+    "unknown",
+    "different",
+    "same"
+   ]
+  },
+  {
+   "pair_id": "p032",
+   "sheet": "s095",
+   "kind": "SHOES",
+   "brand": "Flavia",
+   "listing": "B07YSPFGSW",
+   "other_listing": "B07YSQ4FPL",
+   "a1": "8111KcMfoHL",
+   "a2": "81YxqpsnBzL",
+   "c": "81rJ5+LtQ1L",
+   "views": {
+    "a1": "three-quarter",
+    "a2": "side",
+    "c": "side"
+   },
+   "closeness": "medium",
+   "other_brand": "206 Collective",
+   "famous_brand": "Gucci",
+   "anchor_first": true,
+   "name_line_first": false,
+   "option_order": [
+    "different",
+    "unknown",
+    "same"
+   ]
+  },
+  {
+   "pair_id": "p014",
+   "sheet": "s045",
+   "kind": "SHOES",
+   "brand": "Centrino",
+   "listing": "B0869NG4KQ",
+   "other_listing": "B0869P3ZNY",
+   "a1": "71x2B+qVzQL",
+   "a2": "81Q-GsAGYqL",
+   "c": "81GyIm3f6pL",
+   "views": {
+    "a1": "three-quarter",
+    "a2": "side",
+    "c": "side"
+   },
+   "closeness": "close",
+   "other_brand": "Klepe",
+   "famous_brand": "Gucci",
+   "anchor_first": true,
+   "name_line_first": true,
+   "option_order": [
+    "unknown",
+    "different",
+    "same"
+   ]
+  },
+  {
+   "pair_id": "p054",
+   "sheet": "s233",
+   "kind": "SHOES",
+   "brand": "Nubeno",
+   "listing": "B082DFT9HP",
+   "other_listing": "B084369MCB",
+   "a1": "71ICeMXtKJL",
+   "a2": "71LmA+5E70L",
+   "c": "71YHFlffuNL",
+   "views": {
+    "a1": "three-quarter",
+    "a2": "side",
+    "c": "side"
+   },
+   "closeness": "close",
+   "other_brand": "Sixth & Love",
+   "famous_brand": "Prada",
+   "anchor_first": false,
+   "name_line_first": false,
+   "option_order": [
+    "same",
+    "different",
+    "unknown"
+   ]
+  },
+  {
+   "pair_id": "p047",
+   "sheet": "s199",
+   "kind": "BOOT",
+   "brand": "206 Collective",
+   "listing": "B075ZZQJTD",
+   "other_listing": "B076133C7Y",
+   "a1": "81p3kvKyYbL",
+   "a2": "91ajbeI-mpL",
+   "c": "81t8usz-55L",
+   "views": {
+    "a1": "three-quarter",
+    "a2": "side",
+    "c": "side"
+   },
+   "closeness": "medium",
+   "other_brand": "THE LOVELY TOTE CO.",
+   "famous_brand": "Gucci",
+   "anchor_first": true,
+   "name_line_first": false,
+   "option_order": [
+    "different",
+    "same",
+    "unknown"
+   ]
+  },
+  {
+   "pair_id": "p023",
+   "sheet": "s071",
+   "kind": "SHOES",
+   "brand": "Symbol",
+   "listing": "B07QLRZZ1R",
+   "other_listing": "B084GSPJV1",
+   "a1": "71HFageukrL",
+   "a2": "71DJDALlR1L",
+   "c": "81vVYzL4OzL",
+   "views": {
+    "a1": "three-quarter",
+    "a2": "side",
+    "c": "side"
+   },
+   "closeness": "close",
+   "other_brand": "Centrino",
+   "famous_brand": "Coach",
+   "anchor_first": false,
+   "name_line_first": true,
+   "option_order": [
+    "same",
+    "unknown",
+    "different"
+   ]
+  },
+  {
+   "pair_id": "p035",
+   "sheet": "s125",
+   "kind": "HANDBAG",
+   "brand": "Flavia",
+   "listing": "B07WTN8YRQ",
+   "other_listing": "B07WRJD145",
+   "a1": "71EDn8pQR8L",
+   "a2": "810r-RCS2DL",
+   "c": "81t2brakClL",
+   "views": {
+    "a1": "three-quarter",
+    "a2": "side",
+    "c": "side"
+   },
+   "closeness": "close",
+   "other_brand": "Eden & Ivy",
+   "famous_brand": "Prada",
+   "anchor_first": false,
+   "name_line_first": true,
+   "option_order": [
+    "same",
+    "different",
+    "unknown"
+   ]
+  },
+  {
+   "pair_id": "p011",
+   "sheet": "s036",
+   "kind": "SHOES",
+   "brand": "Symbol",
+   "listing": "B07VSFL2KD",
+   "other_listing": "B084GSH688",
+   "a1": "817eMpyGiLL",
+   "a2": "81QhOyxZGGL",
+   "c": "81EIakWmO-L",
+   "views": {
+    "a1": "three-quarter",
+    "a2": "side",
+    "c": "side"
+   },
+   "closeness": "close",
+   "other_brand": "Arthur Harvey",
+   "famous_brand": "Coach",
+   "anchor_first": true,
+   "name_line_first": false,
+   "option_order": [
+    "different",
+    "unknown",
+    "same"
+   ]
+  },
+  {
+   "pair_id": "p029",
+   "sheet": "s090",
+   "kind": "SHOES",
+   "brand": "Centrino",
+   "listing": "B08C3CXXNH",
+   "other_listing": "B08C3DK5X8",
+   "a1": "71-QEV8pf3L",
+   "a2": "71Y-fAy1IRL",
+   "c": "71jEa8UoikL",
+   "views": {
+    "a1": "three-quarter",
+    "a2": "side",
+    "c": "side"
+   },
+   "closeness": "close",
+   "other_brand": "Red Wagon",
+   "famous_brand": "Prada",
+   "anchor_first": false,
+   "name_line_first": true,
+   "option_order": [
+    "unknown",
+    "same",
+    "different"
+   ]
+  },
+  {
+   "pair_id": "p063",
+   "sheet": "s269",
+   "kind": "SHOES",
+   "brand": "Sixth & Love",
+   "listing": "B0142RX7ZQ",
+   "other_listing": "B0142RYF3O",
+   "a1": "712GTg-YFFL",
+   "a2": "71EPzfO+vFL",
+   "c": "61L7jiubb6L",
+   "views": {
+    "a1": "three-quarter",
+    "a2": "side",
+    "c": "side"
+   },
+   "closeness": "medium",
+   "other_brand": "Solefit",
+   "famous_brand": "Coach",
+   "anchor_first": true,
+   "name_line_first": false,
+   "option_order": [
+    "same",
+    "different",
+    "unknown"
+   ]
+  },
+  {
+   "pair_id": "p002",
+   "sheet": "s004",
+   "kind": "HANDBAG",
+   "brand": "THE LOVELY TOTE CO.",
+   "listing": "B071FSJ7S5",
+   "other_listing": "B06W9GMKN1",
+   "a1": "71AQ5GkTyuL",
+   "a2": "718ml5CP5EL",
+   "c": "81qgzAsg3YL",
+   "views": {
+    "a1": "three-quarter",
+    "a2": "front",
+    "c": "front"
+   },
+   "closeness": "medium",
+   "other_brand": "Eden & Ivy",
+   "famous_brand": "Gucci",
+   "anchor_first": false,
+   "name_line_first": false,
+   "option_order": [
+    "different",
+    "same",
+    "unknown"
+   ]
+  },
+  {
+   "pair_id": "p026",
+   "sheet": "s079",
+   "kind": "SHOES",
+   "brand": "Flavia",
+   "listing": "B0845BZ6Q1",
+   "other_listing": "B0845CBRHS",
+   "a1": "817d0nfQIlL",
+   "a2": "811v21aWelL",
+   "c": "81O2kMtfMQL",
+   "views": {
+    "a1": "three-quarter",
+    "a2": "side",
+    "c": "side"
+   },
+   "closeness": "medium",
+   "other_brand": "THE LOVELY TOTE CO.",
+   "famous_brand": "Gucci",
+   "anchor_first": true,
+   "name_line_first": true,
+   "option_order": [
+    "unknown",
+    "different",
+    "same"
+   ]
+  },
+  {
+   "pair_id": "p031",
+   "sheet": "s092",
+   "kind": "SHOES",
+   "brand": "Solefit",
+   "listing": "B07YF8G2FL",
+   "other_listing": "B07YF8M28L",
+   "a1": "71FtjnrUKzL",
+   "a2": "71WP1gTkMfL",
+   "c": "81QgYlc81hL",
+   "views": {
+    "a1": "three-quarter",
+    "a2": "side",
+    "c": "side"
+   },
+   "closeness": "medium",
+   "other_brand": "Eden & Ivy",
+   "famous_brand": "Coach",
+   "anchor_first": true,
+   "name_line_first": true,
+   "option_order": [
+    "unknown",
+    "different",
+    "same"
+   ]
+  },
+  {
+   "pair_id": "p040",
+   "sheet": "s154",
+   "kind": "BOOT",
+   "brand": "Red Wagon",
+   "listing": "B072QF6YC9",
+   "other_listing": "B0732TY9BM",
+   "a1": "61ELAusYwRL",
+   "a2": "810EtlM0d4L",
+   "c": "91FyHQmB-eL",
+   "views": {
+    "a1": "three-quarter",
+    "a2": "pair",
+    "c": "pair"
+   },
+   "closeness": "far",
+   "other_brand": "Centrino",
+   "famous_brand": "Coach",
+   "anchor_first": false,
+   "name_line_first": true,
+   "option_order": [
+    "same",
+    "unknown",
+    "different"
+   ]
+  },
+  {
+   "pair_id": "p072",
+   "sheet": "s301",
+   "kind": "SHOES",
+   "brand": "Sixth & Love",
+   "listing": "B0142RWTDC",
+   "other_listing": "B0142RYYDA",
+   "a1": "71ckyZ1VByL",
+   "a2": "714PVzdoe4L",
+   "c": "71w2C4NwItL",
+   "views": {
+    "a1": "front",
+    "a2": "side",
+    "c": "side"
+   },
+   "closeness": "medium",
+   "other_brand": "Solefit",
+   "famous_brand": "Coach",
+   "anchor_first": true,
+   "name_line_first": true,
+   "option_order": [
+    "different",
+    "unknown",
+    "same"
+   ]
+  },
+  {
+   "pair_id": "p019",
+   "sheet": "s060",
+   "kind": "SHOES",
+   "brand": "206 Collective",
+   "listing": "B085DK87QD",
+   "other_listing": "B01ND450P7",
+   "a1": "71N6fohs2KL",
+   "a2": "81KoqYpH2fL",
+   "c": "71ssmfYMQLL",
+   "views": {
+    "a1": "three-quarter",
+    "a2": "side",
+    "c": "side"
+   },
+   "closeness": "close",
+   "other_brand": "Arthur Harvey",
+   "famous_brand": "Coach",
+   "anchor_first": true,
+   "name_line_first": false,
+   "option_order": [
+    "different",
+    "same",
+    "unknown"
+   ]
+  },
+  {
+   "pair_id": "p068",
+   "sheet": "s290",
+   "kind": "HANDBAG",
+   "brand": "Eden & Ivy",
+   "listing": "B07YX8R7W8",
+   "other_listing": "B07XBZQ688",
+   "a1": "81CV9YyBbtL",
+   "a2": "71WBptywhvL",
+   "c": "719ekxlYphL",
+   "views": {
+    "a1": "back",
+    "a2": "side",
+    "c": "side"
+   },
+   "closeness": "medium",
+   "other_brand": "Burwood",
+   "famous_brand": "Gucci",
+   "anchor_first": true,
+   "name_line_first": true,
+   "option_order": [
+    "same",
+    "different",
+    "unknown"
+   ]
+  },
+  {
+   "pair_id": "p006",
+   "sheet": "s024",
+   "kind": "SHOES",
+   "brand": "Symbol",
+   "listing": "B079TYWN17",
+   "other_listing": "B079V343GS",
+   "a1": "81J9Wxdf1XL",
+   "a2": "713Yq9WpTQL",
+   "c": "71oKTgW69tL",
+   "views": {
+    "a1": "three-quarter",
+    "a2": "side",
+    "c": "side"
+   },
+   "closeness": "close",
+   "other_brand": "Nubeno",
+   "famous_brand": "Gucci",
+   "anchor_first": true,
+   "name_line_first": true,
+   "option_order": [
+    "different",
+    "same",
+    "unknown"
+   ]
+  },
+  {
+   "pair_id": "p024",
+   "sheet": "s074",
+   "kind": "SHOES",
+   "brand": "Fusefit",
+   "listing": "B081DFT74G",
+   "other_listing": "B07XTZ7WRQ",
+   "a1": "81F+wsvFixL",
+   "a2": "81LhMrQN5yL",
+   "c": "81Ab8GS8P6L",
+   "views": {
+    "a1": "three-quarter",
+    "a2": "side",
+    "c": "side"
+   },
+   "closeness": "medium",
+   "other_brand": "Solefit",
+   "famous_brand": "Gucci",
+   "anchor_first": true,
+   "name_line_first": false,
+   "option_order": [
+    "different",
+    "same",
+    "unknown"
+   ]
+  },
+  {
+   "pair_id": "p025",
+   "sheet": "s077",
+   "kind": "SHOES",
+   "brand": "Symbol",
+   "listing": "B079T8HJGB",
+   "other_listing": "B079W2J9LK",
+   "a1": "71C+AOmOmIL",
+   "a2": "812BYWn15kL",
+   "c": "819EHTI9daL",
+   "views": {
+    "a1": "side",
+    "a2": "three-quarter",
+    "c": "three-quarter"
+   },
+   "closeness": "close",
+   "other_brand": "Solefit",
+   "famous_brand": "Coach",
+   "anchor_first": false,
+   "name_line_first": false,
+   "option_order": [
+    "unknown",
+    "different",
+    "same"
+   ]
+  },
+  {
+   "pair_id": "p043",
+   "sheet": "s182",
+   "kind": "BOOT",
+   "brand": "Red Wagon",
+   "listing": "B0732TNWHW",
+   "other_listing": "B0732TY9BM",
+   "a1": "81cTjD-EVpL",
+   "a2": "91XGrs7WhgL",
+   "c": "91FyHQmB-eL",
+   "views": {
+    "a1": "side",
+    "a2": "pair",
+    "c": "pair"
+   },
+   "closeness": "medium",
+   "other_brand": "Flavia",
+   "famous_brand": "Coach",
+   "anchor_first": false,
+   "name_line_first": false,
+   "option_order": [
+    "same",
+    "different",
+    "unknown"
+   ]
+  },
+  {
+   "pair_id": "p065",
+   "sheet": "s274",
+   "kind": "SHOES",
+   "brand": "Nubeno",
+   "listing": "B08436F4YT",
+   "other_listing": "B08436P6JK",
+   "a1": "81v3suP40oL",
+   "a2": "814LiuNJZNL",
+   "c": "71YdQQ1MeuL",
+   "views": {
+    "a1": "pair",
+    "a2": "side",
+    "c": "side"
+   },
+   "closeness": "medium",
+   "other_brand": "Fusefit",
+   "famous_brand": "Prada",
+   "anchor_first": false,
+   "name_line_first": false,
+   "option_order": [
+    "same",
+    "unknown",
+    "different"
+   ]
+  },
+  {
+   "pair_id": "p069",
+   "sheet": "s292",
+   "kind": "HANDBAG",
+   "brand": "Eden & Ivy",
+   "listing": "B07YX8FWX9",
+   "other_listing": "B07YX9QPQ8",
+   "a1": "81RoAMGEpbL",
+   "a2": "61Ay97hvbML",
+   "c": "81IEvlQR3zL",
+   "views": {
+    "a1": "back",
+    "a2": "side",
+    "c": "side"
+   },
+   "closeness": "medium",
+   "other_brand": "Arthur Harvey",
+   "famous_brand": "Prada",
+   "anchor_first": true,
+   "name_line_first": true,
+   "option_order": [
+    "unknown",
+    "different",
+    "same"
+   ]
+  },
+  {
+   "pair_id": "p030",
+   "sheet": "s091",
+   "kind": "SHOES",
+   "brand": "Nubeno",
+   "listing": "B082DFX8KV",
+   "other_listing": "B082DFT9HP",
+   "a1": "71szCRW03mL",
+   "a2": "710qzAQIfKL",
+   "c": "71LmA+5E70L",
+   "views": {
+    "a1": "three-quarter",
+    "a2": "side",
+    "c": "side"
+   },
+   "closeness": "close",
+   "other_brand": "THE LOVELY TOTE CO.",
+   "famous_brand": "Prada",
+   "anchor_first": false,
+   "name_line_first": false,
+   "option_order": [
+    "unknown",
+    "same",
+    "different"
+   ]
+  },
+  {
+   "pair_id": "p052",
+   "sheet": "s222",
+   "kind": "SHOES",
+   "brand": "Nubeno",
+   "listing": "B08436L8VD",
+   "other_listing": "B08436KV38",
+   "a1": "81y2JpDQJCL",
+   "a2": "814CoJxQUcL",
+   "c": "81P5e15W8NL",
+   "views": {
+    "a1": "three-quarter",
+    "a2": "side",
+    "c": "side"
+   },
+   "closeness": "medium",
+   "other_brand": "206 Collective",
+   "famous_brand": "Gucci",
+   "anchor_first": true,
+   "name_line_first": true,
+   "option_order": [
+    "different",
+    "same",
+    "unknown"
+   ]
+  },
+  {
+   "pair_id": "p004",
+   "sheet": "s017",
+   "kind": "SHOES",
+   "brand": "206 Collective",
+   "listing": "B078FHHGKG",
+   "other_listing": "B01N5Y0V1W",
+   "a1": "71mf8nPENLL",
+   "a2": "61kN-GrVCIL",
+   "c": "71vxoOkdLoL",
+   "views": {
+    "a1": "three-quarter",
+    "a2": "side",
+    "c": "side"
+   },
+   "closeness": "medium",
+   "other_brand": "Red Wagon",
+   "famous_brand": "Gucci",
+   "anchor_first": true,
+   "name_line_first": true,
+   "option_order": [
+    "same",
+    "unknown",
+    "different"
+   ]
+  },
+  {
+   "pair_id": "p016",
+   "sheet": "s052",
+   "kind": "HANDBAG",
+   "brand": "Eden & Ivy",
+   "listing": "B07YXBSP79",
+   "other_listing": "B083547PGK",
+   "a1": "81DBi9GQGHL",
+   "a2": "81laWyHAbAL",
+   "c": "716om8QCgZL",
+   "views": {
+    "a1": "front",
+    "a2": "three-quarter",
+    "c": "three-quarter"
+   },
+   "closeness": "medium",
+   "other_brand": "Centrino",
+   "famous_brand": "Coach",
+   "anchor_first": true,
+   "name_line_first": true,
+   "option_order": [
+    "same",
+    "unknown",
+    "different"
+   ]
+  },
+  {
+   "pair_id": "p003",
+   "sheet": "s006",
+   "kind": "SHOES",
+   "brand": "Symbol",
+   "listing": "B07VPTPSBY",
+   "other_listing": "B07VTCW837",
+   "a1": "71qhl9kewAL",
+   "a2": "71xVy6H4HtL",
+   "c": "718bVw57zRL",
+   "views": {
+    "a1": "three-quarter",
+    "a2": "side",
+    "c": "side"
+   },
+   "closeness": "medium",
+   "other_brand": "THE LOVELY TOTE CO.",
+   "famous_brand": "Coach",
+   "anchor_first": true,
+   "name_line_first": false,
+   "option_order": [
+    "different",
+    "unknown",
+    "same"
+   ]
+  },
+  {
+   "pair_id": "p067",
+   "sheet": "s289",
+   "kind": "SHOES",
+   "brand": "Sixth & Love",
+   "listing": "B0142RYYDA",
+   "other_listing": "B0142RY1QU",
+   "a1": "71TLqrw1gjL",
+   "a2": "71w2C4NwItL",
+   "c": "71lbjPUxpGL",
+   "views": {
+    "a1": "three-quarter",
+    "a2": "side",
+    "c": "side"
+   },
+   "closeness": "medium",
+   "other_brand": "Red Wagon",
+   "famous_brand": "Coach",
+   "anchor_first": true,
+   "name_line_first": true,
+   "option_order": [
+    "same",
+    "different",
+    "unknown"
+   ]
+  },
+  {
+   "pair_id": "p041",
+   "sheet": "s155",
+   "kind": "BOOT",
+   "brand": "206 Collective",
+   "listing": "B07612KC4J",
+   "other_listing": "B075ZZQJTD",
+   "a1": "71cKYx13fSL",
+   "a2": "817Zd9HsBnL",
+   "c": "91ajbeI-mpL",
+   "views": {
+    "a1": "three-quarter",
+    "a2": "side",
+    "c": "side"
+   },
+   "closeness": "medium",
+   "other_brand": "Symbol",
+   "famous_brand": "Coach",
+   "anchor_first": false,
+   "name_line_first": false,
+   "option_order": [
+    "unknown",
+    "different",
+    "same"
+   ]
+  },
+  {
+   "pair_id": "p056",
+   "sheet": "s246",
+   "kind": "SHOES",
+   "brand": "Nubeno",
+   "listing": "B082B52P9K",
+   "other_listing": "B08436CJ8W",
+   "a1": "71p-QTfK0gL",
+   "a2": "71+4djuPzNL",
+   "c": "81CK+xKlpxL",
+   "views": {
+    "a1": "three-quarter",
+    "a2": "side",
+    "c": "side"
+   },
+   "closeness": "medium",
+   "other_brand": "THE LOVELY TOTE CO.",
+   "famous_brand": "Prada",
+   "anchor_first": false,
+   "name_line_first": true,
+   "option_order": [
+    "different",
+    "unknown",
+    "same"
+   ]
+  },
+  {
+   "pair_id": "p008",
+   "sheet": "s031",
+   "kind": "SHOES",
+   "brand": "Klepe",
+   "listing": "B086T3Z27G",
+   "other_listing": "B086T424D6",
+   "a1": "710NZPHpc0L",
+   "a2": "7158OeYRROL",
+   "c": "7110T25yAYL",
+   "views": {
+    "a1": "three-quarter",
+    "a2": "side",
+    "c": "side"
+   },
+   "closeness": "close",
+   "other_brand": "Symbol",
+   "famous_brand": "Gucci",
+   "anchor_first": false,
+   "name_line_first": true,
+   "option_order": [
+    "different",
+    "same",
+    "unknown"
+   ]
+  },
+  {
+   "pair_id": "p066",
+   "sheet": "s277",
+   "kind": "HANDBAG",
+   "brand": "Eden & Ivy",
+   "listing": "B07XH41B9J",
+   "other_listing": "B07YXCCFDQ",
+   "a1": "71mWZ08OHFL",
+   "a2": "71wrrCwRRLL",
+   "c": "71gBQCf38ML",
+   "views": {
+    "a1": "back",
+    "a2": "side",
+    "c": "side"
+   },
+   "closeness": "medium",
+   "other_brand": "Symbol",
+   "famous_brand": "Gucci",
+   "anchor_first": true,
+   "name_line_first": true,
+   "option_order": [
+    "same",
+    "unknown",
+    "different"
+   ]
+  },
+  {
+   "pair_id": "p010",
+   "sheet": "s034",
+   "kind": "SHOES",
+   "brand": "206 Collective",
+   "listing": "B078GQ4KGQ",
+   "other_listing": "B01N80NOW4",
+   "a1": "71h8dLAWqNL",
+   "a2": "71I8DxWcshL",
+   "c": "813rvuwPbTL",
+   "views": {
+    "a1": "three-quarter",
+    "a2": "side",
+    "c": "side"
+   },
+   "closeness": "medium",
+   "other_brand": "Fusefit",
+   "famous_brand": "Prada",
+   "anchor_first": false,
+   "name_line_first": true,
+   "option_order": [
+    "same",
+    "different",
+    "unknown"
+   ]
+  },
+  {
+   "pair_id": "p009",
+   "sheet": "s033",
+   "kind": "SHOES",
+   "brand": "House & Shields",
+   "listing": "B07VTCN8RX",
+   "other_listing": "B07VTCXV4B",
+   "a1": "81bauSbLy2L",
+   "a2": "81ypbTSYqsL",
+   "c": "81ktaKpjFqL",
+   "views": {
+    "a1": "three-quarter",
+    "a2": "side",
+    "c": "side"
+   },
+   "closeness": "close",
+   "other_brand": "Franklin & Freeman",
+   "famous_brand": "Prada",
+   "anchor_first": false,
+   "name_line_first": true,
+   "option_order": [
+    "unknown",
+    "different",
+    "same"
+   ]
+  },
+  {
+   "pair_id": "p007",
+   "sheet": "s025",
+   "kind": "SHOES",
+   "brand": "Fusefit",
+   "listing": "B07XTYRRQM",
+   "other_listing": "B081D73LW8",
+   "a1": "715qJw6QWZL",
+   "a2": "71CtA57-LtL",
+   "c": "81mHSa2oblL",
+   "views": {
+    "a1": "three-quarter",
+    "a2": "side",
+    "c": "side"
+   },
+   "closeness": "medium",
+   "other_brand": "Sixth & Love",
+   "famous_brand": "Gucci",
+   "anchor_first": false,
+   "name_line_first": false,
+   "option_order": [
+    "different",
+    "unknown",
+    "same"
+   ]
+  },
+  {
+   "pair_id": "p046",
+   "sheet": "s196",
+   "kind": "BOOT",
+   "brand": "Red Wagon",
+   "listing": "B0732TY9BM",
+   "other_listing": "B072236D4W",
+   "a1": "81SlLBagkhL",
+   "a2": "91FyHQmB-eL",
+   "c": "91KqyM-ig+L",
+   "views": {
+    "a1": "side",
+    "a2": "pair",
+    "c": "pair"
+   },
+   "closeness": "medium",
+   "other_brand": "Inkast Denim Co.",
+   "famous_brand": "Gucci",
+   "anchor_first": true,
+   "name_line_first": true,
+   "option_order": [
+    "unknown",
+    "same",
+    "different"
+   ]
+  },
+  {
+   "pair_id": "p055",
+   "sheet": "s240",
+   "kind": "SHOES",
+   "brand": "Inkast Denim Co.",
+   "listing": "B07VP49RPP",
+   "other_listing": "B07VTC4WBD",
+   "a1": "71xQnEWidNL",
+   "a2": "61FcG4CkMhL",
+   "c": "815NFUR-BVL",
+   "views": {
+    "a1": "three-quarter",
+    "a2": "side",
+    "c": "side"
+   },
+   "closeness": "medium",
+   "other_brand": "Symbol",
+   "famous_brand": "Gucci",
+   "anchor_first": false,
+   "name_line_first": true,
+   "option_order": [
+    "unknown",
+    "same",
+    "different"
+   ]
+  },
+  {
+   "pair_id": "p064",
+   "sheet": "s271",
+   "kind": "HANDBAG",
+   "brand": "Eden & Ivy",
+   "listing": "B07X9ZR2FC",
+   "other_listing": "B07YX8WSSC",
+   "a1": "814ZrKq184L",
+   "a2": "81rzP9F+VCL",
+   "c": "81J6vrcbrZL",
+   "views": {
+    "a1": "back",
+    "a2": "side",
+    "c": "side"
+   },
+   "closeness": "medium",
+   "other_brand": "Sixth & Love",
+   "famous_brand": "Gucci",
+   "anchor_first": false,
+   "name_line_first": true,
+   "option_order": [
+    "same",
+    "different",
+    "unknown"
+   ]
+  },
+  {
+   "pair_id": "p057",
+   "sheet": "s247",
+   "kind": "SHOES",
+   "brand": "Sixth & Love",
+   "listing": "B00ME4QHYI",
+   "other_listing": "B00ME4NFDY",
+   "a1": "71fn9N2rMiL",
+   "a2": "71T2rCstxWL",
+   "c": "81Ju8C2naUL",
+   "views": {
+    "a1": "three-quarter",
+    "a2": "side",
+    "c": "side"
+   },
+   "closeness": "medium",
+   "other_brand": "Flavia",
+   "famous_brand": "Coach",
+   "anchor_first": false,
+   "name_line_first": false,
+   "option_order": [
+    "different",
+    "same",
+    "unknown"
+   ]
+  },
+  {
+   "pair_id": "p082",
+   "sheet": "s321",
+   "kind": "SHOES",
+   "brand": "Acteo",
+   "listing": "B083ZS8YQ3",
+   "other_listing": "B07T7K3SFY",
+   "a1": "71wN8W9dNRL",
+   "a2": "71q9bezuTEL",
+   "c": "61DtqijE6aL",
+   "views": {
+    "a1": "three-quarter",
+    "a2": "side",
+    "c": "side"
+   },
+   "closeness": "medium",
+   "other_brand": "Nubeno",
+   "famous_brand": "Coach",
+   "anchor_first": false,
+   "name_line_first": false,
+   "option_order": [
+    "unknown",
+    "same",
+    "different"
+   ]
+  },
+  {
+   "pair_id": "p028",
+   "sheet": "s087",
+   "kind": "SHOES",
+   "brand": "Arthur Harvey",
+   "listing": "B07RDQL5DJ",
+   "other_listing": "B07RHTMX7S",
+   "a1": "81wHpnzV2uL",
+   "a2": "81Chs3TgX8L",
+   "c": "81H83+BSHwL",
+   "views": {
+    "a1": "three-quarter",
+    "a2": "side",
+    "c": "side"
+   },
+   "closeness": "close",
+   "other_brand": "Franklin & Freeman",
+   "famous_brand": "Coach",
+   "anchor_first": true,
+   "name_line_first": false,
+   "option_order": [
+    "same",
+    "different",
+    "unknown"
+   ]
+  },
+  {
+   "pair_id": "p036",
+   "sheet": "s127",
+   "kind": "HANDBAG",
+   "brand": "Eden & Ivy",
+   "listing": "B08352YLZG",
+   "other_listing": "B07YX8FWX9",
+   "a1": "81H4wfE7aaL",
+   "a2": "71IKZ3lSEXL",
+   "c": "61Ay97hvbML",
+   "views": {
+    "a1": "back",
+    "a2": "side",
+    "c": "side"
+   },
+   "closeness": "medium",
+   "other_brand": "THE LOVELY TOTE CO.",
+   "famous_brand": "Coach",
+   "anchor_first": true,
+   "name_line_first": false,
+   "option_order": [
+    "unknown",
+    "different",
+    "same"
+   ]
+  },
+  {
+   "pair_id": "p060",
+   "sheet": "s265",
+   "kind": "SHOES",
+   "brand": "Nubeno",
+   "listing": "B082DG21MB",
+   "other_listing": "B082DFLRYK",
+   "a1": "71zRzEuk6lL",
+   "a2": "71pwDKTx8dL",
+   "c": "71NbjsxhZML",
+   "views": {
+    "a1": "three-quarter",
+    "a2": "side",
+    "c": "side"
+   },
+   "closeness": "medium",
+   "other_brand": "Klepe",
+   "famous_brand": "Coach",
+   "anchor_first": true,
+   "name_line_first": false,
+   "option_order": [
+    "same",
+    "different",
+    "unknown"
+   ]
+  },
+  {
+   "pair_id": "p051",
+   "sheet": "s209",
+   "kind": "SHOES",
+   "brand": "Centrino",
+   "listing": "B0869PF5XK",
+   "other_listing": "B0869P3ZNY",
+   "a1": "71aBbSSDJbL",
+   "a2": "71j3GYNFDyL",
+   "c": "81GyIm3f6pL",
+   "views": {
+    "a1": "three-quarter",
+    "a2": "side",
+    "c": "side"
+   },
+   "closeness": "medium",
+   "other_brand": "Fusefit",
+   "famous_brand": "Prada",
+   "anchor_first": true,
+   "name_line_first": false,
+   "option_order": [
+    "unknown",
+    "same",
+    "different"
+   ]
+  },
+  {
+   "pair_id": "p049",
+   "sheet": "s202",
+   "kind": "BOOT",
+   "brand": "206 Collective",
+   "listing": "B07MBR6ZS3",
+   "other_listing": "B085G6H53C",
+   "a1": "81o4oqsJKsL",
+   "a2": "81Eda5djtNL",
+   "c": "71dihSPFwjL",
+   "views": {
+    "a1": "three-quarter",
+    "a2": "side",
+    "c": "side"
+   },
+   "closeness": "medium",
+   "other_brand": "Eden & Ivy",
+   "famous_brand": "Prada",
+   "anchor_first": false,
+   "name_line_first": false,
+   "option_order": [
+    "unknown",
+    "same",
+    "different"
+   ]
+  },
+  {
+   "pair_id": "p059",
+   "sheet": "s259",
+   "kind": "SHOES",
+   "brand": "Sixth & Love",
+   "listing": "B0142RZ3V2",
+   "other_listing": "B0142RWTDC",
+   "a1": "71EY1IYkZ4L",
+   "a2": "71831WWZQ0L",
+   "c": "71ckyZ1VByL",
+   "views": {
+    "a1": "three-quarter",
+    "a2": "front",
+    "c": "front"
+   },
+   "closeness": "medium",
+   "other_brand": "Red Wagon",
+   "famous_brand": "Gucci",
+   "anchor_first": true,
+   "name_line_first": false,
+   "option_order": [
+    "unknown",
+    "same",
+    "different"
+   ]
+  },
+  {
+   "pair_id": "p034",
+   "sheet": "s114",
+   "kind": "SHOES",
+   "brand": "Arthur Harvey",
+   "listing": "B07RFRW18F",
+   "other_listing": "B084PK289C",
+   "a1": "81edhw5nu+L",
+   "a2": "71yUil9gdLL",
+   "c": "81Kl-qQ9IyL",
+   "views": {
+    "a1": "three-quarter",
+    "a2": "side",
+    "c": "side"
+   },
+   "closeness": "medium",
+   "other_brand": "Red Wagon",
+   "famous_brand": "Coach",
+   "anchor_first": true,
+   "name_line_first": true,
+   "option_order": [
+    "unknown",
+    "same",
+    "different"
+   ]
+  },
+  {
+   "pair_id": "p005",
+   "sheet": "s018",
+   "kind": "HANDBAG",
+   "brand": "Flavia",
+   "listing": "B07WR368SN",
+   "other_listing": "B07WTN5BNF",
+   "a1": "61GSw0nO7YL",
+   "a2": "81lCYwqrirL",
+   "c": "91O6B1vgkjL",
+   "views": {
+    "a1": "side",
+    "a2": "back",
+    "c": "back"
+   },
+   "closeness": "medium",
+   "other_brand": "Centrino",
+   "famous_brand": "Gucci",
+   "anchor_first": true,
+   "name_line_first": false,
+   "option_order": [
+    "same",
+    "different",
+    "unknown"
+   ]
+  },
+  {
+   "pair_id": "p058",
+   "sheet": "s255",
+   "kind": "SHOES",
+   "brand": "Fusefit",
+   "listing": "B081DFBKJB",
+   "other_listing": "B084TBSQJW",
+   "a1": "718alkuLN9L",
+   "a2": "81nuoF1XvgL",
+   "c": "71tS9hC1E3L",
+   "views": {
+    "a1": "three-quarter",
+    "a2": "side",
+    "c": "side"
+   },
+   "closeness": "medium",
+   "other_brand": "Flavia",
+   "famous_brand": "Prada",
+   "anchor_first": true,
+   "name_line_first": false,
+   "option_order": [
+    "unknown",
+    "same",
+    "different"
+   ]
+  },
+  {
+   "pair_id": "p073",
+   "sheet": "s304",
+   "kind": "SHOES",
+   "brand": "Franklin & Freeman",
+   "listing": "B010E70K9O",
+   "other_listing": "B010E6ZUVS",
+   "a1": "61tie083RoL",
+   "a2": "61fz3LppTqL",
+   "c": "61Mo6cBponL",
+   "views": {
+    "a1": "three-quarter",
+    "a2": "side",
+    "c": "side"
+   },
+   "closeness": "close",
+   "other_brand": "Solefit",
+   "famous_brand": "Gucci",
+   "anchor_first": true,
+   "name_line_first": true,
+   "option_order": [
+    "different",
+    "unknown",
+    "same"
+   ]
+  },
+  {
+   "pair_id": "p017",
+   "sheet": "s055",
+   "kind": "SHOES",
+   "brand": "Nubeno",
+   "listing": "B082DFLRYK",
+   "other_listing": "B082DG8T3R",
+   "a1": "710ANYdQ1NL",
+   "a2": "71NbjsxhZML",
+   "c": "71yu1D8V0DL",
+   "views": {
+    "a1": "three-quarter",
+    "a2": "side",
+    "c": "side"
+   },
+   "closeness": "close",
+   "other_brand": "Acteo",
+   "famous_brand": "Prada",
+   "anchor_first": false,
+   "name_line_first": false,
+   "option_order": [
+    "unknown",
+    "different",
+    "same"
+   ]
+  },
+  {
+   "pair_id": "p045",
+   "sheet": "s192",
+   "kind": "BOOT",
+   "brand": "206 Collective",
+   "listing": "B07N7MRY95",
+   "other_listing": "B07N7MHKXS",
+   "a1": "71yUAha9xzL",
+   "a2": "81nZxmaYkUL",
+   "c": "71H0nrDfLfL",
+   "views": {
+    "a1": "three-quarter",
+    "a2": "side",
+    "c": "side"
+   },
+   "closeness": "medium",
+   "other_brand": "Acteo",
+   "famous_brand": "Gucci",
+   "anchor_first": true,
+   "name_line_first": false,
+   "option_order": [
+    "different",
+    "same",
+    "unknown"
+   ]
+  },
+  {
+   "pair_id": "p061",
+   "sheet": "s266",
+   "kind": "SHOES",
+   "brand": "Arthur Harvey",
+   "listing": "B07RFRVW8J",
+   "other_listing": "B07RHTMX7S",
+   "a1": "81OdWXMT7uL",
+   "a2": "81eNnsFJ0UL",
+   "c": "81H83+BSHwL",
+   "views": {
+    "a1": "three-quarter",
+    "a2": "side",
+    "c": "side"
+   },
+   "closeness": "medium",
+   "other_brand": "Inkast Denim Co.",
+   "famous_brand": "Gucci",
+   "anchor_first": false,
+   "name_line_first": true,
+   "option_order": [
+    "same",
+    "unknown",
+    "different"
+   ]
+  },
+  {
+   "pair_id": "p039",
+   "sheet": "s142",
+   "kind": "HANDBAG",
+   "brand": "Flavia",
+   "listing": "B07WRJF3LZ",
+   "other_listing": "B07WR33WV2",
+   "a1": "71iQ6UZjSBL",
+   "a2": "81++NuXPSAL",
+   "c": "71A2EyMcXfL",
+   "views": {
+    "a1": "three-quarter",
+    "a2": "side",
+    "c": "side"
+   },
+   "closeness": "close",
+   "other_brand": "Inkast Denim Co.",
+   "famous_brand": "Prada",
+   "anchor_first": true,
+   "name_line_first": false,
+   "option_order": [
+    "same",
+    "different",
+    "unknown"
+   ]
+  },
+  {
+   "pair_id": "p078",
+   "sheet": "s314",
+   "kind": "SHOES",
+   "brand": "Burwood",
+   "listing": "B084MYYVV9",
+   "other_listing": "B084MYWLY1",
+   "a1": "81RNdqZPgJL",
+   "a2": "81iWWGRlgrL",
+   "c": "81NiaTGvbjL",
+   "views": {
+    "a1": "three-quarter",
+    "a2": "side",
+    "c": "side"
+   },
+   "closeness": "medium",
+   "other_brand": "House & Shields",
+   "famous_brand": "Prada",
+   "anchor_first": false,
+   "name_line_first": false,
+   "option_order": [
+    "same",
+    "different",
+    "unknown"
+   ]
+  },
+  {
+   "pair_id": "p018",
+   "sheet": "s057",
+   "kind": "SHOES",
+   "brand": "Symbol",
+   "listing": "B07DYXRM1F",
+   "other_listing": "B07WQK7RDZ",
+   "a1": "81+gIdyufHL",
+   "a2": "81qXXeaJAnL",
+   "c": "81JWT9ZJuIL",
+   "views": {
+    "a1": "pair",
+    "a2": "three-quarter",
+    "c": "three-quarter"
+   },
+   "closeness": "close",
+   "other_brand": "Centrino",
+   "famous_brand": "Gucci",
+   "anchor_first": true,
+   "name_line_first": true,
+   "option_order": [
+    "different",
+    "unknown",
+    "same"
+   ]
+  }
+ ],
+ "photos": {
+  "61tqZrrCdgL": {
+   "sha256": "36968c3dd1f0ccdaf5e1ab4cc4157f4309aa075356604f849175fdafe8693e5b",
+   "width": 988,
+   "height": 1000
+  },
+  "61WjPGsc+hL": {
+   "sha256": "84b100881c458733906c9a5cbbf0da40632b322f9a232cdea80e4693701e21be",
+   "width": 395,
+   "height": 1000
+  },
+  "71lbjPUxpGL": {
+   "sha256": "f02a6bb526a5a3aadb2d83e90c93774267254727fb85ceda6c6eff3aa7f1e59c",
+   "width": 746,
+   "height": 1000
+  },
+  "71rsl+ppKTL": {
+   "sha256": "61a0c5359a9ec2ab85f2eb0ad7b667ed2b126a50a8e8c46f27739887efa0e680",
+   "width": 1000,
+   "height": 775
+  },
+  "61OzzTkWrXL": {
+   "sha256": "d4e8dae8022bd25d330b774feae45df315bdfc439aec0e1524e2515772514872",
+   "width": 337,
+   "height": 1000
+  },
+  "61eKkoEUH4L": {
+   "sha256": "8b6b19db46667616c0acc478633042b31d4b5403c75238f5ab52b6c74e75c16c",
+   "width": 365,
+   "height": 1000
+  },
+  "71YvfHpp5DL": {
+   "sha256": "59c13e2531001bfd1df89b34fc94e3d1855c8eb3bf2ef6a3cf7695928a02e06d",
+   "width": 1000,
+   "height": 1000
+  },
+  "71VELxDOmIL": {
+   "sha256": "331deec1650f05daf65d0ba1c23841e80cfd1e0dbf8d47664a8d801a46a723f0",
+   "width": 1000,
+   "height": 1000
+  },
+  "71i24ojLPkL": {
+   "sha256": "e5b268ded587d8e93c9df968b1fcef9f5a4fdf99bb57d4909a5b492a77aedd95",
+   "width": 1000,
+   "height": 1000
+  },
+  "71AHb-8eflL": {
+   "sha256": "9d95bf8fdc3a4a46c3fa12bc50be7900035ec0127a4b2d7207838221bc2c37c7",
+   "width": 1000,
+   "height": 430
+  },
+  "71LBAgb7fgL": {
+   "sha256": "22dd972c037c473165c4c2e5d209ef0b34872df350ffba1a8a525c3e656608b6",
+   "width": 1000,
+   "height": 352
+  },
+  "71N+mirPy8L": {
+   "sha256": "636f22f197609649d4313b89089cf92b9786f915197d6ac51ae6d247678313b1",
+   "width": 1000,
+   "height": 385
+  },
+  "71fPO3TuwZL": {
+   "sha256": "b7f17d6f5b55ed88870e6de1826919693f1271a50507b5857355583678d0b234",
+   "width": 1000,
+   "height": 556
+  },
+  "71aJuMKI0tL": {
+   "sha256": "f16ddac901afc733254f9ea41957b3925ae4caed46b9cc32423426d0a261b047",
+   "width": 1000,
+   "height": 456
+  },
+  "81Eda5djtNL": {
+   "sha256": "339d71a7955b7943eac5179ebea86d202d8c7aee1260df1864ac812de1e0f8e1",
+   "width": 1000,
+   "height": 495
+  },
+  "81WtpbfZigL": {
+   "sha256": "80c5dde15785de830be00e7f2be18d879c7e72178fe415cabc4d8d973d49672b",
+   "width": 1000,
+   "height": 473
+  },
+  "71TVow8vcYL": {
+   "sha256": "407083f251a231f4dc4ccf187f1cd0138c130b56b1d714cfb289f77a204260c4",
+   "width": 1000,
+   "height": 372
+  },
+  "71yJF4sV8PL": {
+   "sha256": "ee89fdb9775a343ee973fffa80a2c0cd15d41171d9d028246c0aa7ef6f3c0109",
+   "width": 1000,
+   "height": 383
+  },
+  "91aWRt5WjoL": {
+   "sha256": "a66936efcbf27f9bed45b8c693daf043ee0bacd51ced7f08f30b8e628863e25d",
+   "width": 1000,
+   "height": 647
+  },
+  "81O4cToDpYL": {
+   "sha256": "2447268ca27c9a30e278535e1e39a339525f9a078e3d91120c3612025a1189bc",
+   "width": 1000,
+   "height": 479
+  },
+  "71lJqYATvTL": {
+   "sha256": "9040a0b1797d197582493879b9b859c35e505d5a08678d02f80880d9489dbea7",
+   "width": 1000,
+   "height": 424
+  },
+  "91fOvys4W6L": {
+   "sha256": "5f7f31278c0eba637124678e7ce69a566b52846293151be0ef82c6b2c5e02bb8",
+   "width": 1000,
+   "height": 894
+  },
+  "81MMRMam+FL": {
+   "sha256": "c5163ab6e137cab9378dba9e39187d60e205ca5ac8f3035369150752acee5406",
+   "width": 373,
+   "height": 1000
+  },
+  "71P3WUufY5L": {
+   "sha256": "b34d4a842c40a9aaf1b0ae149f3479a50c56abde4203f0914758b1654d674f94",
+   "width": 502,
+   "height": 1000
+  },
+  "61SbbcXj5uL": {
+   "sha256": "a750260856655cdc549d0a029a0bcf9458716c34bbc3f9d78f17306941884b08",
+   "width": 1000,
+   "height": 596
+  },
+  "61Mo6cBponL": {
+   "sha256": "4511d992fda8fd9f9022c7875e6c5e1747226c61a480352860e537dd167ed06f",
+   "width": 1000,
+   "height": 485
+  },
+  "61fz3LppTqL": {
+   "sha256": "27c3124480f5980119ad7f9ca4a8b6a1d6de2b61cef5f453a15252454bc7c6b3",
+   "width": 1000,
+   "height": 502
+  },
+  "81SVjRzeXgL": {
+   "sha256": "57d81fe008f40edbb89f5d5819fc9e5d20125efbb375e4c5dc69fb82b36b00d1",
+   "width": 1000,
+   "height": 488
+  },
+  "81v1gPhR96L": {
+   "sha256": "546efa106fdc81b004ec0acda3401746f2eb0ac55d45e431b0133da8f7bb4bee",
+   "width": 1000,
+   "height": 410
+  },
+  "81nixBz6fgL": {
+   "sha256": "c03532ce2ae26dba20b8b1197f8e223be318ebfffc651c8574a3185ef451b00b",
+   "width": 1000,
+   "height": 385
+  },
+  "71+wktlHeQL": {
+   "sha256": "d1ec7e325b00418eac1feda353cfb40d2de45fa5799bab91267da56e11a2340f",
+   "width": 1000,
+   "height": 1000
+  },
+  "7114ochCkLL": {
+   "sha256": "5500e989d8c51c5b13e453004f0d7c6d616e882662303e268430915720632b46",
+   "width": 1000,
+   "height": 1000
+  },
+  "71owF6Zxw1L": {
+   "sha256": "d9e68299c4e6d62d1c8b48e8e973d33ae4a6cd918704dd927cc082c712f2ab6a",
+   "width": 1000,
+   "height": 1000
+  },
+  "61wYtvIqOvL": {
+   "sha256": "7eecfa7b60460ba299bf7aeeda9d19693e2c8201fdc4ce4fdae04a8ed8779ae2",
+   "width": 1000,
+   "height": 819
+  },
+  "51rcvhDgUpL": {
+   "sha256": "b90c50c81ff7c62c64836c0e8b59d10717fbe8f899910b193dddc4264ed4e8c3",
+   "width": 552,
+   "height": 1000
+  },
+  "71qN7P-lFoL": {
+   "sha256": "e857538d27ea89b0cbd18464cb1cf793766f0cebb167714c751bcccac925f1e5",
+   "width": 619,
+   "height": 1000
+  },
+  "61H9Xl21ToL": {
+   "sha256": "c2feb3615a31e9a00a62e727911e5e6135a4242b12cd1e5d38e6ebc36142d95d",
+   "width": 1000,
+   "height": 586
+  },
+  "61va5YRIamL": {
+   "sha256": "d7c54d25c576f277726e88900bf52e79e7868872fd30a92305204c27f6ed0e8c",
+   "width": 1000,
+   "height": 482
+  },
+  "61MhSANK-sL": {
+   "sha256": "71e1ce1bd1d51ee6b08831ccf144144586540a3036d08c866388e49946689212",
+   "width": 1000,
+   "height": 510
+  },
+  "81ogep-93wL": {
+   "sha256": "1097e61bf71fe3192a41ceccd8efc930b58634dfb1ec69626e589aec254864cf",
+   "width": 1000,
+   "height": 928
+  },
+  "71DGt-0UaTL": {
+   "sha256": "3fcb24114139222a90a30d925f027ce1469ac6358dd7d67fc7df60caa9828f9b",
+   "width": 467,
+   "height": 1000
+  },
+  "71hGmInaF-L": {
+   "sha256": "987f28f585a989fba842a10797d45262cb848e707a9310f7fb8565785393a49b",
+   "width": 388,
+   "height": 1000
+  },
+  "81MPfE0B+EL": {
+   "sha256": "9a3a4dd61f99460ae7295552b0c11b4a75fec55c5e58b4e938f5c98ef84d2d43",
+   "width": 1000,
+   "height": 1000
+  },
+  "81AgPHTad8L": {
+   "sha256": "172632c0f11ebf462c04610d43d3a402ab9f64ed75b338004d26ea07c45aa59b",
+   "width": 1000,
+   "height": 1000
+  },
+  "71Hv5XmWtML": {
+   "sha256": "ff3e375d300e9d552498015cd830c1cb4764eb8e5ce7b741ee2b178cdf8a7942",
+   "width": 1000,
+   "height": 1000
+  },
+  "717YKcBjuhL": {
+   "sha256": "7dede1160c662c7d88ba989d751f3f2521d3c717f83edec8bb23a58e89c714d6",
+   "width": 977,
+   "height": 1000
+  },
+  "61o4xhnZ3cL": {
+   "sha256": "1f97cba399a056fc85c3bc0ce50a54624ea695cf86226bd9a4c423a25151750c",
+   "width": 439,
+   "height": 1000
+  },
+  "71kUJBsBOcL": {
+   "sha256": "85308553eedc826b641a4be3973598093d8c3b2f052fc02d9899e87054d8e348",
+   "width": 370,
+   "height": 1000
+  },
+  "616v3bFuV+L": {
+   "sha256": "6d6203a4456f86dba154790d0b3502ce402d81d698ee9515fd00c441086d1a80",
+   "width": 1000,
+   "height": 519
+  },
+  "61feKaiIGrL": {
+   "sha256": "27e5a54f182094f8cb5f0b840edab82dfb6a05941e9dc887368ab341ba54ca76",
+   "width": 1000,
+   "height": 369
+  },
+  "71q7z5Z+l+L": {
+   "sha256": "0bd9e64509286216b696584bb4dc501d5e3d24f4672ca6bb6b4217ab9a86766b",
+   "width": 1000,
+   "height": 396
+  },
+  "81uDTMXQqPL": {
+   "sha256": "cea164f76f0db975c799225619f2345eab10d71f4f6529c33d0157829771f563",
+   "width": 1000,
+   "height": 957
+  },
+  "81MhVGxHTNL": {
+   "sha256": "032909285be35c85330d230eec8870349a4c098346f23cd03778c08a44c161a6",
+   "width": 514,
+   "height": 1000
+  },
+  "81nyAZb1XSL": {
+   "sha256": "ce20299e735904634026e3c0aeb803dd24f23edf8613e80aa818e1aadd079d61",
+   "width": 467,
+   "height": 1000
+  },
+  "61-OmN-mvHL": {
+   "sha256": "04c93c7dff8139af5f5a594c09913d58862f99fda080a50f0577c15c5f9575b7",
+   "width": 1000,
+   "height": 1000
+  },
+  "61DtqijE6aL": {
+   "sha256": "8bc95fecfb1e00a8836f69e213b7f174468fc8f496f0937fb01cdacde963bfe5",
+   "width": 1000,
+   "height": 1000
+  },
+  "71q9bezuTEL": {
+   "sha256": "ec23e261ea2003504b12a4aba6473d652ed32d762f4f728daaeac8ebb435ad06",
+   "width": 1000,
+   "height": 1000
+  },
+  "81a4pZk0NML": {
+   "sha256": "0246544a7095a0a7c3c1c85ea30e38f011a58de4d5f327a89f13666ea393b74c",
+   "width": 1000,
+   "height": 543
+  },
+  "71ZPjQ5fHxL": {
+   "sha256": "2fe2900099741fe0730ce6be2c11ba776f30ce4b255da1d0b4f6320f0b5fbb88",
+   "width": 1000,
+   "height": 373
+  },
+  "813FP25LvHL": {
+   "sha256": "d4aa8592ffc07ad51c5b212843e7b0ea0ce7610bc84823afc8fca6730f20a4a4",
+   "width": 1000,
+   "height": 378
+  },
+  "71-hku1aHlL": {
+   "sha256": "c0ba5ce6f18cbb308dd7c13f588d4c850fcf734c30d010c4ba1b189505f2d0b6",
+   "width": 1000,
+   "height": 837
+  },
+  "81fHBYGCy2L": {
+   "sha256": "e6899c94f77c6c88e99eb2c340fd4dfc2d4f93a0b0782b259e18d9a1378a5f34",
+   "width": 1000,
+   "height": 621
+  },
+  "71dihSPFwjL": {
+   "sha256": "3c8f0c0110357c88dde0b2b4436604757d67a745aae08b4218e6b23a47269bdf",
+   "width": 409,
+   "height": 1000
+  },
+  "71znFAJjWwL": {
+   "sha256": "7e27371340443022eeb7906a094165df5effd86b9e4571e4a04a1fa3505bb7f9",
+   "width": 1000,
+   "height": 604
+  },
+  "71W06oDzhTL": {
+   "sha256": "1bbd9e71729af5d39269bba3ffd789524430b930b039ab60de9cbeb76a931dd2",
+   "width": 1000,
+   "height": 489
+  },
+  "71LyM0RpvRL": {
+   "sha256": "f41a1fc9609a98891889d3c334b8205a9675bb426739ad82742b892825eb928f",
+   "width": 1000,
+   "height": 500
+  },
+  "71dEPM+2MdL": {
+   "sha256": "06a7ee91d6ffdf9b8ca335ca6eba7153415f11fb80ef95d90c89011a8d8f2fc5",
+   "width": 832,
+   "height": 1000
+  },
+  "81SlojuXegL": {
+   "sha256": "da2555fd6469e64ded5c7788010638dcc93d295715cd2934c0c9c3bb8aa67481",
+   "width": 623,
+   "height": 1000
+  },
+  "81JLgOVbk1L": {
+   "sha256": "344fcf8f1b8f4975a8976179f28f1a352e878f26c4f3de22892a0523cf38ed10",
+   "width": 408,
+   "height": 1000
+  },
+  "712Y4RQQ4cL": {
+   "sha256": "aa949837993e84f690e9d1ed4a26b6f551ee5c72ed159d2e38dbda7d0fb4743c",
+   "width": 284,
+   "height": 1000
+  },
+  "8111KcMfoHL": {
+   "sha256": "acf19f0a27428de6eda7d5c3ad6e7d9210a603d8cf0a59fa1f48f65506d6ec68",
+   "width": 1000,
+   "height": 1000
+  },
+  "81YxqpsnBzL": {
+   "sha256": "8ee1783958bcd87ae6be06ae7ab8e1e45a438121a40cf6c50271fb30efd46bcc",
+   "width": 1000,
+   "height": 1000
+  },
+  "81rJ5+LtQ1L": {
+   "sha256": "521b24b79a7f47e17759c550bfaed878d9f67b99a143a7388f7da400bb68a276",
+   "width": 1000,
+   "height": 1000
+  },
+  "71x2B+qVzQL": {
+   "sha256": "4fe18df28d023bb7c1ded1cb7850f3de828e7f578723996b2759a9273e925f66",
+   "width": 1000,
+   "height": 1000
+  },
+  "81Q-GsAGYqL": {
+   "sha256": "20681642199ffe0b469cc301c64e6c620321d2767206662e0f29e50c0696289f",
+   "width": 1000,
+   "height": 1000
+  },
+  "81GyIm3f6pL": {
+   "sha256": "cf0042f07bad32dbe5952de21f8f427d215fbd7290942ee4d65b420a5899bd1d",
+   "width": 1000,
+   "height": 1000
+  },
+  "71ICeMXtKJL": {
+   "sha256": "e9b95567c545457a0f4bd18a42cd3fc3eef6ff23dc7bf96135a076444d92778a",
+   "width": 1000,
+   "height": 1000
+  },
+  "71LmA+5E70L": {
+   "sha256": "daaa95bfffc40304ae11ee2f783c9dc83d76e8bee3545f1fdbcdc3b991a8e639",
+   "width": 1000,
+   "height": 1000
+  },
+  "71YHFlffuNL": {
+   "sha256": "f84523e4e30ab4795bd5bc95774df5ffa9fab105e561ca8daec452bb5a50c027",
+   "width": 1000,
+   "height": 1000
+  },
+  "81p3kvKyYbL": {
+   "sha256": "51e4ab95ad729ffd97af589dd3832b318e7ce63d1ca83b024fe7fbf2ff54fb6f",
+   "width": 803,
+   "height": 1000
+  },
+  "91ajbeI-mpL": {
+   "sha256": "eb3f0e96bb6a0a82263d422ab199fa03c94eca571c58ffd20d0fa261e7888324",
+   "width": 985,
+   "height": 1000
+  },
+  "81t8usz-55L": {
+   "sha256": "e327f4f925df23dfe014267fc81ae1fdc41e5b819ba93f06a9a6544880ba8dd6",
+   "width": 1000,
+   "height": 780
+  },
+  "71HFageukrL": {
+   "sha256": "5976a7150f6030c8327aa409da2c74542e689414823313d36644be3ed3ad9893",
+   "width": 1000,
+   "height": 471
+  },
+  "71DJDALlR1L": {
+   "sha256": "fc1a2c9a800e3b5ef272592ab824f68ef6269cc56df4baadb7f683de8fc0afe3",
+   "width": 1000,
+   "height": 371
+  },
+  "81vVYzL4OzL": {
+   "sha256": "c1100ca8cf28514a21270f24e30ff486b2f1104489d090513a5f8afe70b1bdba",
+   "width": 1000,
+   "height": 388
+  },
+  "71EDn8pQR8L": {
+   "sha256": "45081e94b49de103f13a1868309329738b25180405a234225365232d4d2f0f87",
+   "width": 465,
+   "height": 1000
+  },
+  "810r-RCS2DL": {
+   "sha256": "192e889bca3401c25d342d0c77cb3185931f40e89b5b7ce018d576b9ef1b8d62",
+   "width": 421,
+   "height": 1000
+  },
+  "81t2brakClL": {
+   "sha256": "ba58f3401dab249f0cc002269335ea0f135e784e92e06314eb6cb152b52fde35",
+   "width": 421,
+   "height": 1000
+  },
+  "817eMpyGiLL": {
+   "sha256": "7eeb3ff928cb1ac2b3481320895f8f7ac037341c1beb1520ea763cf112277504",
+   "width": 1000,
+   "height": 470
+  },
+  "81QhOyxZGGL": {
+   "sha256": "a12ca3e95aa9e36b3164d47a5c5cf9bd2547172627a47ac976f76f32e2e27063",
+   "width": 1000,
+   "height": 330
+  },
+  "81EIakWmO-L": {
+   "sha256": "f2aefcfabbda65548fd9696a5dbaa729966a454718f421a35f8f396c5ada3446",
+   "width": 1000,
+   "height": 380
+  },
+  "71-QEV8pf3L": {
+   "sha256": "2f87141926715ed627c91cc04050d415fac80ddfc696f1a77eab57e9849cee3d",
+   "width": 1000,
+   "height": 1000
+  },
+  "71Y-fAy1IRL": {
+   "sha256": "1deaf31df5cd0a786d3563515b68fdd2982b1afd10f763e15ccf71716df14996",
+   "width": 1000,
+   "height": 1000
+  },
+  "71jEa8UoikL": {
+   "sha256": "b194e8ee05eeeaf054d8cb6dd15083f49716996de455995c35a0647c2f2a3da3",
+   "width": 1000,
+   "height": 1000
+  },
+  "712GTg-YFFL": {
+   "sha256": "29e2b6d6a09c63d52de726f855c9f3df07e9ab8de2a1a366ea0d5e4de4e0669c",
+   "width": 921,
+   "height": 1000
+  },
+  "71EPzfO+vFL": {
+   "sha256": "eb6eb5812a566c2e9edf4c54ab156a8b9407ca7ae21f32db39588ba6ff194925",
+   "width": 1000,
+   "height": 843
+  },
+  "61L7jiubb6L": {
+   "sha256": "4fd66d0f47e7f76c13ab779c55c0208af5bc77269cd45110426292861df54465",
+   "width": 1000,
+   "height": 966
+  },
+  "71AQ5GkTyuL": {
+   "sha256": "3c59cb08058c43fdd0f857904395f3822352779696e44a009cdaa6621f4c7157",
+   "width": 769,
+   "height": 1000
+  },
+  "718ml5CP5EL": {
+   "sha256": "5537ab65cd9c111bb372c90bf55198928845100fb977ecade402acf994b98286",
+   "width": 769,
+   "height": 1000
+  },
+  "81qgzAsg3YL": {
+   "sha256": "ddc576d5c5aab890168d4fa75fbb1b7b634fc0a8bc02229ea70dfdf6f6ba8ebd",
+   "width": 1000,
+   "height": 1000
+  },
+  "817d0nfQIlL": {
+   "sha256": "23266b91347a9a49eafdca4acdb7f3a8b53cd9f9baf8d40b7ab0fa4e4cbbeed0",
+   "width": 1000,
+   "height": 1000
+  },
+  "811v21aWelL": {
+   "sha256": "e8371d96f72e6d785a7d7ab2968c2225a75aafeca3dbccd4e818e0a71aa0882c",
+   "width": 1000,
+   "height": 1000
+  },
+  "81O2kMtfMQL": {
+   "sha256": "bf022feb49e071757d12363b76885c6a58bf423aef7cb1ea9d512661ede8fe20",
+   "width": 1000,
+   "height": 1000
+  },
+  "71FtjnrUKzL": {
+   "sha256": "177a9fd2612776d19f770efc41af7ae81a0ebcc3ef461afc4c4f89d11308ff21",
+   "width": 1000,
+   "height": 1000
+  },
+  "71WP1gTkMfL": {
+   "sha256": "6776c9124209928fddc732d868e2376a09402cd7fc01449d17881cb52340c9b5",
+   "width": 1000,
+   "height": 1000
+  },
+  "81QgYlc81hL": {
+   "sha256": "70fe0d990b80cbb410d78abe21477d9dbeb431a1768e7c7bd0b69a29a7ed0790",
+   "width": 1000,
+   "height": 1000
+  },
+  "61ELAusYwRL": {
+   "sha256": "f071271c3fc026bd7be98679505fdfffd667c05eea360de2e6df989f84cddbdb",
+   "width": 927,
+   "height": 1000
+  },
+  "810EtlM0d4L": {
+   "sha256": "c48f6a02fc3d5d84b7caa43202928fcc6a6cc2c3ee4998914379144ecf735b3c",
+   "width": 769,
+   "height": 1000
+  },
+  "91FyHQmB-eL": {
+   "sha256": "8b6967e8b81d0ed8ff4df4782ba778100d8a79106f70474de03b522b69d8927b",
+   "width": 821,
+   "height": 1000
+  },
+  "71ckyZ1VByL": {
+   "sha256": "9481e014268080f07c58a7b45b38de15afa166075472c930e11430938ca5c003",
+   "width": 461,
+   "height": 1000
+  },
+  "714PVzdoe4L": {
+   "sha256": "38f0ee178795b38405b97d65944ec7c5d78018841fc03551a5b580f53dc9ab69",
+   "width": 1000,
+   "height": 794
+  },
+  "71w2C4NwItL": {
+   "sha256": "29b7f591aebcf5b44cb3cb73a7b9907015d1054f6fcd02e81ca5fb2508f8251b",
+   "width": 1000,
+   "height": 762
+  },
+  "71N6fohs2KL": {
+   "sha256": "c1428c6582e7d01e619241cda8f4545498afe4e0e29cd1eaa4f9621ba534dca4",
+   "width": 1000,
+   "height": 479
+  },
+  "81KoqYpH2fL": {
+   "sha256": "d4fac8a9cf292535cdb2ae07a33606a6e49dfff6efc1f5d60c6216c9604a34bd",
+   "width": 1000,
+   "height": 387
+  },
+  "71ssmfYMQLL": {
+   "sha256": "d4a6c1aacc071886d5a56d52aa30506c7d9305beb2d3d75533451d74988a7489",
+   "width": 1000,
+   "height": 385
+  },
+  "81CV9YyBbtL": {
+   "sha256": "e55ae6a8f3ff68a531162b8f99d89b7750133efcec07c2beee63af00ab4ae112",
+   "width": 1000,
+   "height": 881
+  },
+  "71WBptywhvL": {
+   "sha256": "09f0fcc94994f290021986f5e92430233e8855229c3bf46bed738d9a53206cc8",
+   "width": 426,
+   "height": 1000
+  },
+  "719ekxlYphL": {
+   "sha256": "2cabf86e0cebb3c94616bf12e4667f6c24c8f872e0129a8d04098729890b4335",
+   "width": 251,
+   "height": 1000
+  },
+  "81J9Wxdf1XL": {
+   "sha256": "b7394039221f132c17e0441f6aec22da16e46726a1e88511ab7fe3638b45ec65",
+   "width": 1000,
+   "height": 513
+  },
+  "713Yq9WpTQL": {
+   "sha256": "50a977090bb1ac23663cd2e54b2581585d7f82f6b331c9413ed69d6b953c8dfb",
+   "width": 1000,
+   "height": 326
+  },
+  "71oKTgW69tL": {
+   "sha256": "121454112aa80b3542802868e04f0ccbe7a9d5c3c751d4eef02e87bc3ea3a2c4",
+   "width": 1000,
+   "height": 382
+  },
+  "81F+wsvFixL": {
+   "sha256": "d10f4df92f860bbff8eb0e2c06928b6006ea48f060bab8585b90730a1fefa7be",
+   "width": 1000,
+   "height": 634
+  },
+  "81LhMrQN5yL": {
+   "sha256": "f54c4d85c393a19e368f58c97950bbb557b045c28ce3e78396248f8a76896cbf",
+   "width": 1000,
+   "height": 455
+  },
+  "81Ab8GS8P6L": {
+   "sha256": "1260a50bfd6d8685e8647aef81e365437f9687d4ebd65ebd679e5dcd8ab2de3e",
+   "width": 1000,
+   "height": 391
+  },
+  "71C+AOmOmIL": {
+   "sha256": "d61db62d00a87eae122b97f05108450663907e6c9f3772af1906803b78a9af66",
+   "width": 1000,
+   "height": 364
+  },
+  "812BYWn15kL": {
+   "sha256": "ab69d1ed2563c5e75483994f2a7a2cd0fe38685b9a4322d7fccacecb68f5b876",
+   "width": 1000,
+   "height": 541
+  },
+  "819EHTI9daL": {
+   "sha256": "b38863b634f05e6531fe9688509d8e2295defdc75510018ffef3ef81cd2abda0",
+   "width": 1000,
+   "height": 1000
+  },
+  "81cTjD-EVpL": {
+   "sha256": "a2dce28ef677bb0cc1663543926230f50c44fc1cbfdf991b879132e55f25469d",
+   "width": 769,
+   "height": 1000
+  },
+  "91XGrs7WhgL": {
+   "sha256": "ce84e38c4ddfcff4dbda9a34183fefd77b1f67221bfa954751d47600841214c9",
+   "width": 807,
+   "height": 1000
+  },
+  "81v3suP40oL": {
+   "sha256": "1ac83b8883a095393c3ebde28ab490c49590e14a811a843728ff2941de4c2c83",
+   "width": 1000,
+   "height": 451
+  },
+  "814LiuNJZNL": {
+   "sha256": "804c8fb16e44b592793967249e9acfae364d7106c23e8b2038f7da249e23a278",
+   "width": 1000,
+   "height": 372
+  },
+  "71YdQQ1MeuL": {
+   "sha256": "b1f28f34da4c804db27d38d73591035d72cc544aaa83d77ae4920846039f2515",
+   "width": 1000,
+   "height": 338
+  },
+  "81RoAMGEpbL": {
+   "sha256": "107e39058c7e981273de41156135b161aeffdc364dec0563e97723aa314a2003",
+   "width": 760,
+   "height": 1000
+  },
+  "61Ay97hvbML": {
+   "sha256": "2e367cbd53412d28e4781a505116c81161a96bedcfd6622d49eeb1d600dd3571",
+   "width": 164,
+   "height": 1000
+  },
+  "81IEvlQR3zL": {
+   "sha256": "ead28003526b31fab73abc5636c6474bee8ebb511d2a756158dc6634608dbfdf",
+   "width": 507,
+   "height": 1000
+  },
+  "71szCRW03mL": {
+   "sha256": "692fac5601a3ea018d9e529f360c7daf7f679cbad5b0a298bca9743f81c043ce",
+   "width": 1000,
+   "height": 1000
+  },
+  "710qzAQIfKL": {
+   "sha256": "3eeafe0a2ae10ff81aed9e6726e95dd8ebca64e2819a519e3800b33dec39dbc1",
+   "width": 1000,
+   "height": 1000
+  },
+  "81y2JpDQJCL": {
+   "sha256": "f42daf4cba9d7d4b92679e1a29ba657fdcf73e77da1950b30ffa80ee6bf1f3bd",
+   "width": 1000,
+   "height": 466
+  },
+  "814CoJxQUcL": {
+   "sha256": "ce550a597401e7db5077032f8536e3d700b01dfcb1c91442b3ec2f5071981ec5",
+   "width": 1000,
+   "height": 368
+  },
+  "81P5e15W8NL": {
+   "sha256": "01ab0c96314c917de50b764ba19770481fdc4fc4227f5f42088ac980f11d569c",
+   "width": 1000,
+   "height": 413
+  },
+  "71mf8nPENLL": {
+   "sha256": "460cdfd8e3448fc9302b9d8b2eba2c3e262ec6b2f5124022201aac219033b7f3",
+   "width": 1000,
+   "height": 612
+  },
+  "61kN-GrVCIL": {
+   "sha256": "c5458544bb5266795390b463f67e1454ef616fb3c779e03b5c644c02aa2ba196",
+   "width": 1000,
+   "height": 491
+  },
+  "71vxoOkdLoL": {
+   "sha256": "da6cc36aa325ea98f8e129647dae6894e9ce60021914fa03b2293548fd23b325",
+   "width": 1000,
+   "height": 461
+  },
+  "81DBi9GQGHL": {
+   "sha256": "6febb0c0f525ec973d3e1c376ac0cd9d996d9b64dce5983dc619047c0fe64311",
+   "width": 526,
+   "height": 1000
+  },
+  "81laWyHAbAL": {
+   "sha256": "13a01e3a0e0e96edfd525635839e383b82327191d6aeed5f5f215a875cb51234",
+   "width": 532,
+   "height": 1000
+  },
+  "716om8QCgZL": {
+   "sha256": "36fa1040d85bdac95d2ca670b95ca91b1e7dc88aaa973e1f67f402e0d41137d3",
+   "width": 634,
+   "height": 1000
+  },
+  "71qhl9kewAL": {
+   "sha256": "a88f5c83ba4ef48ccf610f44f5362f87172cb49c74bfd7850a0578f40512a29a",
+   "width": 1000,
+   "height": 480
+  },
+  "71xVy6H4HtL": {
+   "sha256": "4297adf896171616151948b34e21e21a068533f514daec0e30d63d3ee075e0e0",
+   "width": 1000,
+   "height": 362
+  },
+  "718bVw57zRL": {
+   "sha256": "0fd0c4ecb3eec047a84f1cfd09b4b472f98c3f68a43e13b5fa19e991d0b568de",
+   "width": 1000,
+   "height": 364
+  },
+  "71TLqrw1gjL": {
+   "sha256": "0e260500586b889e03f45a18eadb957084f835ba2f7ccd253905aebec65f6c83",
+   "width": 1000,
+   "height": 953
+  },
+  "71cKYx13fSL": {
+   "sha256": "9bf498c080f294c418de3eb5cb4fa12ef2ee30cb5b3a7a0cd99aaf421ef8032b",
+   "width": 1000,
+   "height": 891
+  },
+  "817Zd9HsBnL": {
+   "sha256": "9b7f997b7dddab2840ca58d0a09be586837f381c85bfb99af46bee11241fca6d",
+   "width": 1000,
+   "height": 748
+  },
+  "71p-QTfK0gL": {
+   "sha256": "ded4cbc42c2753d16df4c6e94fe3c3440d9910b15db1c9f5c03d2bbb4606401f",
+   "width": 1000,
+   "height": 408
+  },
+  "71+4djuPzNL": {
+   "sha256": "49738ab823956b79f59b6df49d3c2724452e178c1bfd73fed63deb67f14c5a5e",
+   "width": 1000,
+   "height": 329
+  },
+  "81CK+xKlpxL": {
+   "sha256": "8ef0d501b7e134a332a7054d6bc98bf6e994afca255e1524e4f7a1bbea6786a1",
+   "width": 1000,
+   "height": 389
+  },
+  "710NZPHpc0L": {
+   "sha256": "95b965d8cad617f18c10cce7f16eafc89ca58072eef648bb2e620cfaa7ed13e0",
+   "width": 1000,
+   "height": 1000
+  },
+  "7158OeYRROL": {
+   "sha256": "2593c1de1427d6c98e363070c0910de5ff7aee8a19f03a5988b92eb7ba9b1c34",
+   "width": 1000,
+   "height": 1000
+  },
+  "7110T25yAYL": {
+   "sha256": "20ea683d88d51ec0c6ab4c1414deddb9c69d10a121db8aa839505531f94051dc",
+   "width": 1000,
+   "height": 1000
+  },
+  "71mWZ08OHFL": {
+   "sha256": "355fbd33545099ab747547bd74e65f4ea84ffbadd3527dfe501ed4306a1c247e",
+   "width": 484,
+   "height": 1000
+  },
+  "71wrrCwRRLL": {
+   "sha256": "15785f4ee91a18d542e9afbf020921b016ce0909aa77602ce60c45ba0f800fca",
+   "width": 359,
+   "height": 1000
+  },
+  "71gBQCf38ML": {
+   "sha256": "af6501048d0681a3510649e0e620148d0b477a81f05a13893a164b3d17edcf1a",
+   "width": 468,
+   "height": 1000
+  },
+  "71h8dLAWqNL": {
+   "sha256": "29547fd5f280e5b02a1aecb5bcabe90dcf7833186af317e7a307626654c68c91",
+   "width": 1000,
+   "height": 451
+  },
+  "71I8DxWcshL": {
+   "sha256": "9233e2c2c413ba812b7895f1337035b3bfcdd9638995809a148505fd7ccee79b",
+   "width": 1000,
+   "height": 349
+  },
+  "813rvuwPbTL": {
+   "sha256": "bc2b9001636536cc506158c1af955e2b7788d589d43f6a713e647c1603c74261",
+   "width": 1000,
+   "height": 331
+  },
+  "81bauSbLy2L": {
+   "sha256": "804e2e54e50c25b3f20a3f560c621ca091ffafd5302bf1ae6f6e51fa2ac7b4ea",
+   "width": 1000,
+   "height": 535
+  },
+  "81ypbTSYqsL": {
+   "sha256": "9ad75ba7f77c287d0e13250c3baa7ea5759eb613b90a0d40e4abaff7b041776e",
+   "width": 1000,
+   "height": 392
+  },
+  "81ktaKpjFqL": {
+   "sha256": "4f5e71df21e3bab2214cc869d64237e118cece393ee42f81700002fa9568487c",
+   "width": 1000,
+   "height": 476
+  },
+  "715qJw6QWZL": {
+   "sha256": "1cb708dd6c75fb1093d93f1588a435d9b5d085daf2696f1b014c079f068d2834",
+   "width": 1000,
+   "height": 1000
+  },
+  "71CtA57-LtL": {
+   "sha256": "c3462e0e0a2acdc2a607cb57b6de8710390ddcaec7532aff87a9af338b095017",
+   "width": 1000,
+   "height": 1000
+  },
+  "81mHSa2oblL": {
+   "sha256": "e2884d2c6920d45cc68787c5f7d80c5af052e9aca5c425672a249ead7cc3e1e8",
+   "width": 1000,
+   "height": 1000
+  },
+  "81SlLBagkhL": {
+   "sha256": "f8fcdfda9b79a9fac3ba189e74a0fd1219653600b311d0a6c5b64bf59fa70ed0",
+   "width": 770,
+   "height": 1000
+  },
+  "91KqyM-ig+L": {
+   "sha256": "8824893a9346195d5ab89198b8a022c193446e0a8045e710a6c733dd4fbf4a5a",
+   "width": 769,
+   "height": 1000
+  },
+  "71xQnEWidNL": {
+   "sha256": "3fa0530802ab7501ba7c0539a38050f040dca3f451d08e201cc76df38fe58868",
+   "width": 1000,
+   "height": 466
+  },
+  "61FcG4CkMhL": {
+   "sha256": "fde94bbe5325043a80a77530ffe7f4259bfc45c0c49de5a189a959ed73283313",
+   "width": 1000,
+   "height": 344
+  },
+  "815NFUR-BVL": {
+   "sha256": "7da0be59a27077b2f18924f36aaca922943b3ef482c17caa51304f8db44ef949",
+   "width": 1000,
+   "height": 464
+  },
+  "814ZrKq184L": {
+   "sha256": "f9e447185be20bcd33cd1c14d9be72eb2d9a43c9938608bde4bd182d438f6ab9",
+   "width": 663,
+   "height": 1000
+  },
+  "81rzP9F+VCL": {
+   "sha256": "33328c1ca38f55156ca3ffc643f8b9c8733db935d5eca81f743d46ca8b7b80f7",
+   "width": 450,
+   "height": 1000
+  },
+  "81J6vrcbrZL": {
+   "sha256": "44a3c2bb914b4baecc59e2830437acb96f63854d7c884787d91a6182a71ec27e",
+   "width": 544,
+   "height": 1000
+  },
+  "71fn9N2rMiL": {
+   "sha256": "fbea215ae42dd15784ff2e964aad22636fcb89e336367e106b5d30fcc21d643b",
+   "width": 747,
+   "height": 1000
+  },
+  "71T2rCstxWL": {
+   "sha256": "8641b2311ab4e3b0d3d310b9c5a64f75cb9d1737b924ea8326d13bb435697e03",
+   "width": 747,
+   "height": 1000
+  },
+  "81Ju8C2naUL": {
+   "sha256": "16d735d27d7c5539497556865869d418538ec4b453793f66bae1f8dd25432481",
+   "width": 618,
+   "height": 1000
+  },
+  "71wN8W9dNRL": {
+   "sha256": "e6cd7a45a9d0d0ca0dfbe0cbb608b9193a8a13221bb589279d4e94c17244fd66",
+   "width": 1000,
+   "height": 1000
+  },
+  "81wHpnzV2uL": {
+   "sha256": "33dba7f44fc3c058d0cc19165731764d08b4deb62243052873d16fe33a12100a",
+   "width": 1000,
+   "height": 571
+  },
+  "81Chs3TgX8L": {
+   "sha256": "828f257b3330823d7026c4724a57a01ca86345958a15a38bb93b840e1a045729",
+   "width": 1000,
+   "height": 401
+  },
+  "81H83+BSHwL": {
+   "sha256": "f67a964e74b341aa83e8ad7c590c50b3338c373b0c5788ffb69005574c9510b0",
+   "width": 1000,
+   "height": 360
+  },
+  "81H4wfE7aaL": {
+   "sha256": "4d12c39a94ef5bfb30e97c2349e424348bff4c931d37960e1e924d8b9a934084",
+   "width": 1000,
+   "height": 906
+  },
+  "71IKZ3lSEXL": {
+   "sha256": "cd8f94473631e8bb2b303a469f049ff1e8b2ab510b86af98a193c67305b539c3",
+   "width": 425,
+   "height": 1000
+  },
+  "71zRzEuk6lL": {
+   "sha256": "b9448b8d8d53e013be2058a3ac5f2e2e872ef6781885731e164e38fb31982393",
+   "width": 1000,
+   "height": 1000
+  },
+  "71pwDKTx8dL": {
+   "sha256": "7c2be133c49978fe2351af8823f1408e6cc2c117cb3fbe1bd8e46642258025bc",
+   "width": 1000,
+   "height": 1000
+  },
+  "71NbjsxhZML": {
+   "sha256": "7e8e99082dc31c3c6169cc4ee8128c3cde38e68a10f57ee7c5cd50348a325e5f",
+   "width": 1000,
+   "height": 1000
+  },
+  "71aBbSSDJbL": {
+   "sha256": "c853de3a118a1b0cd1c264823c338b3a4013e023971e8c27a653251807204b8e",
+   "width": 1000,
+   "height": 1000
+  },
+  "71j3GYNFDyL": {
+   "sha256": "a377b7729873000c5158b21e6fc8291a47930fe32dcf627c765a777252a0c627",
+   "width": 1000,
+   "height": 1000
+  },
+  "81o4oqsJKsL": {
+   "sha256": "a74a685e50f7695dc9b2dc39ade5f5dd6d29fb34de8592811df53d66495c268e",
+   "width": 1000,
+   "height": 652
+  },
+  "71EY1IYkZ4L": {
+   "sha256": "bd2b567bdc5a08b8a1a102f71c2d9d56bc3233d6796e50bd06c75158abdbaca0",
+   "width": 745,
+   "height": 1000
+  },
+  "71831WWZQ0L": {
+   "sha256": "37c532789d950385b4e647b7cc631c66dcacf9a03661ab9c1dc01892de0d182b",
+   "width": 745,
+   "height": 1000
+  },
+  "81edhw5nu+L": {
+   "sha256": "50a6e009667b45de4ca176bb0222f5bb994900acf9421abdbe0797c099aea6b6",
+   "width": 1000,
+   "height": 555
+  },
+  "71yUil9gdLL": {
+   "sha256": "dc39661671c8471da2a0b4c764c02a842e24b7512cb7852fa6bb2d2526fafd13",
+   "width": 1000,
+   "height": 354
+  },
+  "81Kl-qQ9IyL": {
+   "sha256": "09ab19eca371acbf5764d54fa0e6f0193d11ab4667dfe1da282214fdecc60c8f",
+   "width": 1000,
+   "height": 383
+  },
+  "61GSw0nO7YL": {
+   "sha256": "f2091c1e1e69f80972680636ecf2a721c3ae721e4ce654e2054302358f805dc8",
+   "width": 381,
+   "height": 1000
+  },
+  "81lCYwqrirL": {
+   "sha256": "d44dbcef6a428c72d54690db954ed3b6753bfc5f7089bc305ca3f21b0ed7390f",
+   "width": 1000,
+   "height": 862
+  },
+  "91O6B1vgkjL": {
+   "sha256": "224823ac35956a69a00ac6d9e3e5b0977b9e2e5f3178f435ec5bf944528ada97",
+   "width": 1000,
+   "height": 948
+  },
+  "718alkuLN9L": {
+   "sha256": "08a49e992ba9f7ee50f2a1298dd6076ee3518062266738f90b0050a5efcd804d",
+   "width": 1000,
+   "height": 643
+  },
+  "81nuoF1XvgL": {
+   "sha256": "4128827123958a29de016e491eeef5c11d26c1e78e057d0d63f629e8de1fe04f",
+   "width": 1000,
+   "height": 435
+  },
+  "71tS9hC1E3L": {
+   "sha256": "49b82dccfa9fcd433f77f70b312e179adcb64179be499e178158a44d545dd412",
+   "width": 1000,
+   "height": 1000
+  },
+  "61tie083RoL": {
+   "sha256": "b98fb901e771635429c14218ac3b96716c48a8ec29a2cbe65b37e89620450f78",
+   "width": 1000,
+   "height": 586
+  },
+  "710ANYdQ1NL": {
+   "sha256": "63293d3ccc27ffe4bb185008018fea3f65b61c9364caf104cceae57a50e949d0",
+   "width": 1000,
+   "height": 1000
+  },
+  "71yu1D8V0DL": {
+   "sha256": "6161e6f154be1b4c0b318a3571fe2813143c06daa2ed782abf5ed185e7aa5151",
+   "width": 1000,
+   "height": 1000
+  },
+  "71yUAha9xzL": {
+   "sha256": "cf0c45c1a81833dfda64a3cc242e7ad122bb5d417ec0b70e84d1cbb52997ec21",
+   "width": 1000,
+   "height": 551
+  },
+  "81nZxmaYkUL": {
+   "sha256": "3f1d5a90e88b1dee9cec8a59e17d0b1e5af8b197d715eb227151f8b0b2b2a396",
+   "width": 1000,
+   "height": 463
+  },
+  "71H0nrDfLfL": {
+   "sha256": "c8bfce044bba1887f6dd8a2db5e97449decf75e5b45a75a29fb7c4bdd2676d1f",
+   "width": 1000,
+   "height": 568
+  },
+  "81OdWXMT7uL": {
+   "sha256": "34f6bc4a22f6850b34a5efba5e66bdf4be94b6713c356cf5c1a118049ee4f866",
+   "width": 1000,
+   "height": 522
+  },
+  "81eNnsFJ0UL": {
+   "sha256": "7c1de2c7a0a5205ba2d16f636b1667f399a286d8beead39c9b80ae01ca8a73e3",
+   "width": 1000,
+   "height": 361
+  },
+  "71iQ6UZjSBL": {
+   "sha256": "00d3a26371e30ff95a9358003a562ba196046a1f4e4843a56384464fc2f246dc",
+   "width": 507,
+   "height": 1000
+  },
+  "81++NuXPSAL": {
+   "sha256": "3d911ce579f3cbae04b4b3512acbbd20d4bd7ed890413c5645f45399be21a924",
+   "width": 309,
+   "height": 1000
+  },
+  "71A2EyMcXfL": {
+   "sha256": "3838f5cffbf91442e5794327ee92bc7e2f6863b2e72b6209cc49852bf232e038",
+   "width": 350,
+   "height": 1000
+  },
+  "81RNdqZPgJL": {
+   "sha256": "bea981e8e29a84b1756160b36c66ecf501284975d5fad1e208e21c5605affda0",
+   "width": 1000,
+   "height": 512
+  },
+  "81iWWGRlgrL": {
+   "sha256": "49e12c8861730733371636cbffd0c5a3c699f4e16f724eba2dfc1da65f209f14",
+   "width": 1000,
+   "height": 373
+  },
+  "81NiaTGvbjL": {
+   "sha256": "37ae7812f67a4e5487bb2cfac2a7c87e9ca101c2d21e66c15a055bdfdc772c7f",
+   "width": 1000,
+   "height": 392
+  },
+  "81+gIdyufHL": {
+   "sha256": "796d4a19e7d342d4db6c6c7a7dfed6cc6cd0494b6f429a448f9201c6aa9c33c2",
+   "width": 1000,
+   "height": 1000
+  },
+  "81qXXeaJAnL": {
+   "sha256": "99f2fb31d1b672bc36435db9f237228fc9d66ec19c9e491a6cb12ff937700585",
+   "width": 1000,
+   "height": 1000
+  },
+  "81JWT9ZJuIL": {
+   "sha256": "c108339e3b38ed1421c9acf570551eb8792abffc23cab7f8c1df7bcf5b9a52ed",
+   "width": 1000,
+   "height": 531
+  }
+ }
+}

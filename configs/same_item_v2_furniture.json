@@ -1,0 +1,3258 @@
+{
+ "seed": 20261104,
+ "models": {
+  "haiku": "claude-haiku-5-5",
+  "sonnet": "claude-sonnet-5-5",
+  "opus": "claude-opus-5-5"
+ },
+ "effort": "medium",
+ "max_tokens": 8000,
+ "smoke_anchors": 0,
+ "batch_limit_mb": 200,
+ "excluded": [],
+ "anchors": [
+  {
+   "pair_id": "ch053",
+   "sheet": "h088",
+   "kind": "CHAIR",
+   "brand": "Stone & Beam",
+   "listing": "B0857JQ3BZ",
+   "other_listing": "B0857JM2NC",
+   "a1": "51pbTkNwEWL",
+   "a2": "51pUPJamqyL",
+   "c": "51uiiNsg8fL",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "medium",
+   "other_brand": "Phoenix Home",
+   "famous_brand": "Pottery Barn",
+   "anchor_first": false,
+   "name_line_first": false,
+   "option_order": [
+    "same",
+    "different",
+    "unknown"
+   ]
+  },
+  {
+   "pair_id": "ch017",
+   "sheet": "h027",
+   "kind": "SOFA",
+   "brand": "Rivet",
+   "listing": "B07BWMSQ6Q",
+   "other_listing": "B07HZ6RKSG",
+   "a1": "51aKIfZC8RL",
+   "a2": "51lf8apjBfL",
+   "c": "51j8pE-N-gL",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "medium",
+   "other_brand": "Alkove",
+   "famous_brand": "IKEA",
+   "anchor_first": true,
+   "name_line_first": true,
+   "option_order": [
+    "same",
+    "different",
+    "unknown"
+   ]
+  },
+  {
+   "pair_id": "ch006",
+   "sheet": "h009",
+   "kind": "TABLE",
+   "brand": "Rivet",
+   "listing": "B07HSMMGF3",
+   "other_listing": "B072ZMVR53",
+   "a1": "51MhK2F3+XL",
+   "a2": "51UQ+OU5lLL",
+   "c": "51otQZa4A6L",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "medium",
+   "other_brand": "Movian",
+   "famous_brand": "West Elm",
+   "anchor_first": false,
+   "name_line_first": false,
+   "option_order": [
+    "different",
+    "same",
+    "unknown"
+   ]
+  },
+  {
+   "pair_id": "ch022",
+   "sheet": "h037",
+   "kind": "LAMP",
+   "brand": "Rivet",
+   "listing": "B075X2Y3VK",
+   "other_listing": "B075X2YJGK",
+   "a1": "51tlLIUZoML",
+   "a2": "51KTabsHqcL",
+   "c": "51aCia0NtsL",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "medium",
+   "other_brand": "Stone & Beam",
+   "famous_brand": "Pottery Barn",
+   "anchor_first": false,
+   "name_line_first": false,
+   "option_order": [
+    "different",
+    "same",
+    "unknown"
+   ]
+  },
+  {
+   "pair_id": "ch048",
+   "sheet": "h079",
+   "kind": "CHAIR",
+   "brand": "Stone & Beam",
+   "listing": "B07CB5GT4S",
+   "other_listing": "B07CB5GT3M",
+   "a1": "51eeONVBdkL",
+   "a2": "51cZpT7TGRL",
+   "c": "61FuYzVIAsL",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "medium",
+   "other_brand": "Phoenix Home",
+   "famous_brand": "IKEA",
+   "anchor_first": false,
+   "name_line_first": false,
+   "option_order": [
+    "unknown",
+    "same",
+    "different"
+   ]
+  },
+  {
+   "pair_id": "ch033",
+   "sheet": "h054",
+   "kind": "LIGHT_FIXTURE",
+   "brand": "Ravenna Home",
+   "listing": "B0824FBSPV",
+   "other_listing": "B0828FN2YH",
+   "a1": "41dHsNVw0PL",
+   "a2": "410DUpsPclL",
+   "c": "410SxfayR-L",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "medium",
+   "other_brand": "Rivet",
+   "famous_brand": "IKEA",
+   "anchor_first": true,
+   "name_line_first": false,
+   "option_order": [
+    "different",
+    "unknown",
+    "same"
+   ]
+  },
+  {
+   "pair_id": "ch008",
+   "sheet": "h013",
+   "kind": "OTTOMAN",
+   "brand": "Rivet",
+   "listing": "B075X4YDJ6",
+   "other_listing": "B072FVHS4V",
+   "a1": "71B-P0l06sL",
+   "a2": "717FiI2LhsL",
+   "c": "618TPGF+KHL",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "close",
+   "other_brand": "Movian",
+   "famous_brand": "West Elm",
+   "anchor_first": false,
+   "name_line_first": false,
+   "option_order": [
+    "same",
+    "unknown",
+    "different"
+   ]
+  },
+  {
+   "pair_id": "ch020",
+   "sheet": "h033",
+   "kind": "CHAIR",
+   "brand": "Ravenna Home",
+   "listing": "B07QBMQ75C",
+   "other_listing": "B085FJPW9M",
+   "a1": "51etZQcCHTL",
+   "a2": "51lux9Y+75L",
+   "c": "618lzTFIzmL",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "medium",
+   "other_brand": "Alkove",
+   "famous_brand": "IKEA",
+   "anchor_first": false,
+   "name_line_first": false,
+   "option_order": [
+    "same",
+    "different",
+    "unknown"
+   ]
+  },
+  {
+   "pair_id": "ch071",
+   "sheet": "h127",
+   "kind": "SOFA",
+   "brand": "Stone & Beam",
+   "listing": "B07B4MSP96",
+   "other_listing": "B082VLYF5W",
+   "a1": "51tn740V32L",
+   "a2": "51wmYj2PoXL",
+   "c": "51r4xF95LfL",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "close",
+   "other_brand": "Ravenna Home",
+   "famous_brand": "Pottery Barn",
+   "anchor_first": false,
+   "name_line_first": true,
+   "option_order": [
+    "different",
+    "same",
+    "unknown"
+   ]
+  },
+  {
+   "pair_id": "ch066",
+   "sheet": "h112",
+   "kind": "TABLE",
+   "brand": "Rivet",
+   "listing": "B072ZK2FZ6",
+   "other_listing": "B072ZRPFNM",
+   "a1": "51gOxuYle8L",
+   "a2": "51+zvN4sYqL",
+   "c": "51LGia+uEQL",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "medium",
+   "other_brand": "Phoenix Home",
+   "famous_brand": "Pottery Barn",
+   "anchor_first": false,
+   "name_line_first": false,
+   "option_order": [
+    "different",
+    "same",
+    "unknown"
+   ]
+  },
+  {
+   "pair_id": "ch070",
+   "sheet": "h125",
+   "kind": "STOOL_SEATING",
+   "brand": "Stone & Beam",
+   "listing": "B07B7B21QY",
+   "other_listing": "B07QGWNP22",
+   "a1": "51pa23ytj9L",
+   "a2": "51Xk5ALGPPL",
+   "c": "51I40HYp7sL",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "medium",
+   "other_brand": "Phoenix Home",
+   "famous_brand": "IKEA",
+   "anchor_first": false,
+   "name_line_first": true,
+   "option_order": [
+    "different",
+    "unknown",
+    "same"
+   ]
+  },
+  {
+   "pair_id": "ch076",
+   "sheet": "h144",
+   "kind": "CHAIR",
+   "brand": "Rivet",
+   "listing": "B07QGWM38F",
+   "other_listing": "B07QFRSC92",
+   "a1": "51PG1SZFkWL",
+   "a2": "51q2Zg+RTGL",
+   "c": "61I2l9yugvL",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "close",
+   "other_brand": "Phoenix Home",
+   "famous_brand": "IKEA",
+   "anchor_first": false,
+   "name_line_first": false,
+   "option_order": [
+    "different",
+    "same",
+    "unknown"
+   ]
+  },
+  {
+   "pair_id": "ch037",
+   "sheet": "h059",
+   "kind": "LAMP",
+   "brand": "Ravenna Home",
+   "listing": "B07ML7NZRM",
+   "other_listing": "B07MF1SN4F",
+   "a1": "41hCJlvb41L",
+   "a2": "41w6VVN+NIL",
+   "c": "410E2DQUPKL",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "close",
+   "other_brand": "Rivet",
+   "famous_brand": "West Elm",
+   "anchor_first": true,
+   "name_line_first": false,
+   "option_order": [
+    "unknown",
+    "different",
+    "same"
+   ]
+  },
+  {
+   "pair_id": "ch014",
+   "sheet": "h020",
+   "kind": "SOFA",
+   "brand": "Rivet",
+   "listing": "B07BWJCPTC",
+   "other_listing": "B075X4VM8W",
+   "a1": "51FtLXYQl-L",
+   "a2": "51T17G5-xOL",
+   "c": "51YPRVh5dHL",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "medium",
+   "other_brand": "Movian",
+   "famous_brand": "IKEA",
+   "anchor_first": true,
+   "name_line_first": true,
+   "option_order": [
+    "same",
+    "different",
+    "unknown"
+   ]
+  },
+  {
+   "pair_id": "ch015",
+   "sheet": "h022",
+   "kind": "TABLE",
+   "brand": "Rivet",
+   "listing": "B07GF7CSLF",
+   "other_listing": "B07GDMBZJJ",
+   "a1": "41zX2vtDVML",
+   "a2": "41k-uUlxmWL",
+   "c": "41nZV1x4MGL",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "medium",
+   "other_brand": "Stone & Beam",
+   "famous_brand": "IKEA",
+   "anchor_first": false,
+   "name_line_first": true,
+   "option_order": [
+    "unknown",
+    "different",
+    "same"
+   ]
+  },
+  {
+   "pair_id": "ch074",
+   "sheet": "h139",
+   "kind": "CHAIR",
+   "brand": "Rivet",
+   "listing": "B07QFRSJDM",
+   "other_listing": "B07B79WTSL",
+   "a1": "51nfxjS1wgL",
+   "a2": "51-1TI+utgL",
+   "c": "51me7gG6UaL",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "close",
+   "other_brand": "Phoenix Home",
+   "famous_brand": "West Elm",
+   "anchor_first": true,
+   "name_line_first": true,
+   "option_order": [
+    "different",
+    "unknown",
+    "same"
+   ]
+  },
+  {
+   "pair_id": "ch047",
+   "sheet": "h077",
+   "kind": "CHAIR",
+   "brand": "Stone & Beam",
+   "listing": "B075X463FR",
+   "other_listing": "B073G7BVCT",
+   "a1": "61YrZt0WEtL",
+   "a2": "613dlMCazCL",
+   "c": "71Ll+Sg55tL",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "close",
+   "other_brand": "Alkove",
+   "famous_brand": "Pottery Barn",
+   "anchor_first": true,
+   "name_line_first": false,
+   "option_order": [
+    "unknown",
+    "same",
+    "different"
+   ]
+  },
+  {
+   "pair_id": "ch019",
+   "sheet": "h030",
+   "kind": "SOFA",
+   "brand": "Stone & Beam",
+   "listing": "B07HZ7PFW4",
+   "other_listing": "B07B4MD59G",
+   "a1": "515oNy3rY1L",
+   "a2": "51Nv685x0FL",
+   "c": "51S0-dJp9BL",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "medium",
+   "other_brand": "Alkove",
+   "famous_brand": "West Elm",
+   "anchor_first": true,
+   "name_line_first": false,
+   "option_order": [
+    "different",
+    "unknown",
+    "same"
+   ]
+  },
+  {
+   "pair_id": "ch063",
+   "sheet": "h108",
+   "kind": "TABLE",
+   "brand": "Stone & Beam",
+   "listing": "B075YMW6LH",
+   "other_listing": "B07HSJJF2X",
+   "a1": "51mz5+aqPrL",
+   "a2": "51iyCtNWZrL",
+   "c": "51WqqtEyj+L",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "medium",
+   "other_brand": "Ravenna Home",
+   "famous_brand": "West Elm",
+   "anchor_first": false,
+   "name_line_first": true,
+   "option_order": [
+    "different",
+    "same",
+    "unknown"
+   ]
+  },
+  {
+   "pair_id": "ch031",
+   "sheet": "h050",
+   "kind": "LAMP",
+   "brand": "Stone & Beam",
+   "listing": "B0825DG9NM",
+   "other_listing": "B0825DKP92",
+   "a1": "51DZRsDbaJL",
+   "a2": "51C6k2c25NL",
+   "c": "51AE9CLCiZL",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "close",
+   "other_brand": "Rivet",
+   "famous_brand": "IKEA",
+   "anchor_first": false,
+   "name_line_first": false,
+   "option_order": [
+    "same",
+    "different",
+    "unknown"
+   ]
+  },
+  {
+   "pair_id": "ch068",
+   "sheet": "h116",
+   "kind": "CHAIR",
+   "brand": "Ravenna Home",
+   "listing": "B085FHBF2S",
+   "other_listing": "B085FH8JFG",
+   "a1": "51PxDDRu7zL",
+   "a2": "51gI21JiXjL",
+   "c": "51EcaVBcYNL",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "close",
+   "other_brand": "Alkove",
+   "famous_brand": "Pottery Barn",
+   "anchor_first": true,
+   "name_line_first": true,
+   "option_order": [
+    "unknown",
+    "different",
+    "same"
+   ]
+  },
+  {
+   "pair_id": "ch055",
+   "sheet": "h091",
+   "kind": "LIGHT_FIXTURE",
+   "brand": "Ravenna Home",
+   "listing": "B0824FH9M3",
+   "other_listing": "B0824FBSPV",
+   "a1": "41qYXWsmLRL",
+   "a2": "51twhiQQZCL",
+   "c": "410DUpsPclL",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "medium",
+   "other_brand": "Alkove",
+   "famous_brand": "West Elm",
+   "anchor_first": true,
+   "name_line_first": true,
+   "option_order": [
+    "different",
+    "unknown",
+    "same"
+   ]
+  },
+  {
+   "pair_id": "ch018",
+   "sheet": "h028",
+   "kind": "OTTOMAN",
+   "brand": "Stone & Beam",
+   "listing": "B073ZRX6T8",
+   "other_listing": "B07263589Q",
+   "a1": "615RvkFZ2HL",
+   "a2": "61qu4YwMJ5L",
+   "c": "61Qj9t3Qc6L",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "close",
+   "other_brand": "Rivet",
+   "famous_brand": "West Elm",
+   "anchor_first": true,
+   "name_line_first": false,
+   "option_order": [
+    "unknown",
+    "different",
+    "same"
+   ]
+  },
+  {
+   "pair_id": "ch021",
+   "sheet": "h036",
+   "kind": "CHAIR",
+   "brand": "Ravenna Home",
+   "listing": "B085FGXKG9",
+   "other_listing": "B085FK85FQ",
+   "a1": "61WAPQhmnuL",
+   "a2": "61Af6CBr0LL",
+   "c": "51Vl+5i8PYL",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "medium",
+   "other_brand": "Stone & Beam",
+   "famous_brand": "Pottery Barn",
+   "anchor_first": false,
+   "name_line_first": false,
+   "option_order": [
+    "same",
+    "unknown",
+    "different"
+   ]
+  },
+  {
+   "pair_id": "ch079",
+   "sheet": "h150",
+   "kind": "SOFA",
+   "brand": "Rivet",
+   "listing": "B075X5VCNQ",
+   "other_listing": "B073ZNVMSV",
+   "a1": "51IsMTRLFiL",
+   "a2": "51cw4MSgLsL",
+   "c": "61XrZaDOq5L",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "close",
+   "other_brand": "Movian",
+   "famous_brand": "Pottery Barn",
+   "anchor_first": false,
+   "name_line_first": false,
+   "option_order": [
+    "unknown",
+    "different",
+    "same"
+   ]
+  },
+  {
+   "pair_id": "ch067",
+   "sheet": "h115",
+   "kind": "TABLE",
+   "brand": "Ravenna Home",
+   "listing": "B07MBFDS3B",
+   "other_listing": "B07RDPJJFZ",
+   "a1": "51deKKm0H9L",
+   "a2": "51z5ELwO6CL",
+   "c": "51KbjRthwpL",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "medium",
+   "other_brand": "Alkove",
+   "famous_brand": "IKEA",
+   "anchor_first": false,
+   "name_line_first": false,
+   "option_order": [
+    "same",
+    "unknown",
+    "different"
+   ]
+  },
+  {
+   "pair_id": "ch009",
+   "sheet": "h014",
+   "kind": "STOOL_SEATING",
+   "brand": "Stone & Beam",
+   "listing": "B07B78LY2F",
+   "other_listing": "B07QBQF7SK",
+   "a1": "61+TaUO2oyL",
+   "a2": "51y42bLBCML",
+   "c": "510e4LeVZUL",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "medium",
+   "other_brand": "Alkove",
+   "famous_brand": "IKEA",
+   "anchor_first": false,
+   "name_line_first": true,
+   "option_order": [
+    "different",
+    "same",
+    "unknown"
+   ]
+  },
+  {
+   "pair_id": "ch043",
+   "sheet": "h070",
+   "kind": "CHAIR",
+   "brand": "Rivet",
+   "listing": "B07B4MRKQG",
+   "other_listing": "B075X4WBQR",
+   "a1": "617bdiqnXmL",
+   "a2": "61SLtUa3DuL",
+   "c": "61nAUrnd3VL",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "close",
+   "other_brand": "Alkove",
+   "famous_brand": "IKEA",
+   "anchor_first": true,
+   "name_line_first": true,
+   "option_order": [
+    "different",
+    "same",
+    "unknown"
+   ]
+  },
+  {
+   "pair_id": "ch005",
+   "sheet": "h006",
+   "kind": "LAMP",
+   "brand": "Stone & Beam",
+   "listing": "B07MF1SN52",
+   "other_listing": "B07ML7P8W6",
+   "a1": "41U+8aPSN-L",
+   "a2": "41S38vnDMRL",
+   "c": "415l-XNLFEL",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "medium",
+   "other_brand": "Alkove",
+   "famous_brand": "Pottery Barn",
+   "anchor_first": true,
+   "name_line_first": false,
+   "option_order": [
+    "unknown",
+    "different",
+    "same"
+   ]
+  },
+  {
+   "pair_id": "ch016",
+   "sheet": "h024",
+   "kind": "SOFA",
+   "brand": "Stone & Beam",
+   "listing": "B07HZ7TKQH",
+   "other_listing": "B071J7Q3J4",
+   "a1": "51Km-SvOisL",
+   "a2": "517ZW4ZzPVL",
+   "c": "517CcIVduGL",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "medium",
+   "other_brand": "Phoenix Home",
+   "famous_brand": "West Elm",
+   "anchor_first": true,
+   "name_line_first": true,
+   "option_order": [
+    "different",
+    "unknown",
+    "same"
+   ]
+  },
+  {
+   "pair_id": "ch034",
+   "sheet": "h055",
+   "kind": "TABLE",
+   "brand": "Rivet",
+   "listing": "B07GF51KS1",
+   "other_listing": "B07GF5DCJJ",
+   "a1": "51WorAHhBfL",
+   "a2": "518CVWvsmqL",
+   "c": "51omkI8apDL",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "medium",
+   "other_brand": "Alkove",
+   "famous_brand": "IKEA",
+   "anchor_first": false,
+   "name_line_first": true,
+   "option_order": [
+    "unknown",
+    "same",
+    "different"
+   ]
+  },
+  {
+   "pair_id": "ch075",
+   "sheet": "h141",
+   "kind": "CHAIR",
+   "brand": "Rivet",
+   "listing": "B07HSBD6TF",
+   "other_listing": "B075YPTG6M",
+   "a1": "51T4GpD9XHL",
+   "a2": "51YwbT6oU4L",
+   "c": "51hdk7MDo+L",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "close",
+   "other_brand": "Phoenix Home",
+   "famous_brand": "West Elm",
+   "anchor_first": false,
+   "name_line_first": true,
+   "option_order": [
+    "same",
+    "different",
+    "unknown"
+   ]
+  },
+  {
+   "pair_id": "ch072",
+   "sheet": "h131",
+   "kind": "CHAIR",
+   "brand": "Movian",
+   "listing": "B075NRDS91",
+   "other_listing": "B08G1YWN8L",
+   "a1": "516dBz9D4kL",
+   "a2": "51uFyFQ9gmL",
+   "c": "517ksZjbgvL",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "close",
+   "other_brand": "Alkove",
+   "famous_brand": "Pottery Barn",
+   "anchor_first": true,
+   "name_line_first": true,
+   "option_order": [
+    "unknown",
+    "same",
+    "different"
+   ]
+  },
+  {
+   "pair_id": "ch002",
+   "sheet": "h002",
+   "kind": "SOFA",
+   "brand": "Stone & Beam",
+   "listing": "B07HZ7X963",
+   "other_listing": "B07QJXW4JR",
+   "a1": "517ox2frxmL",
+   "a2": "51LHriEmtnL",
+   "c": "61Pu49BHD+L",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "close",
+   "other_brand": "Phoenix Home",
+   "famous_brand": "IKEA",
+   "anchor_first": false,
+   "name_line_first": true,
+   "option_order": [
+    "same",
+    "different",
+    "unknown"
+   ]
+  },
+  {
+   "pair_id": "ch044",
+   "sheet": "h072",
+   "kind": "TABLE",
+   "brand": "Movian",
+   "listing": "B07H8JN9KN",
+   "other_listing": "B07JGYH2G5",
+   "a1": "51RUtc+Kk-L",
+   "a2": "519PM8dBvUL",
+   "c": "61nq6N0J8aL",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "close",
+   "other_brand": "Rivet",
+   "famous_brand": "IKEA",
+   "anchor_first": false,
+   "name_line_first": true,
+   "option_order": [
+    "same",
+    "unknown",
+    "different"
+   ]
+  },
+  {
+   "pair_id": "ch001",
+   "sheet": "h001",
+   "kind": "LAMP",
+   "brand": "Stone & Beam",
+   "listing": "B0825DBW3G",
+   "other_listing": "B0825D7SDV",
+   "a1": "51dF3ZiTTQL",
+   "a2": "51H9ixk73IL",
+   "c": "41LkbdvNxIL",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "medium",
+   "other_brand": "Movian",
+   "famous_brand": "Pottery Barn",
+   "anchor_first": true,
+   "name_line_first": true,
+   "option_order": [
+    "unknown",
+    "different",
+    "same"
+   ]
+  },
+  {
+   "pair_id": "ch078",
+   "sheet": "h149",
+   "kind": "CHAIR",
+   "brand": "Ravenna Home",
+   "listing": "B085FJWNC3",
+   "other_listing": "B085FGXKG9",
+   "a1": "71q4bC1S6xL",
+   "a2": "71eAW2y4gTL",
+   "c": "61Af6CBr0LL",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "close",
+   "other_brand": "Movian",
+   "famous_brand": "IKEA",
+   "anchor_first": true,
+   "name_line_first": true,
+   "option_order": [
+    "different",
+    "unknown",
+    "same"
+   ]
+  },
+  {
+   "pair_id": "ch060",
+   "sheet": "h103",
+   "kind": "LIGHT_FIXTURE",
+   "brand": "Rivet",
+   "listing": "B071HSMPHL",
+   "other_listing": "B071HSMS5T",
+   "a1": "41wCd3itbIL",
+   "a2": "41AvgipOF0L",
+   "c": "41ON1JxivzL",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "medium",
+   "other_brand": "Movian",
+   "famous_brand": "Pottery Barn",
+   "anchor_first": false,
+   "name_line_first": false,
+   "option_order": [
+    "same",
+    "unknown",
+    "different"
+   ]
+  },
+  {
+   "pair_id": "ch011",
+   "sheet": "h016",
+   "kind": "OTTOMAN",
+   "brand": "Ravenna Home",
+   "listing": "B07DBDWWGY",
+   "other_listing": "B07F2X89KT",
+   "a1": "61rgsIWBNSL",
+   "a2": "61PZ3MePh2L",
+   "c": "51bkR1+NvUL",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "close",
+   "other_brand": "Alkove",
+   "famous_brand": "West Elm",
+   "anchor_first": true,
+   "name_line_first": true,
+   "option_order": [
+    "unknown",
+    "same",
+    "different"
+   ]
+  },
+  {
+   "pair_id": "ch050",
+   "sheet": "h082",
+   "kind": "CHAIR",
+   "brand": "Rivet",
+   "listing": "B075X5TMV6",
+   "other_listing": "B076Z2X6M5",
+   "a1": "71fQEpcmvjL",
+   "a2": "71E2lzifcvL",
+   "c": "61OKs3phI7L",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "medium",
+   "other_brand": "Ravenna Home",
+   "famous_brand": "Pottery Barn",
+   "anchor_first": false,
+   "name_line_first": false,
+   "option_order": [
+    "different",
+    "same",
+    "unknown"
+   ]
+  },
+  {
+   "pair_id": "ch042",
+   "sheet": "h069",
+   "kind": "SOFA",
+   "brand": "Stone & Beam",
+   "listing": "B07QHYD94M",
+   "other_listing": "B07QCMBHLJ",
+   "a1": "61lgm5X8X2L",
+   "a2": "61jYbIsHqwL",
+   "c": "61OBOShx0SL",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "close",
+   "other_brand": "Phoenix Home",
+   "famous_brand": "Pottery Barn",
+   "anchor_first": false,
+   "name_line_first": true,
+   "option_order": [
+    "same",
+    "different",
+    "unknown"
+   ]
+  },
+  {
+   "pair_id": "ch052",
+   "sheet": "h087",
+   "kind": "TABLE",
+   "brand": "Rivet",
+   "listing": "B07B7L147Y",
+   "other_listing": "B07GF5DCJJ",
+   "a1": "41pfaI-0jqL",
+   "a2": "413SkZMVLEL",
+   "c": "51omkI8apDL",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "medium",
+   "other_brand": "Movian",
+   "famous_brand": "IKEA",
+   "anchor_first": false,
+   "name_line_first": false,
+   "option_order": [
+    "same",
+    "unknown",
+    "different"
+   ]
+  },
+  {
+   "pair_id": "ch036",
+   "sheet": "h058",
+   "kind": "STOOL_SEATING",
+   "brand": "Rivet",
+   "listing": "B0853L4XLZ",
+   "other_listing": "B07QCQ3D7F",
+   "a1": "51QDyhSXe1L",
+   "a2": "51WYfjTKbAL",
+   "c": "518yW79AyfL",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "medium",
+   "other_brand": "Stone & Beam",
+   "famous_brand": "Pottery Barn",
+   "anchor_first": true,
+   "name_line_first": false,
+   "option_order": [
+    "unknown",
+    "same",
+    "different"
+   ]
+  },
+  {
+   "pair_id": "ch007",
+   "sheet": "h011",
+   "kind": "CHAIR",
+   "brand": "Ravenna Home",
+   "listing": "B086R33Q74",
+   "other_listing": "B085FJR494",
+   "a1": "514htj6q0fL",
+   "a2": "51UFD+rv6bL",
+   "c": "6105C7+gtXL",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "medium",
+   "other_brand": "Movian",
+   "famous_brand": "West Elm",
+   "anchor_first": true,
+   "name_line_first": true,
+   "option_order": [
+    "unknown",
+    "same",
+    "different"
+   ]
+  },
+  {
+   "pair_id": "ch025",
+   "sheet": "h042",
+   "kind": "LAMP",
+   "brand": "Ravenna Home",
+   "listing": "B0824F3KWB",
+   "other_listing": "B0824F9J7N",
+   "a1": "31wRl8ZzMIL",
+   "a2": "31fMGui2GRL",
+   "c": "31e3-FsouUL",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "close",
+   "other_brand": "Stone & Beam",
+   "famous_brand": "IKEA",
+   "anchor_first": true,
+   "name_line_first": true,
+   "option_order": [
+    "different",
+    "same",
+    "unknown"
+   ]
+  },
+  {
+   "pair_id": "ch046",
+   "sheet": "h075",
+   "kind": "SOFA",
+   "brand": "Rivet",
+   "listing": "B07PBZVP19",
+   "other_listing": "B07PBZ2PSS",
+   "a1": "614ru10PR3L",
+   "a2": "61k-AcW2yZL",
+   "c": "51ctV+El2YL",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "close",
+   "other_brand": "Ravenna Home",
+   "famous_brand": "Pottery Barn",
+   "anchor_first": true,
+   "name_line_first": true,
+   "option_order": [
+    "same",
+    "unknown",
+    "different"
+   ]
+  },
+  {
+   "pair_id": "ch061",
+   "sheet": "h106",
+   "kind": "TABLE",
+   "brand": "Alkove",
+   "listing": "B07JG45F5B",
+   "other_listing": "B07K7K4CDY",
+   "a1": "51DxUW7xecL",
+   "a2": "51OSpHxfUaL",
+   "c": "51GFOm8uVHL",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "medium",
+   "other_brand": "Rivet",
+   "famous_brand": "West Elm",
+   "anchor_first": true,
+   "name_line_first": false,
+   "option_order": [
+    "unknown",
+    "different",
+    "same"
+   ]
+  },
+  {
+   "pair_id": "ch041",
+   "sheet": "h068",
+   "kind": "CHAIR",
+   "brand": "Rivet",
+   "listing": "B0746H4BPM",
+   "other_listing": "B082PCMFY3",
+   "a1": "51SJmj4-r8L",
+   "a2": "51jZTDpW3BL",
+   "c": "517lsO7KOcL",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "medium",
+   "other_brand": "Ravenna Home",
+   "famous_brand": "Pottery Barn",
+   "anchor_first": true,
+   "name_line_first": false,
+   "option_order": [
+    "different",
+    "unknown",
+    "same"
+   ]
+  },
+  {
+   "pair_id": "ch051",
+   "sheet": "h083",
+   "kind": "CHAIR",
+   "brand": "Rivet",
+   "listing": "B07HZ6ZJFY",
+   "other_listing": "B07J2YB486",
+   "a1": "51cX5lcoafL",
+   "a2": "51R3lpe4fTL",
+   "c": "61leB402U2L",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "medium",
+   "other_brand": "Movian",
+   "famous_brand": "IKEA",
+   "anchor_first": true,
+   "name_line_first": false,
+   "option_order": [
+    "different",
+    "same",
+    "unknown"
+   ]
+  },
+  {
+   "pair_id": "ch003",
+   "sheet": "h003",
+   "kind": "SOFA",
+   "brand": "Stone & Beam",
+   "listing": "B07HYYBHNK",
+   "other_listing": "B07B4MD59G",
+   "a1": "61FXVWT+sML",
+   "a2": "616YPGAc7XL",
+   "c": "51S0-dJp9BL",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "close",
+   "other_brand": "Ravenna Home",
+   "famous_brand": "West Elm",
+   "anchor_first": false,
+   "name_line_first": false,
+   "option_order": [
+    "unknown",
+    "same",
+    "different"
+   ]
+  },
+  {
+   "pair_id": "ch058",
+   "sheet": "h095",
+   "kind": "TABLE",
+   "brand": "Phoenix Home",
+   "listing": "B07GZXLWRQ",
+   "other_listing": "B07GZY278M",
+   "a1": "61bWk+Nw0VL",
+   "a2": "61e3SKdhg+L",
+   "c": "6126YjDTEqL",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "close",
+   "other_brand": "Movian",
+   "famous_brand": "West Elm",
+   "anchor_first": true,
+   "name_line_first": true,
+   "option_order": [
+    "unknown",
+    "same",
+    "different"
+   ]
+  },
+  {
+   "pair_id": "ch054",
+   "sheet": "h089",
+   "kind": "LAMP",
+   "brand": "Ravenna Home",
+   "listing": "B07MHMNJYP",
+   "other_listing": "B07MBFD4P6",
+   "a1": "51fJqWZnnqL",
+   "a2": "51kH1BrLMhL",
+   "c": "41jY4y9Q8LL",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "close",
+   "other_brand": "Stone & Beam",
+   "famous_brand": "IKEA",
+   "anchor_first": false,
+   "name_line_first": true,
+   "option_order": [
+    "unknown",
+    "different",
+    "same"
+   ]
+  },
+  {
+   "pair_id": "ch080",
+   "sheet": "h151",
+   "kind": "CHAIR",
+   "brand": "Stone & Beam",
+   "listing": "B07B4MG3WR",
+   "other_listing": "B07B4GQ94X",
+   "a1": "71j4YZjCASL",
+   "a2": "715uIFgyg5L",
+   "c": "71cicOQpDzL",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "close",
+   "other_brand": "Ravenna Home",
+   "famous_brand": "West Elm",
+   "anchor_first": true,
+   "name_line_first": true,
+   "option_order": [
+    "same",
+    "unknown",
+    "different"
+   ]
+  },
+  {
+   "pair_id": "ch028",
+   "sheet": "h046",
+   "kind": "LIGHT_FIXTURE",
+   "brand": "Stone & Beam",
+   "listing": "B07HKGMC96",
+   "other_listing": "B07374K539",
+   "a1": "41RP3hRyE8L",
+   "a2": "41-FTFP+B9L",
+   "c": "31KgtqTxdEL",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "medium",
+   "other_brand": "Alkove",
+   "famous_brand": "West Elm",
+   "anchor_first": true,
+   "name_line_first": true,
+   "option_order": [
+    "same",
+    "different",
+    "unknown"
+   ]
+  },
+  {
+   "pair_id": "ch010",
+   "sheet": "h015",
+   "kind": "OTTOMAN",
+   "brand": "Ravenna Home",
+   "listing": "B07MCBKLWV",
+   "other_listing": "B07DBHC33B",
+   "a1": "61DqjQLzXBL",
+   "a2": "6164mi+D9EL",
+   "c": "51vJIi9NH4L",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "medium",
+   "other_brand": "Rivet",
+   "famous_brand": "Pottery Barn",
+   "anchor_first": false,
+   "name_line_first": true,
+   "option_order": [
+    "same",
+    "different",
+    "unknown"
+   ]
+  },
+  {
+   "pair_id": "ch012",
+   "sheet": "h017",
+   "kind": "CHAIR",
+   "brand": "Stone & Beam",
+   "listing": "B07BWKFNDK",
+   "other_listing": "B075X4YDCS",
+   "a1": "61dHm56-vLL",
+   "a2": "61uvpxmTXpL",
+   "c": "61XzoiaIDXL",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "medium",
+   "other_brand": "Movian",
+   "famous_brand": "Pottery Barn",
+   "anchor_first": true,
+   "name_line_first": false,
+   "option_order": [
+    "different",
+    "unknown",
+    "same"
+   ]
+  },
+  {
+   "pair_id": "ch069",
+   "sheet": "h118",
+   "kind": "SOFA",
+   "brand": "Rivet",
+   "listing": "B07BWMQQB3",
+   "other_listing": "B07HZ6RKRB",
+   "a1": "51wKHTkz6SL",
+   "a2": "51AIVh04-PL",
+   "c": "51816VUJoWL",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "close",
+   "other_brand": "Ravenna Home",
+   "famous_brand": "IKEA",
+   "anchor_first": true,
+   "name_line_first": false,
+   "option_order": [
+    "same",
+    "different",
+    "unknown"
+   ]
+  },
+  {
+   "pair_id": "ch039",
+   "sheet": "h065",
+   "kind": "TABLE",
+   "brand": "Movian",
+   "listing": "B07QVRRMMH",
+   "other_listing": "B07TP5LKB4",
+   "a1": "51vqMgNaVbL",
+   "a2": "51xQnHlo7ZL",
+   "c": "51bgAiOrRIL",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "close",
+   "other_brand": "Alkove",
+   "famous_brand": "West Elm",
+   "anchor_first": true,
+   "name_line_first": false,
+   "option_order": [
+    "different",
+    "same",
+    "unknown"
+   ]
+  },
+  {
+   "pair_id": "ch035",
+   "sheet": "h057",
+   "kind": "STOOL_SEATING",
+   "brand": "Ravenna Home",
+   "listing": "B0861T22RR",
+   "other_listing": "B0861T8Q44",
+   "a1": "51Wn7uDiK+L",
+   "a2": "51mJqwTcRuL",
+   "c": "512j+G-iGML",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "close",
+   "other_brand": "Rivet",
+   "famous_brand": "West Elm",
+   "anchor_first": true,
+   "name_line_first": false,
+   "option_order": [
+    "unknown",
+    "same",
+    "different"
+   ]
+  },
+  {
+   "pair_id": "ch032",
+   "sheet": "h053",
+   "kind": "CHAIR",
+   "brand": "Rivet",
+   "listing": "B07QJ23JZG",
+   "other_listing": "B07HSBJ5D6",
+   "a1": "51u1ra7BUlL",
+   "a2": "516hsePHYDL",
+   "c": "61gceVq5fkL",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "medium",
+   "other_brand": "Phoenix Home",
+   "famous_brand": "IKEA",
+   "anchor_first": false,
+   "name_line_first": true,
+   "option_order": [
+    "same",
+    "different",
+    "unknown"
+   ]
+  },
+  {
+   "pair_id": "ch040",
+   "sheet": "h067",
+   "kind": "LAMP",
+   "brand": "Stone & Beam",
+   "listing": "B075X1T4ZS",
+   "other_listing": "B073P3NK7T",
+   "a1": "51IQpAHkHsL",
+   "a2": "51CHUDlVVKL",
+   "c": "41OTd+mun1L",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "medium",
+   "other_brand": "Ravenna Home",
+   "famous_brand": "Pottery Barn",
+   "anchor_first": false,
+   "name_line_first": true,
+   "option_order": [
+    "same",
+    "different",
+    "unknown"
+   ]
+  },
+  {
+   "pair_id": "ch057",
+   "sheet": "h093",
+   "kind": "SOFA",
+   "brand": "Stone & Beam",
+   "listing": "B07P6JTZ1R",
+   "other_listing": "B07B4MR1MY",
+   "a1": "51MsxEcavBL",
+   "a2": "514jI1YMPkL",
+   "c": "61fRriNwZ+L",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "close",
+   "other_brand": "Rivet",
+   "famous_brand": "West Elm",
+   "anchor_first": true,
+   "name_line_first": true,
+   "option_order": [
+    "same",
+    "unknown",
+    "different"
+   ]
+  },
+  {
+   "pair_id": "ch062",
+   "sheet": "h107",
+   "kind": "TABLE",
+   "brand": "Movian",
+   "listing": "B01DA8LC0A",
+   "other_listing": "B07H8T32NQ",
+   "a1": "51GcKBn6IUL",
+   "a2": "51qLVyXIScL",
+   "c": "518Sz-6JaNL",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "medium",
+   "other_brand": "Rivet",
+   "famous_brand": "Pottery Barn",
+   "anchor_first": true,
+   "name_line_first": false,
+   "option_order": [
+    "unknown",
+    "different",
+    "same"
+   ]
+  },
+  {
+   "pair_id": "ch073",
+   "sheet": "h132",
+   "kind": "CHAIR",
+   "brand": "Rivet",
+   "listing": "B07QFRSC92",
+   "other_listing": "B07QGWM38F",
+   "a1": "61OjZnOMntL",
+   "a2": "61I2l9yugvL",
+   "c": "51q2Zg+RTGL",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "close",
+   "other_brand": "Alkove",
+   "famous_brand": "IKEA",
+   "anchor_first": false,
+   "name_line_first": true,
+   "option_order": [
+    "same",
+    "unknown",
+    "different"
+   ]
+  },
+  {
+   "pair_id": "ch027",
+   "sheet": "h044",
+   "kind": "CHAIR",
+   "brand": "Stone & Beam",
+   "listing": "B084W2T4QR",
+   "other_listing": "B084S1DM72",
+   "a1": "51m+YXE8jbL",
+   "a2": "51U9veqcC+L",
+   "c": "51qCi4C7rhL",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "medium",
+   "other_brand": "Rivet",
+   "famous_brand": "West Elm",
+   "anchor_first": true,
+   "name_line_first": false,
+   "option_order": [
+    "same",
+    "different",
+    "unknown"
+   ]
+  },
+  {
+   "pair_id": "ch056",
+   "sheet": "h092",
+   "kind": "SOFA",
+   "brand": "Movian",
+   "listing": "B072555T67",
+   "other_listing": "B07K9PMZJL",
+   "a1": "51YcHEftX3L",
+   "a2": "51APKAECiWL",
+   "c": "51AkIDqZV1L",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "close",
+   "other_brand": "Stone & Beam",
+   "famous_brand": "West Elm",
+   "anchor_first": false,
+   "name_line_first": false,
+   "option_order": [
+    "unknown",
+    "different",
+    "same"
+   ]
+  },
+  {
+   "pair_id": "ch064",
+   "sheet": "h109",
+   "kind": "TABLE",
+   "brand": "Stone & Beam",
+   "listing": "B07QD6V6H2",
+   "other_listing": "B07QC85TNQ",
+   "a1": "61yqyyaFGBL",
+   "a2": "61ZKOqAzQUL",
+   "c": "61SDr5bOJOL",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "medium",
+   "other_brand": "Alkove",
+   "famous_brand": "West Elm",
+   "anchor_first": true,
+   "name_line_first": true,
+   "option_order": [
+    "unknown",
+    "different",
+    "same"
+   ]
+  },
+  {
+   "pair_id": "ch026",
+   "sheet": "h043",
+   "kind": "LAMP",
+   "brand": "Stone & Beam",
+   "listing": "B07QD5SLYJ",
+   "other_listing": "B07GNNPB38",
+   "a1": "51Q7BmC-MyL",
+   "a2": "516Wz-yU8gL",
+   "c": "41iv-DO3ZBL",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "medium",
+   "other_brand": "Ravenna Home",
+   "famous_brand": "Pottery Barn",
+   "anchor_first": true,
+   "name_line_first": false,
+   "option_order": [
+    "same",
+    "unknown",
+    "different"
+   ]
+  },
+  {
+   "pair_id": "ch030",
+   "sheet": "h048",
+   "kind": "CHAIR",
+   "brand": "Stone & Beam",
+   "listing": "B0857JQ3DY",
+   "other_listing": "B0857JWWWS",
+   "a1": "51jqGUQrtgL",
+   "a2": "51lzWzgmDQL",
+   "c": "51iga4nBNvL",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "medium",
+   "other_brand": "Rivet",
+   "famous_brand": "West Elm",
+   "anchor_first": false,
+   "name_line_first": true,
+   "option_order": [
+    "different",
+    "unknown",
+    "same"
+   ]
+  },
+  {
+   "pair_id": "ch059",
+   "sheet": "h099",
+   "kind": "LIGHT_FIXTURE",
+   "brand": "Stone & Beam",
+   "listing": "B07QC76NLP",
+   "other_listing": "B07B4Z9C39",
+   "a1": "51mi7KPc-aL",
+   "a2": "513ouGCuK5L",
+   "c": "518oi-mkTeL",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "close",
+   "other_brand": "Ravenna Home",
+   "famous_brand": "Pottery Barn",
+   "anchor_first": false,
+   "name_line_first": false,
+   "option_order": [
+    "unknown",
+    "same",
+    "different"
+   ]
+  },
+  {
+   "pair_id": "ch038",
+   "sheet": "h062",
+   "kind": "OTTOMAN",
+   "brand": "Rivet",
+   "listing": "B072M1WJHP",
+   "other_listing": "B075X4YDJ6",
+   "a1": "81Nbvn9OTNL",
+   "a2": "81bXWLjOlhL",
+   "c": "717FiI2LhsL",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "close",
+   "other_brand": "Movian",
+   "famous_brand": "Pottery Barn",
+   "anchor_first": true,
+   "name_line_first": false,
+   "option_order": [
+    "same",
+    "unknown",
+    "different"
+   ]
+  },
+  {
+   "pair_id": "ch049",
+   "sheet": "h081",
+   "kind": "CHAIR",
+   "brand": "Stone & Beam",
+   "listing": "B07JQWZWZK",
+   "other_listing": "B07HYYBHW1",
+   "a1": "7114NsvqG8L",
+   "a2": "71vxGnYvL0L",
+   "c": "71mS13AHqHL",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "medium",
+   "other_brand": "Ravenna Home",
+   "famous_brand": "IKEA",
+   "anchor_first": false,
+   "name_line_first": true,
+   "option_order": [
+    "different",
+    "unknown",
+    "same"
+   ]
+  },
+  {
+   "pair_id": "ch077",
+   "sheet": "h148",
+   "kind": "SOFA",
+   "brand": "Stone & Beam",
+   "listing": "B07HZ8J1VF",
+   "other_listing": "B07P5LNM5P",
+   "a1": "51ap38iawtL",
+   "a2": "51r81XDv9AL",
+   "c": "61hDNSleiZL",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "close",
+   "other_brand": "Rivet",
+   "famous_brand": "West Elm",
+   "anchor_first": true,
+   "name_line_first": false,
+   "option_order": [
+    "different",
+    "unknown",
+    "same"
+   ]
+  },
+  {
+   "pair_id": "ch013",
+   "sheet": "h018",
+   "kind": "TABLE",
+   "brand": "Rivet",
+   "listing": "B072ZMVR53",
+   "other_listing": "B07QF9X1KF",
+   "a1": "51akShZUhXL",
+   "a2": "51otQZa4A6L",
+   "c": "51VCkGzpY+L",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "medium",
+   "other_brand": "Stone & Beam",
+   "famous_brand": "Pottery Barn",
+   "anchor_first": false,
+   "name_line_first": true,
+   "option_order": [
+    "same",
+    "unknown",
+    "different"
+   ]
+  },
+  {
+   "pair_id": "ch004",
+   "sheet": "h005",
+   "kind": "STOOL_SEATING",
+   "brand": "Stone & Beam",
+   "listing": "B07B78RCTK",
+   "other_listing": "B07QK35B88",
+   "a1": "51punOBFToL",
+   "a2": "51sfpdXKVdL",
+   "c": "51Kmk1E4x5L",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "medium",
+   "other_brand": "Alkove",
+   "famous_brand": "IKEA",
+   "anchor_first": false,
+   "name_line_first": false,
+   "option_order": [
+    "unknown",
+    "different",
+    "same"
+   ]
+  },
+  {
+   "pair_id": "ch029",
+   "sheet": "h047",
+   "kind": "CHAIR",
+   "brand": "Movian",
+   "listing": "B07JKSJNJH",
+   "other_listing": "B07JX8K4W4",
+   "a1": "51ElyMzC+WL",
+   "a2": "51FuQp-7TaL",
+   "c": "51eoZZ1pylL",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "medium",
+   "other_brand": "Phoenix Home",
+   "famous_brand": "West Elm",
+   "anchor_first": true,
+   "name_line_first": true,
+   "option_order": [
+    "same",
+    "unknown",
+    "different"
+   ]
+  },
+  {
+   "pair_id": "ch024",
+   "sheet": "h041",
+   "kind": "LAMP",
+   "brand": "Rivet",
+   "listing": "B07MHMJCW7",
+   "other_listing": "B07B4W2GY1",
+   "a1": "41767qx7kAL",
+   "a2": "41XIQU+MkZL",
+   "c": "61zE0jn27jL",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "medium",
+   "other_brand": "Stone & Beam",
+   "famous_brand": "IKEA",
+   "anchor_first": true,
+   "name_line_first": true,
+   "option_order": [
+    "different",
+    "same",
+    "unknown"
+   ]
+  },
+  {
+   "pair_id": "ch065",
+   "sheet": "h111",
+   "kind": "SOFA",
+   "brand": "Rivet",
+   "listing": "B071ZLY1BR",
+   "other_listing": "B072C8QG7V",
+   "a1": "61NtcZ8FsLL",
+   "a2": "61PPBuAGgkL",
+   "c": "61q1od2-E7L",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "close",
+   "other_brand": "Stone & Beam",
+   "famous_brand": "West Elm",
+   "anchor_first": false,
+   "name_line_first": true,
+   "option_order": [
+    "unknown",
+    "same",
+    "different"
+   ]
+  },
+  {
+   "pair_id": "ch023",
+   "sheet": "h040",
+   "kind": "TABLE",
+   "brand": "Rivet",
+   "listing": "B07W5648MH",
+   "other_listing": "B07B7P51PW",
+   "a1": "51GQsRO+XSL",
+   "a2": "51DbAOTTzNL",
+   "c": "41TapOna6dL",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "medium",
+   "other_brand": "Stone & Beam",
+   "famous_brand": "IKEA",
+   "anchor_first": false,
+   "name_line_first": false,
+   "option_order": [
+    "unknown",
+    "same",
+    "different"
+   ]
+  },
+  {
+   "pair_id": "ch045",
+   "sheet": "h073",
+   "kind": "CHAIR",
+   "brand": "Ravenna Home",
+   "listing": "B085FJ1W72",
+   "other_listing": "B07P5LNMMJ",
+   "a1": "61v1qRQ2vAL",
+   "a2": "613Nxe3x2hL",
+   "c": "51let2bpBXL",
+   "views": {
+    "a1": "0 degrees",
+    "a2": "45 degrees",
+    "c": "45 degrees"
+   },
+   "closeness": "close",
+   "other_brand": "Alkove",
+   "famous_brand": "Pottery Barn",
+   "anchor_first": false,
+   "name_line_first": false,
+   "option_order": [
+    "different",
+    "unknown",
+    "same"
+   ]
+  }
+ ],
+ "photos": {
+  "51pbTkNwEWL": {
+   "sha256": "868253d0921fe1acd24a9bb18782fa745f77e901755e10f8527f036c3fc1f096",
+   "width": 775,
+   "height": 934
+  },
+  "51pUPJamqyL": {
+   "sha256": "c89e13cf528fd75bfe2595a0c5d31a861f6e6c91dadc8979526c95d941da9e69",
+   "width": 775,
+   "height": 934
+  },
+  "51uiiNsg8fL": {
+   "sha256": "3af2a58234701e2fecec30642f440215063295b4d03aebb4fcfa11f3d9adab28",
+   "width": 780,
+   "height": 937
+  },
+  "51aKIfZC8RL": {
+   "sha256": "77f638b2881a90c87eca140f7480d17141c2cd18e130af814ac4652ccfe59a4b",
+   "width": 1000,
+   "height": 403
+  },
+  "51lf8apjBfL": {
+   "sha256": "fe88f03da671b2e7f65a46a3b981a57dfebbc5793f45c4acb1006feb93d540a0",
+   "width": 1000,
+   "height": 403
+  },
+  "51j8pE-N-gL": {
+   "sha256": "5c9737eed79b0f071b5df878bba8bd625ea47897e0940a9f2b96dc3d7798b4f6",
+   "width": 1000,
+   "height": 513
+  },
+  "51MhK2F3+XL": {
+   "sha256": "62944725f2d36fc547fa8dc17431365504075cb20567f01fa689e4fd60ad41b4",
+   "width": 1000,
+   "height": 475
+  },
+  "51UQ+OU5lLL": {
+   "sha256": "c6e3d9a50c32bf9bd4bb46e431c472b5027224ffc8047fbc772ee8ed3d2000fc",
+   "width": 1000,
+   "height": 475
+  },
+  "51otQZa4A6L": {
+   "sha256": "ab1507b78638077f0e4f5b8a463f8b9c8743ac2bab6594724d86cdb3caed8c04",
+   "width": 1000,
+   "height": 465
+  },
+  "51tlLIUZoML": {
+   "sha256": "72ef4e65bc6341d02592d6b2b38f64c4c3637334b51750379a0ba749f94669e8",
+   "width": 419,
+   "height": 902
+  },
+  "51KTabsHqcL": {
+   "sha256": "ac7eca5cccf1d577aaaf94f7fe214ef1254d648cb19e8c6e2336df529d4922ed",
+   "width": 419,
+   "height": 902
+  },
+  "51aCia0NtsL": {
+   "sha256": "795b3b1e10ae372758bf71f3a3b052e71861cb968d269e1974cfb7a10601075b",
+   "width": 501,
+   "height": 892
+  },
+  "51eeONVBdkL": {
+   "sha256": "fee851fe9a155724813b30695425f33090331d2601e39250bfa84d13e74daf3b",
+   "width": 1000,
+   "height": 625
+  },
+  "51cZpT7TGRL": {
+   "sha256": "77c83fc0b1ba8057a49d2b7957002b1e712d75d8a82880b10abd622ded7c2976",
+   "width": 1000,
+   "height": 625
+  },
+  "61FuYzVIAsL": {
+   "sha256": "739e50e2cff86825db7dda4aca6cc6f245cefaf51a9e18594f656f93bf7af230",
+   "width": 1000,
+   "height": 931
+  },
+  "41dHsNVw0PL": {
+   "sha256": "bc6c268d19a5bbfa7ab6bbc4f2a07d9c567d79e7c06d93596e410cce04fb10c6",
+   "width": 797,
+   "height": 994
+  },
+  "410DUpsPclL": {
+   "sha256": "7275864aaad22791d310eceb5080eac1bf3a0aa301fae8debd7266ad70459bdc",
+   "width": 797,
+   "height": 994
+  },
+  "410SxfayR-L": {
+   "sha256": "c655d750956bb526a0b036a39b0e5d297f809b832229693ca5124d115a0be248",
+   "width": 1000,
+   "height": 670
+  },
+  "71B-P0l06sL": {
+   "sha256": "2215e233b2fbadbf981aa5784dcd62e2ce58ad77766f8ab0c99b7a6f6f2716c8",
+   "width": 1000,
+   "height": 758
+  },
+  "717FiI2LhsL": {
+   "sha256": "ae3dce06257d3d65f5a140ed0bb1a5625cc1b49484c1b5468a76cc3e275aaa11",
+   "width": 1000,
+   "height": 758
+  },
+  "618TPGF+KHL": {
+   "sha256": "9da6aedc030d93d0ac14b8f60eef0764d9f0ff422000c0eee647383ad7081976",
+   "width": 1000,
+   "height": 455
+  },
+  "51etZQcCHTL": {
+   "sha256": "3b5bf761b37172c90a0c6cfef9062f57636ba0548d580183bca55f3704597816",
+   "width": 989,
+   "height": 848
+  },
+  "51lux9Y+75L": {
+   "sha256": "31a76806fd13e0b228655f08e2bdb3359b3269ecbba5a156de4463bdd18ce4a4",
+   "width": 989,
+   "height": 848
+  },
+  "618lzTFIzmL": {
+   "sha256": "78951544594d27a66cad44b84b82562f73772be1c36352b9b6c21c7432d6ad21",
+   "width": 965,
+   "height": 861
+  },
+  "51tn740V32L": {
+   "sha256": "9e32160d1428e977c58f19a8455b5b98f02115859d4d5379a22f1f5324dd9e7d",
+   "width": 1000,
+   "height": 535
+  },
+  "51wmYj2PoXL": {
+   "sha256": "2041a735d23d5d92c177993d6b384e4f3c88a8a063eb4ab81e31d3ff79c14ada",
+   "width": 1000,
+   "height": 535
+  },
+  "51r4xF95LfL": {
+   "sha256": "7e162d375b09afd412c90ecc5b9e25169614422962a6a730f596eb1745ebb980",
+   "width": 1000,
+   "height": 488
+  },
+  "51gOxuYle8L": {
+   "sha256": "ca4faadfce22faec8a71412173ea04a33da1b351a378c74bf18a255e4d3381ee",
+   "width": 1000,
+   "height": 845
+  },
+  "51+zvN4sYqL": {
+   "sha256": "b8a4749851fcac4e1817de5aedf5c204087f53efeeb51aee97ba4c343eec4d17",
+   "width": 1000,
+   "height": 845
+  },
+  "51LGia+uEQL": {
+   "sha256": "11461f38500fa84214c865d653f4bb7ce703bceef461ac17332ccfe08e0ae613",
+   "width": 1000,
+   "height": 671
+  },
+  "51pa23ytj9L": {
+   "sha256": "27c0c0eb8b64dce7c22850acf6fc4a6ad65d8b110f7d4b8a7c9cc6561ea7393c",
+   "width": 607,
+   "height": 972
+  },
+  "51Xk5ALGPPL": {
+   "sha256": "0eb6353856c677f701cd9acfbcab37194763c320167072df73de67d445bc75b4",
+   "width": 607,
+   "height": 972
+  },
+  "51I40HYp7sL": {
+   "sha256": "e6512a84e50dc6ca813336e4ef8b5bb1737abf1b733dae753fe4247c4f3cd4a2",
+   "width": 622,
+   "height": 972
+  },
+  "51PG1SZFkWL": {
+   "sha256": "cb7f98c5328fae2a7ff5fbd0f6eff8b90818400ae877a174b539f6116c044e36",
+   "width": 707,
+   "height": 953
+  },
+  "51q2Zg+RTGL": {
+   "sha256": "3d0bc238ce600bcce53a4dff0350fbca6a53ebdef08262be336b2cead8f2a93a",
+   "width": 707,
+   "height": 953
+  },
+  "61I2l9yugvL": {
+   "sha256": "726743f16376840eae6c051b266edc792bb22fe25587c861f3d15c41c4726616",
+   "width": 661,
+   "height": 933
+  },
+  "41hCJlvb41L": {
+   "sha256": "8d0500470eba24d21c65b06b89db90983722ac0e4a2cb6d0ac93669c712dd10f",
+   "width": 471,
+   "height": 895
+  },
+  "41w6VVN+NIL": {
+   "sha256": "edf0a7b6da11b9ee3d7e1285d56429ce0a2128daa8dae371b19a720d739d52f2",
+   "width": 471,
+   "height": 895
+  },
+  "410E2DQUPKL": {
+   "sha256": "731602aafd915a7b349eebd68c2958e690908b49cce729148a0e45dee1a49981",
+   "width": 471,
+   "height": 849
+  },
+  "51FtLXYQl-L": {
+   "sha256": "5235dd365b518249819b5af1c73393831ea6df9dc505171a2a4090a100e1490b",
+   "width": 1000,
+   "height": 592
+  },
+  "51T17G5-xOL": {
+   "sha256": "d96b1d8125a77fe1d79f99763dd06366f03e5f070004f1a8e50a0f27eb07fa6f",
+   "width": 1000,
+   "height": 592
+  },
+  "51YPRVh5dHL": {
+   "sha256": "54aedde65770f7f403b725d115351899ff419a67182700444c1d26871b7e1487",
+   "width": 1000,
+   "height": 598
+  },
+  "41zX2vtDVML": {
+   "sha256": "ca63f3dab9da4fc060dae750652dda9e3b2b44c3227f8d43dead60a0a016ddef",
+   "width": 839,
+   "height": 496
+  },
+  "41k-uUlxmWL": {
+   "sha256": "0cc4b1d8095290396f56d2c17f132301ce1a140a8ffc545755f87da3145cf5ec",
+   "width": 839,
+   "height": 496
+  },
+  "41nZV1x4MGL": {
+   "sha256": "12626ab8655cc1b61903c448465285b6c854f5cccf0fa5ce5d3f5f4cdfb5d83c",
+   "width": 1000,
+   "height": 441
+  },
+  "51nfxjS1wgL": {
+   "sha256": "4f8088766994c31ff49115a73120ede77f98568380a488096b69b8c36108fa31",
+   "width": 811,
+   "height": 951
+  },
+  "51-1TI+utgL": {
+   "sha256": "5e8f56dbc58e48026bcc8753301669ced33efac95e5701d499d432c6c686f490",
+   "width": 811,
+   "height": 951
+  },
+  "51me7gG6UaL": {
+   "sha256": "4803cb4428df7cd7d8b2876a55194f2f6b47a678f2f5d71f8616ec5192877707",
+   "width": 765,
+   "height": 925
+  },
+  "61YrZt0WEtL": {
+   "sha256": "a560c312e1c448c1bb5e893dfe620b0eca4d17fc0cf0ee480b18477c9304af76",
+   "width": 987,
+   "height": 918
+  },
+  "613dlMCazCL": {
+   "sha256": "a541aace7cad961c4ce9d8c65d72cebf0f62ea13c3a4d6f409e3ee02e11b346f",
+   "width": 987,
+   "height": 918
+  },
+  "71Ll+Sg55tL": {
+   "sha256": "a70e7fcd55152a780690048899c4d679fba20d24725cdab6bb8918dbd891346d",
+   "width": 978,
+   "height": 904
+  },
+  "515oNy3rY1L": {
+   "sha256": "ca5b8c6ed32264960c144841e87652f7f8c46daab9d044e0978f746a28b0957a",
+   "width": 1000,
+   "height": 608
+  },
+  "51Nv685x0FL": {
+   "sha256": "eb77143f1727c34031b0f0c6e68a847291b41680a041ee8664bcb7ecc967c915",
+   "width": 1000,
+   "height": 608
+  },
+  "51S0-dJp9BL": {
+   "sha256": "67af301dbf2247d318261e4bb7b4c91901c4b94ea6df52e0daa3d7145ad178e0",
+   "width": 1000,
+   "height": 520
+  },
+  "51mz5+aqPrL": {
+   "sha256": "1df7c00ecef1ca8a1327d158e9b6741ecbc8c43a77cca27def428815dafa73e2",
+   "width": 1000,
+   "height": 484
+  },
+  "51iyCtNWZrL": {
+   "sha256": "34f1fa5a35e22f229a605e9c443a6792115a79953e27f1bcd0dfcc23845b5596",
+   "width": 1000,
+   "height": 484
+  },
+  "51WqqtEyj+L": {
+   "sha256": "5ea95833f41ef14ef330e0cd5528574812da94f6b9871b9d3ab524f900563556",
+   "width": 1000,
+   "height": 556
+  },
+  "51DZRsDbaJL": {
+   "sha256": "e1c089e8a5433aea81725f5aeb9c0817a497d01018a9f86241c526940b6acf9a",
+   "width": 439,
+   "height": 872
+  },
+  "51C6k2c25NL": {
+   "sha256": "19b40e699ca040db5cc57c0ab82266afd3c298722073cfc9bd1050a1aba4c8c4",
+   "width": 439,
+   "height": 872
+  },
+  "51AE9CLCiZL": {
+   "sha256": "54c315683613faf41b78cf8f6024db090f71f79a5bdf5ef1cf2478db7ebd4fc5",
+   "width": 481,
+   "height": 856
+  },
+  "51PxDDRu7zL": {
+   "sha256": "ab32f454d55cb44e91c386bd53f0a85a5f117b42f700fbc7cb978caeea4ab4b1",
+   "width": 992,
+   "height": 838
+  },
+  "51gI21JiXjL": {
+   "sha256": "36a4d4568c78becf61558676cc1e29773f0c3f01254835881c83c81d86752886",
+   "width": 992,
+   "height": 838
+  },
+  "51EcaVBcYNL": {
+   "sha256": "2c3940263df4988872e7885994f4d0c3072d3360bdff6ff9b85e0ee758f815b7",
+   "width": 984,
+   "height": 879
+  },
+  "41qYXWsmLRL": {
+   "sha256": "0092c2e2f68d00b84e62b4db4d24ea5709a6b63d6390dffbbcca23541ce5382e",
+   "width": 1000,
+   "height": 915
+  },
+  "51twhiQQZCL": {
+   "sha256": "47974b1dfd94c9a4b93da8d3bc044c651ec94812de93166bf69da4954539617a",
+   "width": 1000,
+   "height": 915
+  },
+  "615RvkFZ2HL": {
+   "sha256": "4955bca1fb29bd0bec041a8a3455660acb2dcf043566ce89e4dc9eb4f67c372c",
+   "width": 1000,
+   "height": 513
+  },
+  "61qu4YwMJ5L": {
+   "sha256": "e7fa471d6d51e9781adfc8630561374df690b2b7c80f26a48c0062fca0d55f3e",
+   "width": 1000,
+   "height": 513
+  },
+  "61Qj9t3Qc6L": {
+   "sha256": "e861415df5b85fab8f1daa971d8354e92266411e6ccb6c42beb7e32091fcc04e",
+   "width": 1000,
+   "height": 654
+  },
+  "61WAPQhmnuL": {
+   "sha256": "83de46ae7f2a703757cfc26bb94b862454efc87e17602ecc06670a279f2e9eb1",
+   "width": 969,
+   "height": 910
+  },
+  "61Af6CBr0LL": {
+   "sha256": "08e7813ec212a0676f8b2e266a3482166866007c1ba5f594829c573b7deb7825",
+   "width": 969,
+   "height": 910
+  },
+  "51Vl+5i8PYL": {
+   "sha256": "29a54f350fd6b675a99b45c03c951d1fe29ac0096839600a767e0445fd2ee78d",
+   "width": 1000,
+   "height": 835
+  },
+  "51IsMTRLFiL": {
+   "sha256": "1d2f93d17e67fef21508b8d1f1a11dd14ceeff1d589e4f490ab51189201dfa33",
+   "width": 1000,
+   "height": 618
+  },
+  "51cw4MSgLsL": {
+   "sha256": "72b9f8e129f668954712a98584f0daa53273c098326a8a5c9ba6caa3c120a3fd",
+   "width": 1000,
+   "height": 618
+  },
+  "61XrZaDOq5L": {
+   "sha256": "871491f19d10b8b66ff8bce8f425c44989d82a0c71a5146dcc58e4e7e9cb4e5e",
+   "width": 1000,
+   "height": 1000
+  },
+  "51deKKm0H9L": {
+   "sha256": "624f59e34f97b855f7ce4ba65f266b1f9b550891410eef49a562c25e7830a05e",
+   "width": 749,
+   "height": 868
+  },
+  "51z5ELwO6CL": {
+   "sha256": "bb233df3b8c5c89207a21371dc241527db3c7f27a7fd4015e5589c93e924d33d",
+   "width": 749,
+   "height": 868
+  },
+  "51KbjRthwpL": {
+   "sha256": "e78e8b645a9ccdb0ec1fcc8cd151ea03f2e9cb4d2d4e6b6c6976baedd8d741da",
+   "width": 1000,
+   "height": 927
+  },
+  "61+TaUO2oyL": {
+   "sha256": "b91448498b8ac4487396f0baa7cb3b289cc471df75c841982a68606d6cd7375f",
+   "width": 627,
+   "height": 963
+  },
+  "51y42bLBCML": {
+   "sha256": "7a90f545a357cfb661678a7660d359e5b24a6e7fa07029497c9a8f8e0c7167d6",
+   "width": 627,
+   "height": 963
+  },
+  "510e4LeVZUL": {
+   "sha256": "88db5fc22a01fbe804c0bc91d531834f40ad257f09c2a0f34797200a36717f53",
+   "width": 699,
+   "height": 980
+  },
+  "617bdiqnXmL": {
+   "sha256": "33bc07a27d2f832d5a949a019910d2d95e68e499f2b4686d8ddc0934c3e3dd79",
+   "width": 1000,
+   "height": 849
+  },
+  "61SLtUa3DuL": {
+   "sha256": "8c588f6ac13543db690ad1920ec8d0d7b809edaf38ea9498535555fe34b1333e",
+   "width": 1000,
+   "height": 849
+  },
+  "61nAUrnd3VL": {
+   "sha256": "e1ccbaf2d3680c783745f2b424041bab5871e5d68bc497a52db9c9414b1ddfa5",
+   "width": 985,
+   "height": 939
+  },
+  "41U+8aPSN-L": {
+   "sha256": "79925fc7f12b4fb97eadda37d97617d653ddd20c448f169c3de60d5c881b704c",
+   "width": 439,
+   "height": 929
+  },
+  "41S38vnDMRL": {
+   "sha256": "576981001aafbe2183553eafc599c934d92413cf83e4a6bc984e8a68e7b4e19a",
+   "width": 439,
+   "height": 929
+  },
+  "415l-XNLFEL": {
+   "sha256": "63caca63d704ffe9f7c619a8aefe42d1f04d31b007918e4668ff07266c91056c",
+   "width": 407,
+   "height": 949
+  },
+  "51Km-SvOisL": {
+   "sha256": "e06cfe838698ea44494a20a8ff7d8536f70543af54a7743294599c46fba8fbd7",
+   "width": 1000,
+   "height": 605
+  },
+  "517ZW4ZzPVL": {
+   "sha256": "d454a10ac5068263e8ff794dea70910f25313eb3303044a533130b999d82004e",
+   "width": 1000,
+   "height": 605
+  },
+  "517CcIVduGL": {
+   "sha256": "ad9e5aee036b25d6114311ef3e9273fa780c5cafb63d71d7e383ea0ed38e9837",
+   "width": 1000,
+   "height": 442
+  },
+  "51WorAHhBfL": {
+   "sha256": "bae6673da1af23fc8697ecb483e5d609454822b399b09e104288b691cdd44329",
+   "width": 677,
+   "height": 912
+  },
+  "518CVWvsmqL": {
+   "sha256": "a1c8ae6b9386949560b92b9f19f7017a6967a652066afacac002aa12e4ff0876",
+   "width": 677,
+   "height": 912
+  },
+  "51omkI8apDL": {
+   "sha256": "f0280b29f1c5a48ab7372be1ab40d0aa76b26df4341f22c7ea6fcde7c1c6d45d",
+   "width": 733,
+   "height": 920
+  },
+  "51T4GpD9XHL": {
+   "sha256": "e668e5edf0aedfec23461298ecfb55afaf992b1af21becd0182bf5b56599ed4e",
+   "width": 713,
+   "height": 914
+  },
+  "51YwbT6oU4L": {
+   "sha256": "da9d669d9335522e994d4e305e1b45e6fbe851638f791b3ab31f5d0af14d201c",
+   "width": 713,
+   "height": 914
+  },
+  "51hdk7MDo+L": {
+   "sha256": "5629b0be60390c2cdead8f67d0e334a12e6b83a7ba9ec58a1dcb8d117c932f87",
+   "width": 628,
+   "height": 932
+  },
+  "516dBz9D4kL": {
+   "sha256": "e47def952d03de23fcb4134f0188e896d50867086c04d019319499bd4b566624",
+   "width": 971,
+   "height": 880
+  },
+  "51uFyFQ9gmL": {
+   "sha256": "93665b328c942d7695f7a5ce649307168a376e7d7406edc47dbd5245c20de125",
+   "width": 971,
+   "height": 880
+  },
+  "517ksZjbgvL": {
+   "sha256": "6d4fbef974bdce134a1c5484edd575d358d664052b2258f794683a88afc215de",
+   "width": 783,
+   "height": 913
+  },
+  "517ox2frxmL": {
+   "sha256": "035ea67765a4428f57e0fcab68f38af5461252ad010939b73b0b49bbd210d886",
+   "width": 1000,
+   "height": 527
+  },
+  "51LHriEmtnL": {
+   "sha256": "81966b9429c2210a8fec4f418bdca6d7814cb58c68e4f8de6672969bd05f25d1",
+   "width": 1000,
+   "height": 527
+  },
+  "61Pu49BHD+L": {
+   "sha256": "c838b9e7313e2456acf9b6f71d4d7e4807dd6544f160d5edfd71f044aa51864a",
+   "width": 1000,
+   "height": 684
+  },
+  "51RUtc+Kk-L": {
+   "sha256": "f60b84db001e1a72fd8572cfe309dba328720764f19a2c271cdeaa7a45c7f83a",
+   "width": 1000,
+   "height": 714
+  },
+  "519PM8dBvUL": {
+   "sha256": "dbf68854567f49dcd19fb8433cfe822799215dc2ef5cd3093d58236f96f66ffb",
+   "width": 1000,
+   "height": 714
+  },
+  "61nq6N0J8aL": {
+   "sha256": "607f38f4fda53093fddbf624afb5d1b488387674775e17ffca7c13eacf2aa557",
+   "width": 961,
+   "height": 929
+  },
+  "51dF3ZiTTQL": {
+   "sha256": "c11ac83a007922002b594a217f8ee01c46a8dda0e105c01f73155042891013c3",
+   "width": 439,
+   "height": 857
+  },
+  "51H9ixk73IL": {
+   "sha256": "ce8ad573089811c202dbd86d19d6622cbee5d8a114b2d59ccb86cf3d231c89d9",
+   "width": 439,
+   "height": 857
+  },
+  "41LkbdvNxIL": {
+   "sha256": "82ad50ba5023199672302770604a931e7cc7cc78bcfbad0a91bf74d2ae3df864",
+   "width": 438,
+   "height": 941
+  },
+  "71q4bC1S6xL": {
+   "sha256": "dd9cc4265c160d1d5228b394fc04734c81929e4cce919dab02896cff36b6450f",
+   "width": 991,
+   "height": 910
+  },
+  "71eAW2y4gTL": {
+   "sha256": "fbf4e82db6cfbe00d840ef14438a303b18e6b22b4d6d3eebf3a453e2865d1741",
+   "width": 991,
+   "height": 910
+  },
+  "41wCd3itbIL": {
+   "sha256": "56d80851279e6539a643f9dba303be4575b84a1c578b3df9408f717ab3028af7",
+   "width": 431,
+   "height": 1000
+  },
+  "41AvgipOF0L": {
+   "sha256": "b9f6007ad72da7773aa5933401e55bd628ad40b733ca6dfb873e8778aeb5bfe3",
+   "width": 431,
+   "height": 1000
+  },
+  "41ON1JxivzL": {
+   "sha256": "dcb3b791477de6b3d2d4fe4e6d5234643b454264cef74e9680b312a98ac5ff38",
+   "width": 351,
+   "height": 964
+  },
+  "61rgsIWBNSL": {
+   "sha256": "b7ae28e4bb155c12e2d69545b6ec891949d810f575748875b3127ad60d423d13",
+   "width": 1000,
+   "height": 501
+  },
+  "61PZ3MePh2L": {
+   "sha256": "986cee28ee99a66d4c76da1ab28a4bee767e029e38af1d152c7649cbb46a6394",
+   "width": 1000,
+   "height": 501
+  },
+  "51bkR1+NvUL": {
+   "sha256": "994576adbddde06adef2772c8d796ef29d0e9bf6e9c5e175dfd7bde1e36e899e",
+   "width": 1000,
+   "height": 601
+  },
+  "71fQEpcmvjL": {
+   "sha256": "5959e9e8dd5f967ca8b1f8080450df535b38a4b0b3e87a73e7606a3c7638eb30",
+   "width": 859,
+   "height": 966
+  },
+  "71E2lzifcvL": {
+   "sha256": "3150a16a5df9445e0dc26d4c930e7046c4e62385ee13e9240c299a1178525846",
+   "width": 859,
+   "height": 966
+  },
+  "61OKs3phI7L": {
+   "sha256": "a05f174494ff7f397a6a967e16aa8d6469b9d35ac1a7cc8c9e58bf85341d6bfc",
+   "width": 921,
+   "height": 932
+  },
+  "61lgm5X8X2L": {
+   "sha256": "51d181c07fc82b4d0d6d50c26820028dbbcb8b3734951ca47004faf1a9222c00",
+   "width": 1000,
+   "height": 587
+  },
+  "61jYbIsHqwL": {
+   "sha256": "d8f21d76850f62e030e18fdd9f9b43a950941efab9cde9c7349d7f7b875b86b2",
+   "width": 1000,
+   "height": 587
+  },
+  "61OBOShx0SL": {
+   "sha256": "5a15bbcf2fc02123a86208d16cd2629cc4eee1a75214bb4009adeaf11a094de4",
+   "width": 1000,
+   "height": 561
+  },
+  "41pfaI-0jqL": {
+   "sha256": "53ac4fb6a7253d7da269c8898620973abfe15e594b9aeda2c7c2b9b650601404",
+   "width": 958,
+   "height": 688
+  },
+  "413SkZMVLEL": {
+   "sha256": "8360d56d5cf9ce1fb6a34c22f092c0e022120593eb837b18eee18b0024da7bc5",
+   "width": 958,
+   "height": 688
+  },
+  "51QDyhSXe1L": {
+   "sha256": "ebe612590cdfb267bc0508817158962c090aa8e4b9a1f10814c754c3e09d30f5",
+   "width": 615,
+   "height": 967
+  },
+  "51WYfjTKbAL": {
+   "sha256": "7bcb52107768a49217a7d14d81f0768ad3cb8ff797b07424fff036255c9c5648",
+   "width": 615,
+   "height": 967
+  },
+  "518yW79AyfL": {
+   "sha256": "e1a35d724f36f07aff09c63c9bd7c0da94fb04592e7dbd8ec010b842258ec411",
+   "width": 625,
+   "height": 986
+  },
+  "514htj6q0fL": {
+   "sha256": "8e70c8db2adda376323ad244bae313762d3d25abb9340d08f2cfef9a2dcc6d76",
+   "width": 932,
+   "height": 853
+  },
+  "51UFD+rv6bL": {
+   "sha256": "587080c63ead1b9be2b9e9139c91d29ef25c32a49dea69b1bc126966e8ac15d1",
+   "width": 932,
+   "height": 853
+  },
+  "6105C7+gtXL": {
+   "sha256": "2bd603bfada6720e6c6cc6953a0676983b7938e526f080b4359bf5992ae393ee",
+   "width": 978,
+   "height": 807
+  },
+  "31wRl8ZzMIL": {
+   "sha256": "c4e24a9eef8e3d45ba43de5d032ec16bbdf3c0d284b863758c1ef2217dd6f376",
+   "width": 307,
+   "height": 1000
+  },
+  "31fMGui2GRL": {
+   "sha256": "430a14857b2f2ad1549be1516906c0588063c36f519a0b22dfe600bac86e9e6d",
+   "width": 307,
+   "height": 1000
+  },
+  "31e3-FsouUL": {
+   "sha256": "156db120e0f2b4964dca6543247874bbaad867c237c59a17c3052d516f5eca65",
+   "width": 159,
+   "height": 1000
+  },
+  "614ru10PR3L": {
+   "sha256": "58359c44fd0e6b8d485c523b626579f3e94c93d7e52e52d6646e7f3b2d34d5ab",
+   "width": 1000,
+   "height": 529
+  },
+  "61k-AcW2yZL": {
+   "sha256": "c516303cc2852b6cbd161e26d577c3fd8aa610bcea4972d81ceed49910523700",
+   "width": 1000,
+   "height": 529
+  },
+  "51ctV+El2YL": {
+   "sha256": "a4ac41c1637faaec7faabe8c2a2e86a124cdf6161309a6136cf320678f51cdb3",
+   "width": 1000,
+   "height": 551
+  },
+  "51DxUW7xecL": {
+   "sha256": "8d3b915bd5d07f374c875fc36dc68d09cab92335b239c3b0b0e36798a3d0d850",
+   "width": 1000,
+   "height": 522
+  },
+  "51OSpHxfUaL": {
+   "sha256": "91af83e4bb29d9366dfe56d4cb42c553c25ed974902500c7dba866059850b25f",
+   "width": 1000,
+   "height": 522
+  },
+  "51GFOm8uVHL": {
+   "sha256": "f196dd7c103f274a19296b508f39562829aa76f7868d602a93f9a54049e2b0cf",
+   "width": 1000,
+   "height": 553
+  },
+  "51SJmj4-r8L": {
+   "sha256": "e8ed929dda80849cdbf92f7d79d53f240d3278489c069522170d5387637aab57",
+   "width": 929,
+   "height": 894
+  },
+  "51jZTDpW3BL": {
+   "sha256": "960b010847f3320f93f18f525de65e5f7eb7620968f30ed99c5aec271a2b4083",
+   "width": 929,
+   "height": 894
+  },
+  "517lsO7KOcL": {
+   "sha256": "72923c4484360a3d0b47c1988b6a087db2dad34555739b696a812c7b14a435e2",
+   "width": 799,
+   "height": 937
+  },
+  "51cX5lcoafL": {
+   "sha256": "221921ca4d5e76c0cdbb395715dbde3ba9db4498a088e1db15eb53fc4e03b670",
+   "width": 1000,
+   "height": 892
+  },
+  "51R3lpe4fTL": {
+   "sha256": "38ad6f90e6cfe71d696664a6a88ebc226278262839c413198254907b2de6c1dc",
+   "width": 1000,
+   "height": 892
+  },
+  "61leB402U2L": {
+   "sha256": "3991ab6f02935e469e0744707b51b5387076f32d2c4f6eea64f5347d23cddd72",
+   "width": 946,
+   "height": 928
+  },
+  "61FXVWT+sML": {
+   "sha256": "8981f9d7d44df39a502629886889453aea4ccac458351faf1b2e085e1ca43b43",
+   "width": 1000,
+   "height": 497
+  },
+  "616YPGAc7XL": {
+   "sha256": "026e71a6cc3e7df92b76d848fbb2e00760997b32cf8c7bf9ce4b74b8e1568f9f",
+   "width": 1000,
+   "height": 497
+  },
+  "61bWk+Nw0VL": {
+   "sha256": "afaf4e331a553520ace6650ade8a9d39d3d8d9ff9c2479786ff55e6d1e78579f",
+   "width": 891,
+   "height": 925
+  },
+  "61e3SKdhg+L": {
+   "sha256": "ed0d6fe4c15dc4b3d9de26aea16f5a9afd23e17309a875466a415029f7bb337a",
+   "width": 891,
+   "height": 925
+  },
+  "6126YjDTEqL": {
+   "sha256": "4486ad90e7160e63c5e480770a71ef23d095c5d4b03ba51ded277728f0e46276",
+   "width": 949,
+   "height": 965
+  },
+  "51fJqWZnnqL": {
+   "sha256": "3cfc6200f059a5672ed60381f25ee14834d70ee860ce5a14787933180f022084",
+   "width": 475,
+   "height": 856
+  },
+  "51kH1BrLMhL": {
+   "sha256": "5b4838719f2c92e3a14dfdf208c37ea2602a58d9e7e14c2801e4106ca5f13843",
+   "width": 475,
+   "height": 856
+  },
+  "41jY4y9Q8LL": {
+   "sha256": "9d43eb4dd9f9de508dfa1173c68fc61a1490a3cc73c22e1912266350a0417fd8",
+   "width": 395,
+   "height": 888
+  },
+  "71j4YZjCASL": {
+   "sha256": "0b741599fcc0a72a72c39fda8d96d6169ee6e529a750eae28bf7390e777f81eb",
+   "width": 1000,
+   "height": 841
+  },
+  "715uIFgyg5L": {
+   "sha256": "ca462d9bb04a26de8b143c34c4ed76e562bbfcdbb3ee07bd9e190fb5ae5fa0fb",
+   "width": 1000,
+   "height": 841
+  },
+  "71cicOQpDzL": {
+   "sha256": "e245b19a3000595261e8f24f733c132642cf7a55f6b3afeef42e865cdb30ca54",
+   "width": 871,
+   "height": 912
+  },
+  "41RP3hRyE8L": {
+   "sha256": "16602c1eaf329f1f85eb6f57bedd34b868c395b78f63df9bc5efac826deab65a",
+   "width": 440,
+   "height": 916
+  },
+  "41-FTFP+B9L": {
+   "sha256": "98e8e31dc177150d935091f90465bdb546293f4285725d5d47db5228b5d7116b",
+   "width": 440,
+   "height": 916
+  },
+  "31KgtqTxdEL": {
+   "sha256": "09b7c4c62c26cf1690727c79b436fc8710b0caaba114461ec530f73ab6bb0868",
+   "width": 268,
+   "height": 969
+  },
+  "61DqjQLzXBL": {
+   "sha256": "0026ac53c749ca8834c33e9acc8a319f9bc7facd155741539c120753227e1daa",
+   "width": 837,
+   "height": 701
+  },
+  "6164mi+D9EL": {
+   "sha256": "52e25ecd5c5195573adc0cc7ebfef1ad0b60dbc93a733bf9083aa3e02d8fb590",
+   "width": 837,
+   "height": 701
+  },
+  "51vJIi9NH4L": {
+   "sha256": "d3f810c42f3c9da580e570a3203587e8f68c70cdbbcca085360ca3177249e9da",
+   "width": 1000,
+   "height": 523
+  },
+  "61dHm56-vLL": {
+   "sha256": "81aa6722c4263fc380965a626cfed412d9f3b915eaf227799b9881860e4289ea",
+   "width": 789,
+   "height": 965
+  },
+  "61uvpxmTXpL": {
+   "sha256": "2f577fa5618d45914d186ad69230d36c585b5a963e456ee156004429eeebcd89",
+   "width": 789,
+   "height": 965
+  },
+  "61XzoiaIDXL": {
+   "sha256": "edb3ec23a4914f2cbcaadf97f1be13c1b80f9605a12fee36f745f86c88e1cd66",
+   "width": 987,
+   "height": 918
+  },
+  "51wKHTkz6SL": {
+   "sha256": "bf6dbdb2f0b139452aee6dadb76f35ca6c853e10dd6196a6a0c7216892c6a72c",
+   "width": 1000,
+   "height": 403
+  },
+  "51AIVh04-PL": {
+   "sha256": "606a4bddc0e10bb87ac6f073a433f202ebac6f6ce125c106af3abe7cd535d1f5",
+   "width": 1000,
+   "height": 403
+  },
+  "51816VUJoWL": {
+   "sha256": "9363095993d86efb66bbf08e38b31390e23ebf6e49d204538c38eb1636eb7a54",
+   "width": 1000,
+   "height": 513
+  },
+  "51vqMgNaVbL": {
+   "sha256": "2a811b2d158b992c1410163d6ce6a80f8488d079855ae1f821e3535aa450d2eb",
+   "width": 1000,
+   "height": 454
+  },
+  "51xQnHlo7ZL": {
+   "sha256": "b4e5d5b2b6b6513221f10c035620b3a0a2f541e2ade510739ad5a360d3b88d8d",
+   "width": 1000,
+   "height": 454
+  },
+  "51bgAiOrRIL": {
+   "sha256": "e280974d7eec4abbe3e81329af11ec1c5bb57f9c30ac3b1446bea2baef5f46eb",
+   "width": 1000,
+   "height": 480
+  },
+  "51Wn7uDiK+L": {
+   "sha256": "244a7bb974c11e93e29f0e226da37584b275c8c0c8baa5ff70c769ba791c1668",
+   "width": 600,
+   "height": 909
+  },
+  "51mJqwTcRuL": {
+   "sha256": "bdeecb5374fee48c47d0f9a5e910e438a5fb4e90a9d72e3831354f0993bb2b95",
+   "width": 600,
+   "height": 909
+  },
+  "512j+G-iGML": {
+   "sha256": "e8dc20832445491b597dfa800a710fe058e4bf5c7ae089a12bb609a9edfd9ade",
+   "width": 699,
+   "height": 942
+  },
+  "51u1ra7BUlL": {
+   "sha256": "fd21aeea58cada48830a3f55e878c6cd5f94a7dbeef052ca35b8d9d0893abbd8",
+   "width": 600,
+   "height": 909
+  },
+  "516hsePHYDL": {
+   "sha256": "a1811ca45e080da39b7fddc1caf6ee8d3f39c3da71bf0d6bca16eda53d61f12d",
+   "width": 600,
+   "height": 909
+  },
+  "61gceVq5fkL": {
+   "sha256": "1a4c9c44e530460c17e7f92a8c1583b76f14ca62055b6ff6704bf0a95c423d30",
+   "width": 724,
+   "height": 907
+  },
+  "51IQpAHkHsL": {
+   "sha256": "7ab2c85b66aa8b5765058076e019331c4061c194978c63194b11d73b9dd75593",
+   "width": 467,
+   "height": 862
+  },
+  "51CHUDlVVKL": {
+   "sha256": "2346200d478894060375a5459f92f7fa48ebb1945f4838bfefbd016dfcd9fe89",
+   "width": 467,
+   "height": 862
+  },
+  "41OTd+mun1L": {
+   "sha256": "dd6f187522ac48be94df2722aae2b2e6a2f20a261f88249fcfdf50c6dcdc06f2",
+   "width": 513,
+   "height": 847
+  },
+  "51MsxEcavBL": {
+   "sha256": "77a03a7cb1d36e69f3c0c5c70c765f9f68312f64d41e08f8ee5839ed166f53dc",
+   "width": 1000,
+   "height": 672
+  },
+  "514jI1YMPkL": {
+   "sha256": "5ac1288d811a912ff8d36856d212315ff6ffb6bbad65280b79e809389839aa3a",
+   "width": 1000,
+   "height": 672
+  },
+  "61fRriNwZ+L": {
+   "sha256": "fa68a7bd03ed2f710dcf148938671dca02c019b07e316e5e2a96efa91ca3a098",
+   "width": 1000,
+   "height": 588
+  },
+  "51GcKBn6IUL": {
+   "sha256": "ad5aa2a917276ee26c4e24b1d09e14fe15bf24065d71634c35c8f04ee7f99033",
+   "width": 1000,
+   "height": 532
+  },
+  "51qLVyXIScL": {
+   "sha256": "371340b2a5fc5286b1a776dcba9ad73f7ec40dfbbc5c548fbbf35130edcd21f6",
+   "width": 1000,
+   "height": 532
+  },
+  "518Sz-6JaNL": {
+   "sha256": "66d89c61fc94541d79abe153419a845d2c000902b5bee3ac4969738d0a263e7c",
+   "width": 1000,
+   "height": 475
+  },
+  "61OjZnOMntL": {
+   "sha256": "c2acd69a68770d26b9a857c041015587387b0dd33bdb5cab747ec069993cd0be",
+   "width": 661,
+   "height": 933
+  },
+  "51m+YXE8jbL": {
+   "sha256": "693ff8b37d69b53cd8144cfe9ba891bdf0b8192e1b63bb2e3156f3489f2d5443",
+   "width": 707,
+   "height": 941
+  },
+  "51U9veqcC+L": {
+   "sha256": "404ddc84d8b7e9dea7372d9d12f3afa6975599091c5d5a88eeedd5f3e944e0bf",
+   "width": 707,
+   "height": 941
+  },
+  "51qCi4C7rhL": {
+   "sha256": "a3e8cf7a8e9733637fd8e25836e633f3324540b491a0c7c2c20e5ec4029b9176",
+   "width": 738,
+   "height": 911
+  },
+  "51YcHEftX3L": {
+   "sha256": "a078cd75c23adb0debe67d95ed93fedde93d317c14d3ddc912b562205ca448b6",
+   "width": 1000,
+   "height": 488
+  },
+  "51APKAECiWL": {
+   "sha256": "54b01c172fcf252acae97a32397dbf22b16756f0e47db16e730b79a39b955374",
+   "width": 1000,
+   "height": 488
+  },
+  "51AkIDqZV1L": {
+   "sha256": "dcb45f6e527ee2fc5093a8049bb7b4ffba6295173f1ff9d3bffbbb221ac3cc89",
+   "width": 1000,
+   "height": 553
+  },
+  "61yqyyaFGBL": {
+   "sha256": "fc2e08e604c20388c49ecb036b5adfe485ece7e995bcdeebf59220dfe3f14c15",
+   "width": 848,
+   "height": 988
+  },
+  "61ZKOqAzQUL": {
+   "sha256": "b4a8a14b54209e1da43c2586447726797b493592af45d16372a56c40af310d00",
+   "width": 848,
+   "height": 988
+  },
+  "61SDr5bOJOL": {
+   "sha256": "f41bf7403c871cd05488abc1bfd8900f0d094aa697dbb08e7be144cac4bc6172",
+   "width": 847,
+   "height": 966
+  },
+  "51Q7BmC-MyL": {
+   "sha256": "5cfbecd728b9413b86484be021a717d3020f34638df05b392ef9fa0c2ace6d6b",
+   "width": 423,
+   "height": 916
+  },
+  "516Wz-yU8gL": {
+   "sha256": "cdbd10e43b10945ecec9923758723b9c7ad83117e027ac785a71ef929bb4ebac",
+   "width": 423,
+   "height": 916
+  },
+  "41iv-DO3ZBL": {
+   "sha256": "34cd7c5ee0988d97d11f6b757db227eb4255b7fc237aae1371c21bb14b9b0ba6",
+   "width": 563,
+   "height": 922
+  },
+  "51jqGUQrtgL": {
+   "sha256": "590c46eac6cf33a73848882bf7a2a49233f37f38250c05e994f9f3fdd594bd17",
+   "width": 644,
+   "height": 975
+  },
+  "51lzWzgmDQL": {
+   "sha256": "0b6c5cae39b0f03ad2967c5fbb253f5e7d16cac3622e9619c5debbc5979e0532",
+   "width": 644,
+   "height": 975
+  },
+  "51iga4nBNvL": {
+   "sha256": "309961214f83e64b15dae1b4c737a4eecbc621db86604e988274ab14bf895850",
+   "width": 660,
+   "height": 923
+  },
+  "51mi7KPc-aL": {
+   "sha256": "1cb180731633ac6f7835df1f0c5ffc02846d58db51dd9f6ede5a903cb0fc87a0",
+   "width": 1000,
+   "height": 566
+  },
+  "513ouGCuK5L": {
+   "sha256": "fda6862378d1ce804fea1947135eaa9994bed29b637468bff74ffd06615382e1",
+   "width": 1000,
+   "height": 566
+  },
+  "518oi-mkTeL": {
+   "sha256": "456212b91bd4293b79b06319729d19288d5a4f32fa6ddd226f931b368b92b096",
+   "width": 1000,
+   "height": 456
+  },
+  "81Nbvn9OTNL": {
+   "sha256": "90c19953c6f70a55952e520e95a917e61b56c64f35b983834e04fd07103c2d99",
+   "width": 1000,
+   "height": 911
+  },
+  "81bXWLjOlhL": {
+   "sha256": "550796cbcd7654aacbc70fd0a0abacd988ef2c09550ba114cd81e9346bb7a857",
+   "width": 1000,
+   "height": 911
+  },
+  "7114NsvqG8L": {
+   "sha256": "293470b4c60b26ba8d5b0326809ca611e643a467937d6e87e74588b00a9485ab",
+   "width": 950,
+   "height": 798
+  },
+  "71vxGnYvL0L": {
+   "sha256": "d256db1a90a856cca2f6b191ceb472a11abc341e9be895d865be4f0a35ad5255",
+   "width": 950,
+   "height": 798
+  },
+  "71mS13AHqHL": {
+   "sha256": "e848abeb93a7cdf5b40c97164249e5401145037d72fd57388efaf47fa8772853",
+   "width": 1000,
+   "height": 715
+  },
+  "51ap38iawtL": {
+   "sha256": "175433f46cd462f03f64bed60b4cfa15144867d5842797d4583ad4b2d208345c",
+   "width": 1000,
+   "height": 584
+  },
+  "51r81XDv9AL": {
+   "sha256": "b889da0c8d2a20909cd3d2d4681a04a923b6d3f415067c5fa2edbd21f25c5767",
+   "width": 1000,
+   "height": 584
+  },
+  "61hDNSleiZL": {
+   "sha256": "861fa92992e9bf106de12dbf7caeeae72046b98d5084e5bb1109e09569453049",
+   "width": 1000,
+   "height": 548
+  },
+  "51akShZUhXL": {
+   "sha256": "6f49c399512e1ac5139e92a48d5f2721c8a2a81a77f9fbc4d719a29411da4266",
+   "width": 1000,
+   "height": 465
+  },
+  "51VCkGzpY+L": {
+   "sha256": "35faf832132ee13213640da9b153b18a7128093151cc5eaaaebd962403418bac",
+   "width": 1000,
+   "height": 423
+  },
+  "51punOBFToL": {
+   "sha256": "f4b0296efd3aa56ed41125b4d519bab036a2eade7f49e7769efe33333f82a045",
+   "width": 843,
+   "height": 982
+  },
+  "51sfpdXKVdL": {
+   "sha256": "18f3730bfa1e0b0bf0b5b3c63e4142604517ec3a5dfbf7a4823184394c17b6fe",
+   "width": 843,
+   "height": 982
+  },
+  "51Kmk1E4x5L": {
+   "sha256": "2315e61220d8916c82d2acc3f7580fcc32ddd0c262a229f1f1953b1a6edf6e17",
+   "width": 697,
+   "height": 980
+  },
+  "51ElyMzC+WL": {
+   "sha256": "fa94d0f9a19e92807cfe941ef9d1f92f5ecd26fa49040de37cd08146ccf299c8",
+   "width": 687,
+   "height": 867
+  },
+  "51FuQp-7TaL": {
+   "sha256": "45f1381b7540d3e4705c328568ca1708a147aa42bffc0ec3c68a80329e57512f",
+   "width": 687,
+   "height": 867
+  },
+  "51eoZZ1pylL": {
+   "sha256": "18bbbba6c8e94398d31362ba39dd8653be710cae0d61d0b78b741a34d7a5b3ee",
+   "width": 865,
+   "height": 929
+  },
+  "41767qx7kAL": {
+   "sha256": "a4ad28cbe3f55002d79a5489404bf6c3466cc2352e38b569876df92ece0fa0bf",
+   "width": 421,
+   "height": 881
+  },
+  "41XIQU+MkZL": {
+   "sha256": "3bb035e60f1966eff0cc3c7d3fe1200e595b4595f8e725218599fb53842f0672",
+   "width": 421,
+   "height": 881
+  },
+  "61zE0jn27jL": {
+   "sha256": "6003a2ec9347b80710f73717d16c5302ab740b7131e1ddda5f2058d35f922108",
+   "width": 515,
+   "height": 867
+  },
+  "61NtcZ8FsLL": {
+   "sha256": "4001080158444d0bf9e24bac8a812cbc3c124fedade59c8190daf96c38f81d74",
+   "width": 1000,
+   "height": 572
+  },
+  "61PPBuAGgkL": {
+   "sha256": "350a81dce31af3edbb52b1170f7499222a373350f6cb2859a8a8f98132a76365",
+   "width": 1000,
+   "height": 572
+  },
+  "61q1od2-E7L": {
+   "sha256": "c748116a0634c29adc4460ff634e33bdf66b4d2169bd9341e8d9c349dc7f64d9",
+   "width": 1000,
+   "height": 583
+  },
+  "51GQsRO+XSL": {
+   "sha256": "6ef42786e25e1ba20dab5547e2fdf903ca097864d651bb504ff15c3424c0c07a",
+   "width": 551,
+   "height": 911
+  },
+  "51DbAOTTzNL": {
+   "sha256": "b5363a98e3ad9867307caaf8d847910f96e203e3c2402f91133a84d282d43e9f",
+   "width": 551,
+   "height": 911
+  },
+  "41TapOna6dL": {
+   "sha256": "41eeabe5e95e34f186b7959cbd91016a753b88b0270a6bc228ba7d3ffa101ac2",
+   "width": 517,
+   "height": 881
+  },
+  "61v1qRQ2vAL": {
+   "sha256": "9afb2448b257b2c7fcca5c0be677c26fe039ee977062612c08d9d4693f22fd96",
+   "width": 987,
+   "height": 882
+  },
+  "613Nxe3x2hL": {
+   "sha256": "a27d85798b69e7e8fd2fff15d909d73aafe1a9feedba4b9ed0fdca8bec293d53",
+   "width": 987,
+   "height": 882
+  },
+  "51let2bpBXL": {
+   "sha256": "3ddb5587e93e82f376e3a0f631513f995654d0ee0f0420680b89d439107d5440",
+   "width": 943,
+   "height": 831
+  }
+ },
+ "results_name": "confirm_furniture"
+}
