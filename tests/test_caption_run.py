@@ -100,7 +100,7 @@ def test_report_withholds_verdicts_when_true_captions_are_rejected():
     config = make_config(size=6)
     # Option order is yes, no, unknown, so B is "no" everywhere: the precondition fails.
     text = caption_run.report_text(config, fake_replies(config, lambda c: "B"), n_boot=100)
-    assert "사전 조건을 넘지 못함" in text
+    assert "사전 조건을 충족하지 못함" in text
     assert "| R_MC QM | +0.0%p | [+0.0%p, +0.0%p] | 판정 없음 |" in text
 
 
@@ -159,7 +159,7 @@ def test_r2_report_passes_when_true_captions_are_left_unknown():
     # Option order is yes, no, unknown: C is "cannot tell", B is "no".
     text = caption_run.report_text(config, fake_replies(config, lambda c: "B" if c.startswith("mc") else "C"),
                                    n_boot=100)
-    assert "맞는 캡션에 QM으로 \"아니다\"고 한 비율 0.0%. 넘음." in text
+    assert "맞는 캡션에 QM으로 \"아니다\"고 한 비율 0.0%. 사전 조건 충족." in text
     assert "| R_MC QM | +100.0%p | [+100.0%p, +100.0%p] | 차이가 있음 |" in text
     assert "| R_MC QM (그렇다 기준) | +0.0%p | [+0.0%p, +0.0%p] | 판정 없음 |" in text
 
@@ -167,7 +167,7 @@ def test_r2_report_passes_when_true_captions_are_left_unknown():
 def test_r2_report_withholds_verdicts_when_true_captions_are_rejected():
     config = r2_config()
     text = caption_run.report_text(config, fake_replies(config, lambda c: "B"), n_boot=100)
-    assert "사전 조건을 넘지 못함" in text
+    assert "사전 조건을 충족하지 못함" in text
     assert "| R_MC QM | +0.0%p | [+0.0%p, +0.0%p] | 판정 없음 |" in text
 
 

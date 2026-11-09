@@ -1,10 +1,12 @@
-# 문항을 고른 에이전트에게 준 지시
+# 상품 사진 쌍을 고른 에이전트에게 준 지시
 
-실험 대상이 아닌 에이전트(Claude Fable 5.1)에게 문항과 사진을 고르고 확인하게 할 때 준 지시를 순서대로 그대로 옮겼다. 로컬 폴더 경로만 `<repo>`로 바꿨다. 에이전트가 읽은 입력 파일과 사진은 올리지 않았다.
+실험 대상이 아닌 에이전트(Claude Fable 5.1)에게 앵커와 사진 쌍을 고르고, 고른 사진을 1000픽셀로 다시 확인하게 했다. 그때 준 지시를 순서와 문장 그대로 옮겼고, 로컬 폴더 경로만 `<repo>`로 바꿨다. 에이전트가 읽은 입력 파일과 사진은 올리지 않았다.
+
+항목 제목은 에이전트를 부를 때 붙인 작업 이름(영어)이다. 머리 줄의 "에이전트 유형"은 부를 때 지정한 값이고, None은 따로 지정하지 않았다는 뜻이다.
 
 ## 0. Select pairs: shoes part 1
 
-시각 2026-11-02T14:40:52.410Z, 모델 fable, 종류 None
+시각 2026-11-02T14:40:52.410Z, 모델 fable, 에이전트 유형 None
 
 ````text
 You are selecting product photos for a study, using only your own eyes on contact sheets. Do not call any API, install anything or run other analysis. You are only to read images and write one JSON file.
@@ -36,7 +38,7 @@ When finished, reply with only: how many sheets you used, how many you rejected,
 
 ## 1. Select pairs: shoes part 2
 
-시각 2026-11-02T14:40:59.963Z, 모델 fable, 종류 None
+시각 2026-11-02T14:40:59.963Z, 모델 fable, 에이전트 유형 None
 
 ````text
 You are selecting product photos for a study, using only your own eyes on contact sheets. Do not call any API, install anything or run other analysis. You are only to read images and write one JSON file.
@@ -68,7 +70,7 @@ When finished, reply with only: how many sheets you used, how many you rejected,
 
 ## 2. Select pairs: bags and luggage
 
-시각 2026-11-02T14:41:07.561Z, 모델 fable, 종류 None
+시각 2026-11-02T14:41:07.561Z, 모델 fable, 에이전트 유형 None
 
 ````text
 You are selecting product photos for a study, using only your own eyes on contact sheets. Do not call any API, install anything or run other analysis. You are only to read images and write one JSON file.
@@ -100,7 +102,7 @@ When finished, reply with only: how many sheets you used, how many you rejected,
 
 ## 3. Select pairs: boots and sandals
 
-시각 2026-11-02T14:41:15.583Z, 모델 fable, 종류 None
+시각 2026-11-02T14:41:15.583Z, 모델 fable, 에이전트 유형 None
 
 ````text
 You are selecting product photos for a study, using only your own eyes on contact sheets. Do not call any API, install anything or run other analysis. You are only to read images and write one JSON file.
@@ -132,7 +134,7 @@ When finished, reply with only: how many sheets you used, how many you rejected,
 
 ## 4. Select pairs: second round part 1
 
-시각 2026-11-02T14:52:09.743Z, 모델 fable, 종류 None
+시각 2026-11-02T14:52:09.743Z, 모델 fable, 에이전트 유형 None
 
 ````text
 You are selecting product photos for a study, using only your own eyes on contact sheets. Do not call any API, install anything or run other analysis. You are only to read images and write one JSON file.
@@ -164,7 +166,7 @@ When finished, reply with only: how many sheets you used, how many you rejected,
 
 ## 5. Select pairs: second round part 2
 
-시각 2026-11-02T14:52:17.150Z, 모델 fable, 종류 None
+시각 2026-11-02T14:52:17.150Z, 모델 fable, 에이전트 유형 None
 
 ````text
 You are selecting product photos for a study, using only your own eyes on contact sheets. Do not call any API, install anything or run other analysis. You are only to read images and write one JSON file.
@@ -196,7 +198,7 @@ When finished, reply with only: how many sheets you used, how many you rejected,
 
 ## 6. Select pairs: second round part 3
 
-시각 2026-11-02T14:52:24.524Z, 모델 fable, 종류 None
+시각 2026-11-02T14:52:24.524Z, 모델 fable, 에이전트 유형 None
 
 ````text
 You are selecting product photos for a study, using only your own eyes on contact sheets. Do not call any API, install anything or run other analysis. You are only to read images and write one JSON file.
@@ -228,7 +230,7 @@ When finished, reply with only: how many sheets you used, how many you rejected,
 
 ## 7. Check photos at 1000px part 1
 
-시각 2026-11-02T15:00:29.332Z, 모델 fable, 종류 None
+시각 2026-11-02T15:00:29.332Z, 모델 fable, 에이전트 유형 None
 
 ````text
 You are checking product photos for a study, using only your own eyes. Do not call any API, install anything or run other analysis. You are only to read images and write one JSON file.
@@ -254,7 +256,7 @@ When finished, reply with only: how many sets you kept, how many you rejected, a
 
 ## 8. Check photos at 1000px part 2
 
-시각 2026-11-02T15:00:34.797Z, 모델 fable, 종류 None
+시각 2026-11-02T15:00:34.797Z, 모델 fable, 에이전트 유형 None
 
 ````text
 You are checking product photos for a study, using only your own eyes. Do not call any API, install anything or run other analysis. You are only to read images and write one JSON file.
@@ -280,7 +282,7 @@ When finished, reply with only: how many sets you kept, how many you rejected, a
 
 ## 9. Check photos at 1000px part 3
 
-시각 2026-11-02T15:00:40.099Z, 모델 fable, 종류 None
+시각 2026-11-02T15:00:40.099Z, 모델 fable, 에이전트 유형 None
 
 ````text
 You are checking product photos for a study, using only your own eyes. Do not call any API, install anything or run other analysis. You are only to read images and write one JSON file.
@@ -306,7 +308,7 @@ When finished, reply with only: how many sets you kept, how many you rejected, a
 
 ## 10. Rescue sets by swapping photos 1
 
-시각 2026-11-02T15:11:06.706Z, 모델 fable, 종류 None
+시각 2026-11-02T15:11:06.706Z, 모델 fable, 에이전트 유형 None
 
 ````text
 You are checking product photos for a study, using only your own eyes. Do not call any API, install anything or run other analysis. You are only to read images and write one JSON file.
@@ -337,7 +339,7 @@ When finished, reply with only: how many sets you kept, how many you rejected, a
 
 ## 11. Rescue sets by swapping photos 2
 
-시각 2026-11-02T15:11:13.794Z, 모델 fable, 종류 None
+시각 2026-11-02T15:11:13.794Z, 모델 fable, 에이전트 유형 None
 
 ````text
 You are checking product photos for a study, using only your own eyes. Do not call any API, install anything or run other analysis. You are only to read images and write one JSON file.
@@ -368,7 +370,7 @@ When finished, reply with only: how many sets you kept, how many you rejected, a
 
 ## 12. Check unchecked sets at 1000px
 
-시각 2026-11-02T15:11:19.324Z, 모델 fable, 종류 None
+시각 2026-11-02T15:11:19.324Z, 모델 fable, 에이전트 유형 None
 
 ````text
 You are checking product photos for a study, using only your own eyes. Do not call any API, install anything or run other analysis. You are only to read images and write one JSON file.
@@ -394,7 +396,7 @@ When finished, reply with only: how many sets you kept, how many you rejected, a
 
 ## 13. Select pairs: fashion part 1
 
-시각 2026-11-04T00:46:06.095Z, 모델 fable, 종류 general-purpose
+시각 2026-11-04T00:46:06.095Z, 모델 fable, 에이전트 유형 general-purpose
 
 ````text
 You are selecting product photos for a study, using only your own eyes on contact sheets. Do not call any API, install anything or run other analysis. You are only to read images and write one JSON file.
@@ -426,7 +428,7 @@ When finished, reply with only: how many sheets you used, how many you rejected,
 
 ## 14. Select pairs: fashion part 2
 
-시각 2026-11-04T00:46:13.090Z, 모델 fable, 종류 general-purpose
+시각 2026-11-04T00:46:13.090Z, 모델 fable, 에이전트 유형 general-purpose
 
 ````text
 You are selecting product photos for a study, using only your own eyes on contact sheets. Do not call any API, install anything or run other analysis. You are only to read images and write one JSON file.
@@ -458,7 +460,7 @@ When finished, reply with only: how many sheets you used, how many you rejected,
 
 ## 15. Select pairs: fashion part 3
 
-시각 2026-11-04T00:46:20.039Z, 모델 fable, 종류 general-purpose
+시각 2026-11-04T00:46:20.039Z, 모델 fable, 에이전트 유형 general-purpose
 
 ````text
 You are selecting product photos for a study, using only your own eyes on contact sheets. Do not call any API, install anything or run other analysis. You are only to read images and write one JSON file.
@@ -490,7 +492,7 @@ When finished, reply with only: how many sheets you used, how many you rejected,
 
 ## 16. Select pairs: fashion part 4
 
-시각 2026-11-04T00:46:27.038Z, 모델 fable, 종류 general-purpose
+시각 2026-11-04T00:46:27.038Z, 모델 fable, 에이전트 유형 general-purpose
 
 ````text
 You are selecting product photos for a study, using only your own eyes on contact sheets. Do not call any API, install anything or run other analysis. You are only to read images and write one JSON file.
@@ -522,7 +524,7 @@ When finished, reply with only: how many sheets you used, how many you rejected,
 
 ## 17. Select pairs: fashion part 5
 
-시각 2026-11-04T00:46:34.040Z, 모델 fable, 종류 general-purpose
+시각 2026-11-04T00:46:34.040Z, 모델 fable, 에이전트 유형 general-purpose
 
 ````text
 You are selecting product photos for a study, using only your own eyes on contact sheets. Do not call any API, install anything or run other analysis. You are only to read images and write one JSON file.
@@ -554,7 +556,7 @@ When finished, reply with only: how many sheets you used, how many you rejected,
 
 ## 18. Select pairs: fashion part 6
 
-시각 2026-11-04T00:46:40.987Z, 모델 fable, 종류 general-purpose
+시각 2026-11-04T00:46:40.987Z, 모델 fable, 에이전트 유형 general-purpose
 
 ````text
 You are selecting product photos for a study, using only your own eyes on contact sheets. Do not call any API, install anything or run other analysis. You are only to read images and write one JSON file.
@@ -586,7 +588,7 @@ When finished, reply with only: how many sheets you used, how many you rejected,
 
 ## 19. Select pairs: furniture part 1
 
-시각 2026-11-04T00:46:49.611Z, 모델 fable, 종류 general-purpose
+시각 2026-11-04T00:46:49.611Z, 모델 fable, 에이전트 유형 general-purpose
 
 ````text
 You are selecting product photos for a study, using only your own eyes on contact sheets. Do not call any API, install anything or run other analysis. You are only to read images and write one JSON file.
@@ -618,7 +620,7 @@ When finished, reply with only: how many sheets you used, how many you rejected,
 
 ## 20. Select pairs: furniture part 2
 
-시각 2026-11-04T00:46:56.895Z, 모델 fable, 종류 general-purpose
+시각 2026-11-04T00:46:56.895Z, 모델 fable, 에이전트 유형 general-purpose
 
 ````text
 You are selecting product photos for a study, using only your own eyes on contact sheets. Do not call any API, install anything or run other analysis. You are only to read images and write one JSON file.
@@ -650,7 +652,7 @@ When finished, reply with only: how many sheets you used, how many you rejected,
 
 ## 21. Select pairs: furniture part 3
 
-시각 2026-11-04T00:47:04.031Z, 모델 fable, 종류 general-purpose
+시각 2026-11-04T00:47:04.031Z, 모델 fable, 에이전트 유형 general-purpose
 
 ````text
 You are selecting product photos for a study, using only your own eyes on contact sheets. Do not call any API, install anything or run other analysis. You are only to read images and write one JSON file.
@@ -682,7 +684,7 @@ When finished, reply with only: how many sheets you used, how many you rejected,
 
 ## 22. Check furniture at 1000px part 1
 
-시각 2026-11-04T00:53:02.241Z, 모델 fable, 종류 general-purpose
+시각 2026-11-04T00:53:02.241Z, 모델 fable, 에이전트 유형 general-purpose
 
 ````text
 You are checking product photos for a study, using only your own eyes. Do not call any API, install anything or run other analysis. You are only to read images and write one JSON file.
@@ -710,7 +712,7 @@ When finished, reply with only: how many sets you kept, how many you rejected, a
 
 ## 23. Check furniture at 1000px part 2
 
-시각 2026-11-04T00:53:09.197Z, 모델 fable, 종류 general-purpose
+시각 2026-11-04T00:53:09.197Z, 모델 fable, 에이전트 유형 general-purpose
 
 ````text
 You are checking product photos for a study, using only your own eyes. Do not call any API, install anything or run other analysis. You are only to read images and write one JSON file.
@@ -738,7 +740,7 @@ When finished, reply with only: how many sets you kept, how many you rejected, a
 
 ## 24. Check furniture at 1000px part 3
 
-시각 2026-11-04T00:53:16.076Z, 모델 fable, 종류 general-purpose
+시각 2026-11-04T00:53:16.076Z, 모델 fable, 에이전트 유형 general-purpose
 
 ````text
 You are checking product photos for a study, using only your own eyes. Do not call any API, install anything or run other analysis. You are only to read images and write one JSON file.
@@ -766,7 +768,7 @@ When finished, reply with only: how many sets you kept, how many you rejected, a
 
 ## 25. Check fashion at 1000px part 1
 
-시각 2026-11-04T00:55:24.402Z, 모델 fable, 종류 general-purpose
+시각 2026-11-04T00:55:24.402Z, 모델 fable, 에이전트 유형 general-purpose
 
 ````text
 You are checking product photos for a study, using only your own eyes. Do not call any API, install anything or run other analysis. You are only to read images and write one JSON file.
@@ -792,7 +794,7 @@ When finished, reply with only: how many sets you kept, how many you rejected, a
 
 ## 26. Check fashion at 1000px part 2
 
-시각 2026-11-04T00:55:30.054Z, 모델 fable, 종류 general-purpose
+시각 2026-11-04T00:55:30.054Z, 모델 fable, 에이전트 유형 general-purpose
 
 ````text
 You are checking product photos for a study, using only your own eyes. Do not call any API, install anything or run other analysis. You are only to read images and write one JSON file.
@@ -818,7 +820,7 @@ When finished, reply with only: how many sets you kept, how many you rejected, a
 
 ## 27. Check fashion at 1000px part 3
 
-시각 2026-11-04T00:55:35.682Z, 모델 fable, 종류 general-purpose
+시각 2026-11-04T00:55:35.682Z, 모델 fable, 에이전트 유형 general-purpose
 
 ````text
 You are checking product photos for a study, using only your own eyes. Do not call any API, install anything or run other analysis. You are only to read images and write one JSON file.

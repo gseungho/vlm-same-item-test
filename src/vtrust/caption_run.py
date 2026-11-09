@@ -227,7 +227,7 @@ def _model_lines(config, model, table, n_boot):
     word = "그렇다" if measure == "yes" else "아니다"
     lines = [f"## {run.LABELS[model]}", "", f"문항 {len(table)}개, 호출 {total}번, 답 없음 {total - given}번.", "",
              f"사전 조건: 맞는 캡션에 QM으로 \"{word}\"고 한 비율 {_percent(base)}. "
-             + ("넘음." if passed else "사전 조건을 넘지 못함. R과 M은 판정 없이 적는다."), "",
+             + ("사전 조건 충족." if passed else "사전 조건을 충족하지 못함. R과 M은 판정 없이 적는다."), "",
              "| 값 | 차이 | 95% 구간 | 판정 |", "| --- | --- | --- | --- |"]
     names = ("R_MC QM", "R_MC QA", "R_OOC QM", "R_OOC QA", "M")
     for name in names:
@@ -353,7 +353,7 @@ def _wording_lines(config, model, table, previous, n_boot):
     passed = base is not None and base < PRECONDITION
     lines = [f"## {run.LABELS[model]}", "", f"문항 {len(table)}개, 호출 {total}번, 답 없음 {total - given}번.", "",
              f"사전 조건: 맞는 캡션에 QC로 \"어긋난다\"(Yes)고 한 비율 {_percent(base)}. "
-             + ("넘음." if passed else "사전 조건을 넘지 못함. QC 값은 판정 없이 적는다."), "",
+             + ("사전 조건 충족." if passed else "사전 조건을 충족하지 못함. QC 값은 판정 없이 적는다."), "",
              "| 값 | 차이 | 95% 구간 | 판정 |", "| --- | --- | --- | --- |"]
     for name, label in WORDING_LABELS.items():
         lines.append(_row(label, q[name], judged=passed or name in ("U QM", "R_MC QM", "R_OOC QM")))
